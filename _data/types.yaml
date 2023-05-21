@@ -2,9 +2,13 @@
 
 # team member roles
 
-pi:
+researcher:
   icon: fa-solid fa-microscope
-  description: Principal Investigator
+  description: Researcher
+
+assist_p:
+  icon: fa-solid fa-microscope
+  description: Assistant Professor
 
 postdoc:
   icon: fa-solid fa-glasses
