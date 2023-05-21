@@ -1,7 +1,7 @@
 ---
 ---
 
-# Lab Website Template
+# About LU HUMAN
 
 Leiden Humanities AI and NLP group, Leiden HumAN, is a research group at Leiden University Faculty of Humanities working at the intersection of AI and the Humanities. We focus on development and application of NLP and deep learning methods in diverse areas of the Humanities, including Linguistics, History, East-Asian studies and Anthropology. Our goal is to bring together traditional and state-of-the-art computational methods and foster innovative research in the Humanities. At the same time our research objective is to increase the role of the Humanities in the development of Human AI. 
 
@@ -27,7 +27,7 @@ Leiden Humanities AI and NLP group, Leiden HumAN, is a research group at Leiden 
 
 {% capture text %}
 
-Find more about our research at the Leiden Humanities AI and NLP group.
+Find more about the published work from the Leiden Humanities AI and NLP group 📖
 
 {%
   include button.html
@@ -50,7 +50,7 @@ Find more about our research at the Leiden Humanities AI and NLP group.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore all projects from the Leiden Humanities AI and NLP group 📚
 
 {%
   include button.html
@@ -75,7 +75,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meet our researchers, PhD students and coders 👥
 
 {%
   include button.html
