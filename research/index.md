@@ -7,9 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+LU Human is active in the academic world and we are very eager to share our research resutls with the public, here you can find the published work for our projects. For [project details](https://leidenhuman.github.io/projects/), you can navigate to the projects tab.
 
+```python 
+import LU_Human
+```
 {% include section.html %}
 
 ## Highlighted

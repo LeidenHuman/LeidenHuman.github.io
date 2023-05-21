@@ -1,6 +1,6 @@
 ---
 title: Blog
-nav:
+nav: False
   order: 4
   tooltip: Musings and miscellany
 ---

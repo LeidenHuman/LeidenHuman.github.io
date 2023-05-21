@@ -1,47 +1,47 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Digital warfare in the Sahel
+  subtitle: Popular Networks of War and Cultural Violence
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/main-images/humanities/history/digital-warfare-in-the-sahel3.jpg/digital-warfare-in-the-sahel3.jpg/d390xvar
+  link: https://www.universiteitleiden.nl/en/research/research-projects/humanities/digital-warfare-in-the-sahel-popular-networks-of-war-and-cultural-violence
+  description: This project investigates this relationship where it will focus especially on information flows on social media as a legitimation of direct violence, i.e. Cultural Violence. 
+  #repo: greenelab/lab-website-template
   tags:
-    - resource
+    - project
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: From Pixels to Purpose
+  subtitle: Bridging Deep Learning, Computer Vision, and Korean Visual Data
   group: featured
-  image: images/photo.jpg
+  image: https://library.harvard.edu/sites/default/files/styles/content_embed/public/Korean-2.jpg?itok=LrPU0LY2
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: This project utilises computer vision, OCR and object segmentation techniques to digitise and analyse Korean texts and images to understand the evoluation of Korean society
+  #repo: greenelab/lab-website-template
   tags:
-    - resource
+    - project
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Measuring Tonal Distances using Dialect Tonometry (TBC)
+  #subtitle: a subtitle
+  image: https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/265531568_4886938838036741_8785857044690928484_n.png?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=oQHgdhzkZBcAX9CnPW5&_nc_ht=scontent-ams2-1.xx&oh=00_AfAQzIzevotuAfDV7kJxeu0a8Ta1_lpG-7GvtDQopnB8ag&oe=646ED85F
+  #link: 
+  description: This project uses computational methods and cartographic techniques to explore, visualise and analyse dialectal variation of Yue.
+  #repo: greenelab/lab-website-template
+  group: featured
   tags:
-    - resource
-    - publication
+    - project
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Tracing the History of Technocracy in Historical Parliamentary Debates
+  #subtitle: a subtitle
+  image: https://cdn.nos.nl/image/2022/12/12/925268/3840x2160a.jpg
+  #link: https://github.com/
+  description: This research studies the rise of technocratic ways of thinking and the impact they have on democratic debate by mining and modelling millions of parliamentary debates from the twentieth century Dutch Lower House using NLP (Natural Language Processing) methods.
+  #repo: greenelab/lab-website-template
   tags:
-    - software
+    - project
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Text Alignment via Genetic Algorithm
+  subtitle: An Experiment on Sanskrit/Tibetan/Chinese Buddhist Texts
+  image: https://www.buddhistdoor.net/upload/file/20190722/21433/7b0299b8e2c0528a605560d3c66bd8bb_715__2.jpg
+  #link: https://github.com/
+  description: Using a custom genetic algorithm, this project demonstrates some ways that the ambiguities of text alignment of multiple Buddhist texts in various langauges can be transformed from obstacles into assets in the analysis of unknown texts.
+  #repo: greenelab/lab-website-template
   tags:
-    - software
+    - project

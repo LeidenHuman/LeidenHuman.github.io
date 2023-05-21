@@ -2,13 +2,12 @@
 title: Projects
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Details, datasets, and more
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+LU Human works on a wide range of projects, here you can find our featured work and all the other work. For [publised work](https://leidenhuman.github.io/research/), you can navigate to the research tab.
 
 {% include tags.html tags="publication, resource, website" %}
 

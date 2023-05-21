@@ -1,14 +1,14 @@
 # site properties and page defaults
 title: LU HUMAN
 subtitle: at the Leiden University
-description: test
+description: Combining forces of the humanities and Artificial Intelligence
 header: images/background.jpg
-footer: images/background.jpg
+footer: https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg
 
 # site social media and other links
 links:
   email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
+  orcid: 0000-0000-0000-0000
   google-scholar: ETJoidYAAAAJ
   github: your-lab
   twitter: YourLabHandle
