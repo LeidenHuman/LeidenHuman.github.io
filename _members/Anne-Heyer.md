@@ -13,5 +13,5 @@ Anne Heyer is an Assistant Professor in modern history with a research interest 
 
 As project leader of the research project ‘De redelijkheid omstreden: Debatregels en de toegang tot de democratie, 1870-1940’ (Contested Reasonability, debating rules and access to democracy, 1870-1940), which received funding of the Thorbecke fund, she is currently studying newcomer parties to explain why parliaments became democratic institutions. She recently also received funding by the Leiden University Fund Snouck Hurgronje for the project ‘Keeping the powerful in check: from small communities to large states'. The historical part of this project focuses on the transnational intellectual debate about the dangers of mass politics and possible political solutions in the late nineteenth and early twentieth century. Her publications include political parties, democracy, academic careers, mass media, political attitudes and populism.
 
-## Fields of interests
+## Fields of interest
 Political participation in Europe (Germany, Netherlands, Britain and Spain) in the period 1800 until today from an interdisciplinary perspective (history and social sciences). Research topics include modern comparative and transnational history, political culture, populism, democracy, political legitimacy, political parties, social movements and digital humanities.
