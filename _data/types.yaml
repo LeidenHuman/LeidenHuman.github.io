@@ -150,7 +150,7 @@ error:
   icon: fa-solid fa-ban
   color: "#ef4444"
 
-# publications
+# publications #include the tooltip and logo
 
 paper:
   icon: fa-solid fa-scroll

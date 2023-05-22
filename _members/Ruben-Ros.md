@@ -4,8 +4,10 @@ image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/
 role: phd
 aliases:
   - R. Ros
+  - Ruben Ros
 links:
   home-page: http://rubenros.nl/
+priority: second
 ---
 
 My research focusses on the history of twentieth-century Dutch political thought and culture. In my dissertation project I study technocratic reasoning in parliamentary debate. Using computational methods, I aim to find and explain the employment of expertise in political language.

@@ -1,133 +1,115 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1080/14742837.2021.1967736
+  title: 'Does transnational contention lead to transnational memory? The online visual memory of the February 2003 anti-Iraq War protests'
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  - Thomas Smits
+  - Ruben Ros
+  publisher: Social Movement Studies
+  date: '01-09-2023'
+  link: https://www.tandfonline.com/doi/full/10.1080/14742837.2021.1967736
+  image: https://www.tandfonline.com/action/showCoverImage?doi=10.1080/csms20.v022.i02
+  description: Building on efforts to connect social movement and memory studies, this article examines if the massive size and transnational nature of the February 2003 anti-war protests resulted in an equally widely shared and transnational form of memory.
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
   - type: source
     text: Manuscript Source
     link: https://github.com/greenelab/meta-review
   - type: website
     link: http://manubot.org/
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  - Transnational contention
+  - Transnational memory
+  - Anti-war movements
+  - Digital memory
+  - Digital humanities
+  #plugin: orcid.py
+  #file: orcid.yaml
+
+- id: doi:10.1017/9781108565080.007
+  title: 'Dialectology for computational linguists'
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+  - John Nerbonne
+  - Wilbert Heeringa
+  - Jelena Prokic
+  - Martijn Wieling
+  publisher: Cambridge University Press
+  date: '12-08-2021'
+  link: https://www.cambridge.org/core/books/abs/similar-languages-varieties-and-dialects/dialectology-for-computational-linguists/C21B76D0E1DF4BBC12C28C9BB50CB1F3
+  image: https://assets.cambridge.org/97811084/29351/cover/9781108429351.jpg
+  description: An overview of computational work in dialectology.
+  type: book
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/greenelab/meta-review
+  - type: website
+    link: http://manubot.org/
+  tags:
+  - Computational Linguistics
+  - Book chapter
+
+- id: doi:10.51750/emlc10908
+  title: 'Popular song topics in the Dutch Republic: a datadriven study into topical fluctuations in the Dutch song
+database (1550-1750)'
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
-  authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
+  - Alie Lassche
+  publisher: Early Modern Low Countries
+  date: '22-12-2022'
+  link: https://emlc-journal.org/article/view/10908/15085
+  image: https://emlc-journal.org/public/journals/2/cover_issue_699_en_US.jpg
+  description: This article investigates popular topics and topical fluctuations in a diachronic corpus of 43,772 Dutch songs, all written between 1550 and 1750, contained within the Dutch Song Database.
+  type: article
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/greenelab/meta-review
+  - type: website
+    link: http://manubot.org/
+  tags:
+  - Song culture
+  - Topic modelling
+  - Topical fluctuations
+  - Text mining
+  - Digital humanities
+
+
+
+
+
+
+
+
+
+#save this for inspiration
+
+# - id: doi:10.1371/journal.pcbi.1007128
+#   title: Open collaborative writing with Manubot
+#   authors:
+#   - Daniel S. Himmelstein
+#   - Vincent Rubinetti
+#   - David R. Slochower
+#   - Dongbo Hu
+#   - Venkat S. Malladi
+#   - Casey S. Greene
+#   - Anthony Gitter
+#   publisher: PLOS Computational Biology
+#   date: '2020-12-04'
+#   link: https://doi.org/c7np
+#   orcid: 0000-0002-4655-3773
+#   plugin: sources.py
+#   file: sources.yaml
+#   type: paper
+#   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
+#     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+#   buttons:
+#   - type: manubot
+#     link: https://greenelab.github.io/meta-review/
+#   - type: source
+#     text: Manuscript Source
+#     link: https://github.com/greenelab/meta-review
+#   - type: website
+#     link: http://manubot.org/
+#   tags:
+#   - open science
+#   - collaboration

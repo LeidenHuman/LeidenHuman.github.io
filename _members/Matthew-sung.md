@@ -6,6 +6,7 @@ aliases:
   - H.W.M. Sung
 links:
   home-page: https://sites.google.com/view/matthew-sung-dialectologist/home
+priority: second
 ---
 
 My main research interest is on general dialectology, the study of geographical variation of language. I am interested in questions like "do dialect boundaries exists?" and "how did a specific linguistic feature spread from one place to another?". I am also interested in exploring the dialect variation of tones. How do dialects differ on the tonal level? Do we find a dialect continuum with tones? These are all questions that I would like to explore further.

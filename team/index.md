@@ -11,6 +11,10 @@ Our group is comprised of researchers and students coming from a very diverse ba
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+## Resident researchers
+{% include list.html data="members" component="portrait" filters="priority: first" %}
+## PhD students
+{% include list.html data="members" component="portrait" filters="priority: second" %}
+## Affiliate and visiting researchers
+{% include list.html data="members" component="portrait" filters="priority: third" %}
 

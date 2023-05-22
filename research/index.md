@@ -10,13 +10,13 @@ nav:
 LU Human is active in the academic world and we are very eager to share our research resutls with the public, here you can find the published work for our projects. For [project details](https://leidenhuman.github.io/projects/), you can navigate to the projects tab.
 
 ```python 
-import LU_Human
+from LU_Human import results
 ```
 {% include section.html %}
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Does transnational contention lead to transnational memory? The online visual memory of the February 2003 anti-Iraq War protests" style="rich" %}
 
 {% include section.html %}
 

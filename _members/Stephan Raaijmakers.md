@@ -6,6 +6,7 @@ aliases:
   - S. A. Raaijmakers
 links:
   home-page: https://www.universiteitleiden.nl/en/staffmembers/stephan-raaijmakers
+priority: first
 ---
 
 Stephan Raaijmakers is a professor by special appointment of Communicative AI at the Centre for Linguistics.
