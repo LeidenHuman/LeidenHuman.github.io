@@ -1,5 +1,5 @@
 ---
-name: Jing Chen
+name: Roos Bakker
 image: image/photo.jpg
 role: phd
 aliases:

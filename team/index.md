@@ -12,6 +12,12 @@ Our group is comprised of researchers and students coming from a very diverse ba
 {% include section.html %}
 
 ## Staff
-{% include list.html data="members" component="portrait" filters="priority: staff" %}
+{% include list.html data="members" component="portrait" filters="name: Jelena Prokic" %}
+{% include list.html data="members" component="portrait" filters="priority: staff, role: phd" %}
+{% include list.html data="members" component="portrait" filters="priority: other_staff" %}
+
+
 ## Affiliate members
 {% include list.html data="members" component="portrait" filters="priority: affiliate" %}
+## Visiting researchers
+{% include list.html data="members" component="portrait" filters="priority: guest" %}

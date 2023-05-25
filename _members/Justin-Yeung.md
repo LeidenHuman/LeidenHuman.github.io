@@ -6,7 +6,7 @@ aliases:
   - J.W.N. yeung
 links:
   home-page: https://jyeungtin.github.io/
-priority: staff
+priority: other_staff
 ---
 
 I am a current BSc Communication Science student at the University of Amsterdam and upcoming MSc Social Data Science Student at the Oxford Internet Institute, University of Oxford. My research interests span across political communication, digital humanities and computational social sciences. Justin’s research mainly focuses on the relations between algorithms, journalism and citizens. 

@@ -10,6 +10,10 @@ assist_p:
   icon: fa-solid fa-microscope
   description: Assistant Professor
 
+prof:
+  icon: fa-solid fa-microscope
+  description: Professor
+
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
