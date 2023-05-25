@@ -5,7 +5,7 @@ role: phd
 aliases:
   - R.M. Bakker
 links:
-priority: third
+priority: affiliate
 ---
 
 Roos Bakker is PhD candidate for the Leiden University Centre of Linguistics.
