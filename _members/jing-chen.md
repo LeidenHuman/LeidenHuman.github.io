@@ -4,7 +4,6 @@ image: image/photo.jpg
 role: researcher
 aliases:
   - J. Chen
-links:
 priority: staff
 ---
 
