@@ -35,7 +35,7 @@
 - id: doi:10.1017/9781108565080.007
   type: book
   description: An overview of computational work in dialectology
-  author:
+  authors:
   - Nerbonne J.
   - Heeringa W.
   - Prokic J.
