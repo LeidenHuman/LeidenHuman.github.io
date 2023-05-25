@@ -13,5 +13,5 @@ Our group is comprised of researchers and students coming from a very diverse ba
 
 ## Staff
 {% include list.html data="members" component="portrait" filters="priority: staff" %}
-## Affiliate
+## Affiliate members
 {% include list.html data="members" component="portrait" filters="priority: affiliate" %}
