@@ -5,7 +5,7 @@ role: phd
 aliases:
   - J. Liang
 links:
-priority: third
+priority: staff
 ---
 
 Jiahui Liang is a PhD candidate at the Leiden Centre for Linguistics.
