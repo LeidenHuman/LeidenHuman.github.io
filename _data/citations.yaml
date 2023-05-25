@@ -88,32 +88,53 @@
   orcid: 0000-0002-4655-3773
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1111/jcom.12173
-  title: 'At Odds: Laughing and Thinking? The Appreciation, Processing, and Persuasiveness
-    of Political Satire'
+- id: doi:10.1080/14742837.2021.1967736
+  title: Does transnational contention lead to transnational memory? The online visual
+    memory of the February 2003 anti-Iraq War protests
   authors:
-  - Mark Boukes
-  - Hajo G. Boomgaarden
-  - Marjolein Moorman
-  - Claes H. de Vreese
-  publisher: Journal of Communication
-  date: '2020-12-04'
-  link: https://doi.org/f3s2sd
+  - Thomas Smits
+  - Ruben Ros
+  publisher: Social Movement Studies
+  date: ''
+  link: https://doi.org/gr82n7
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  description: Building on efforts to connect social movement and memory studies,
+    this article examines if the massive size and transnational nature of the February
+    2003 anti-war protests resulted in an equally widely shared and transnational
+    form of memory.
+  image: https://www.tandfonline.com/action/showCoverImage?doi=10.1080/csms20.v022.i02
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
   - type: source
     text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
+    link: https://github.com/random-github/
   - type: website
-    link: http://manubot.org/
+    link: https://randomlink.com/
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
+  - Transnational contention
+  - Transnational memory
+  - Digital humanities
+  repo: username/repo
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1017/9781108565080.007
+  title: Dialectology for Computational Linguists
+  authors: []
+  publisher: Similar Languages, Varieties, and Dialects
+  date: '2021-07-31'
+  link: https://doi.org/gr9fz3
+  type: book
+  description: An overview of computational work in dialectology
+  image: https://assets.cambridge.org/97811084/29351/cover/9781108429351.jpg
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/random-github/
+  - type: website
+    link: https://randomlink.com/
+  tags:
+  - Computational linguistics
+  - Dialectology
+  - Literature review
+  repo: username/repo
   plugin: sources.py
   file: sources.yaml
