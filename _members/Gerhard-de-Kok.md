@@ -7,7 +7,7 @@ aliases:
 links:
   home-page: https://www.universiteitleiden.nl/en/staffmembers/stephan-raaijmakers
   ORCID: 0000-0002-5877-0134
-priority: first
+priority: affiliate
 ---
 
 Specializing in Digital History, De Kok is passionate about the application of AI methodologies to historical research. His expertise lies in utilizing semantic web technologies, as well as using the output of Handwritten Text Recognition (HTR) and exploring other machine learning applications relevant to historical inquiries. 
