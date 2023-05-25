@@ -6,7 +6,7 @@ aliases:
   - C.A. Handy
 links: 
   home-page: https://www.universiteitleiden.nl/medewerkers/chris-handy#tab-1
-priority: second
+priority: staff
 ---
 
 Chris Handy is a software engineer at Leiden University Informatisering en Facilitaire Zaken (IFZ).
