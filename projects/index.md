@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-LU Human works on a wide range of projects, here you can find our featured work and all the other work. For [publised work](https://leidenhuman.github.io/research/), you can navigate to the research tab.
+LU Human works on a wide range of projects, here you can find our featured work and all the other work. For [published work](https://leidenhuman.github.io/research/), you can navigate to the research tab.
 
 {% include tags.html tags="publication, resource, website" %}
 

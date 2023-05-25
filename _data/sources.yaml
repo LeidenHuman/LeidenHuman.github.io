@@ -1,4 +1,4 @@
-- id: doi:10.1371/journal.pcbi.1007128
+- id: doi:10.1111/jcom.12173
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   date: 2020-12-4
@@ -16,5 +16,5 @@
     - collaboration
   repo: greenelab/meta-review
 
-  id: 10.1080/14742837.2021.1967736
+- id: doi:10.1111/jcom.12173
   type: paper

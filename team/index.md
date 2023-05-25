@@ -21,3 +21,14 @@ Our group is comprised of researchers and students coming from a very diverse ba
 {% include list.html data="members" component="portrait" filters="priority: affiliate" %}
 ## Visiting researchers
 {% include list.html data="members" component="portrait" filters="priority: guest" %}
+
+## {% include icon.html icon="fa-regular fa-envelope" %}Contact
+
+Questions about our research🔬, looking for a collaboration opportunities💡or simply want to grab a coffee☕? Please feel free contact us!
+
+{%
+  include button.html
+  type="email"
+  text="Email"
+  link="j.prokic@hum.leidenuniv.nl"
+%}

@@ -45,3 +45,12 @@
   #repo: greenelab/lab-website-template
   tags:
     - project
+
+- title: An Interdisciplinary Inquiry towards Generative AI for Investigative Journalism
+  #subtitle: An Experiment on Sanskrit/Tibetan/Chinese Buddhist Texts
+  image: https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+  #link: https://github.com/
+  description: Through a multimethodological approach, the project aims to develop a generative AI-aided tool to assist investigative journalists for early-stage research and further discover the prospects and perils of the implementation of generative AI in newsrooms.
+  #repo: greenelab/lab-website-template
+  tags:
+    - project
