@@ -8,7 +8,7 @@ aliases:
 links:
   home-page: https://www.universiteitleiden.nl/en/staffmembers/jelena-prokic/
   orcid: 0000-0003-2928-7271
-priority: first
+priority: affiliate
 ---
 
 Jelena Prokic relies on computational methods to explain how and why language changes and discover language internal and external factors that lead to observed change. She specializes in variation on the micro-level, where she is particularly interested in automatic dialect detection, automatic feature extraction and dynamics of language variation. She investigates problems related to formation, maintenance and evolution of dialects and their stability through time. She is dedicated to developing digital databases, tools and methods that would assist researchers in contributing to a theory of natural language and shed more light on language evolution, and eventually on human cognition, society and history. In her work she applies methods from natural language processing, machine learning, corpus linguistics and GIS.
