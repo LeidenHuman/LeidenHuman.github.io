@@ -5,7 +5,7 @@ role: researcher
 aliases:
   - J. Chen
 links:
-priority: third
+priority: staff
 ---
 
 Jing Chen is a guest researcher at the Leiden University Centre for Linguistics
