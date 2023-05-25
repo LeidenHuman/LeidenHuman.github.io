@@ -7,7 +7,7 @@ aliases:
 links:
   home-page: https://www.universiteitleiden.nl/en/staffmembers/anne-heyer#tab-1
   ORCID: 0000-0001-7564-9080
-priority: first
+priority: affiliate
 ---
 
 Anne Heyer is an Assistant Professor in modern history with a research interest in the ideas and practices of political participation in different European countries (1800-today). She studies the changing perception and practices of mass politics in Germany, Netherlands, Britain and Spain. In addition to the in-depth analysis of primary sources, she uses computational linguistic methods to study large-n digitalized historical corpora. Her monograph 'The Making of the Democratic Party in Europe, 1860- 1890' combines history and social-sciences approaches to explains the emergence of the first parties in a comparative and transnational setting with case studies from Germany, Britain and the Netherlands.
