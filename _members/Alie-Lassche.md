@@ -7,7 +7,7 @@ aliases:
   - Alie Lassche
 links:
   home-page: https://www.universiteitleiden.nl/en/staffmembers/alie-lassche#tab-2
-priority: third
+priority: affiliate
 ---
 
 My research is embedded in the NWO-project 'Chronicling Novelty. New knowledge in the Netherlands, 1500 – 1850'. We investigate the circulation and evaluation of new knowledge and ideas among a non-specialist public of middle-class authors in the Netherlands, who kept handwritten chronicles to record events and phenomena that they considered important. I am mainly interested in the relation between the collection of knowledge and cultural change, as reflected in a corpus of ~300 Dutch early modern chronicles. I use computational methods to analyze both text and metadata in order to get insight in changes in information flows, cited sources, described topics, knowledge horizons, and regional differences in media use.
