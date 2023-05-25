@@ -5,6 +5,7 @@ role: assist_p
 aliases:
   - J. Prokic
   - Jelena Prokic
+  - Prokic J.
 links:
   home-page: https://www.universiteitleiden.nl/en/staffmembers/jelena-prokic/
   orcid: 0000-0003-2928-7271
