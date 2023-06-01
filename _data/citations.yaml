@@ -1,10 +1,4 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
-# Currently not working
-# step 1: fill in source.yml with all info
-# step 2: push to run cite.py on GitHub 
-# step 3: pull parsed info back to IDE
-# step 4: delete all reappearing pubs and check if there is any missing info 
-# step 5: If yes, repeat step 1 - 4 / If not, push again
 
 - id: doi:10.1080/14742837.2021.1967736
   title: Does transnational contention lead to transnational memory? The online visual
