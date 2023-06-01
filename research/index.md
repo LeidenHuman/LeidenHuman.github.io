@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-LU Human is active in the academic world and we are very eager to share our research resutls with the public, here you can find the published work for our projects. For [project details](https://leidenhuman.github.io/projects/), you can navigate to the projects tab.
+Leiden HumAN is active in the academic world and we are very eager to share our research resutls with the public, here you can find the published work for our projects. For [project details](https://leidenhuman.github.io/projects/), you can navigate to the projects tab.
 
 ```python 
 from LU_Human import results

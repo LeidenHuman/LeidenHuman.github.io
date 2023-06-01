@@ -35,7 +35,7 @@ Find more about the published work from the Leiden Humanities AI and NLP group �
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   link="research"
   title="Our Research"
   text=text
@@ -58,7 +58,7 @@ Explore all projects from the Leiden Humanities AI and NLP group 📚
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="https://images.pexels.com/photos/159775/library-la-trobe-study-students-159775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   link="projects"
   title="Our Projects"
   flip=true
@@ -83,7 +83,7 @@ Meet our researchers, PhD students and coders 👥
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   link="team"
   title="Our Team"
   text=text
