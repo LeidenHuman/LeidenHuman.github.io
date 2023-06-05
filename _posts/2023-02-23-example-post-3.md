@@ -1,7 +1,7 @@
 ---
-title: Example post 3
-author: john-doe
-tags: biology, medicine
+title: Welcoming new member - Justin Yeung
+author: Admin
+tags: Member
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Justin Yeung is joining Leiden HumAN as a staff researcher. His research focuses on computational methods and their application in journalism.

@@ -14,9 +14,13 @@ Leiden Humanities AI and NLP group, Leiden HumAN, is a research group at Leiden 
 
 {% include section.html %}
 
-## Highlights
+## Latest Highlights
 
-Here you can find the latest updates of our lab.
+Here you can find the latest updates of our lab. For older updates, please go the [updates](/update/) page.
+
+{% include limited_list.html data="posts" component="post-excerpt" %} 
+
+## More about Leiden HumAN
 
 {% capture text %}
 

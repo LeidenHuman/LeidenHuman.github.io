@@ -1,10 +1,8 @@
 ---
-title: Example post 1
-author: sarah-johnson
+title: Leiden HumAN is starting a new project
+author: Admin
 tags:
-  - biology
-  - medicine
-  - big data
+  - Project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Collaborating with LUCDH, Leiden HumAN is kickstarting the project Political Social Network in Indonesia

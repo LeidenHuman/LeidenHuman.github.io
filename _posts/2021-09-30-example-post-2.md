@@ -1,6 +1,8 @@
 ---
-title: Example post 2
-author: jane-smith
+title: Research assistantship opportunities
+author: Admin
+tags:
+ - Vacancies
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The team of project X is now searching for two research assistants for data management and experimental design tasks.
