@@ -1,7 +1,7 @@
 ---
 name: Chris Handy
 image: https://lu-human.github.io/images/chris-profile.png
-role: programmer
+role: software_dev
 aliases:
   - C.A. Handy
 links: 
