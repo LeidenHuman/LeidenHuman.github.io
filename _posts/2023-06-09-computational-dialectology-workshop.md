@@ -1,11 +1,11 @@
 ---
-title: New Workshop! Methods of Dialectology
+title: Upcoming Workshop in Methods of Dialectology
 author: Admin
 tags:
  - Workshop
  - Dialectology
 ---
-# A workshop on the latest methods of dialectology
+# New workshop on the latest methods of dialectology
 
 Interested in dialects? Want to know how to analyse dialects? Want to learn how to create linguistic maps? Then this is the workshop for you! This semester, the Leiden Dialectology Workshop Series will give 5 workshops on different aspects of dialectology; you will learn how to read maps, extract dialect data as well as creating your own linguistic maps with hands on experience.
 
