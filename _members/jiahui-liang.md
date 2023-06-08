@@ -1,6 +1,6 @@
 ---
 name: Jiahui Liang
-image: image/photo.jpg
+image: image/Photo_Jiahui.png
 role: phd
 aliases:
   - J. Liang

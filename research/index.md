@@ -1,6 +1,6 @@
 ---
 title: Research
-nav:
+nav: 
   order: 1
   tooltip: Published works
 ---

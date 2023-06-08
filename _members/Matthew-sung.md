@@ -9,9 +9,11 @@ links:
 priority: staff
 ---
 
-My main research interest is on general dialectology, the study of geographical variation of language. I am interested in questions like "do dialect boundaries exists?" and "how did a specific linguistic feature spread from one place to another?". I am also interested in exploring the dialect variation of tones. How do dialects differ on the tonal level? Do we find a dialect continuum with tones? These are all questions that I would like to explore further.
+My PhD project involves using computational methods and cartographic techniques to explore, visualise and analyse dialectal variation.
 
-I will specifically look at Yue (粵語) as a case study in my PhD project and on top of addressing the dialectological issues above, I will revisit the topic of dialect classification for Yue.
+The primary focus of my project is to develop a tone distance metric which allows dialectologists to calculate dialect distances on the tonal level. In addition, I will address dialectological questions such as "do dialect boundaries exist?" and "what are transition dialects like?" for both tonal and segmental levels, using Yue as my case study. To address these questions, I look at 100+ dialects, and the findings are aimed to be non-language-specific, while the methods are aimed to be applicable cross-linguistically.
+
+The language-specific component of my project is to revisit the classification of Yue dialects (internal classification within Yue, and the Yue-Pinghua dichotomy).
 
 ## Fields of interest
 - General Dialectology
