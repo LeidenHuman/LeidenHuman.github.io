@@ -26,9 +26,9 @@ undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
 
-programmer:
+software_dev:
   icon: fa-solid fa-code
-  description: Programmer
+  description: Software developer
 
 mascot:
   icon: fa-solid fa-dog
