@@ -15,7 +15,7 @@ Dialectology, the study of language variation across geographical space, may not
 Location: TBD 
 
 ### Date & Time
-Oct 2023 - Apr 2024; Time TBD
+The workshop will run from Oct 2023 - Apr 2024.
 
 ### Availability
 TBD
