@@ -1,6 +1,6 @@
 ---
 name: Tomás Dodds
-image: /images/Tomas.jpg/
+image: https://raw.githubusercontent.com/LeidenHuman/LeidenHuman.github.io/main/images/Tomas.jpg
 role: assist_p
 aliases:
   - Dodds. T.
