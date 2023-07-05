@@ -15,12 +15,8 @@ Leiden HumAN works on a wide range of projects, here you can find our featured w
 
 {% include section.html %}
 
-## Featured
+## Our projects
 
-{% include list.html component="card" data="projects" filters="group: featured" %}
+{% include list.html component="card" data="projects" style="small" %}
 
 {% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filters="group: " style="small" %}
