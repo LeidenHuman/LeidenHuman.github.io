@@ -1,6 +1,6 @@
 ---
 name: Justin Yeung
-image: https://jyeungtin.github.io/assets/img/prof_pic-1400.webp
+image: https://jyeungtin.github.io/assets/img/head-1400.webp
 role: researcher
 aliases:
   - J.W.N. yeung

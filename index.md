@@ -22,7 +22,7 @@ Here you can find the latest updates of our lab. For older updates, please go th
 
 ## More about Leiden HumAN
 
-{% capture text %}
+<!-- {% capture text %}
 
 Find more about the published work from the Leiden Humanities AI and NLP group ðŸ“–
 
@@ -43,7 +43,7 @@ Find more about the published work from the Leiden Humanities AI and NLP group ð
   link="research"
   title="Our Research"
   text=text
-%}
+%} -->
 
 {% capture text %}
 
