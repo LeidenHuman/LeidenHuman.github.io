@@ -23,7 +23,7 @@ Our group is comprised of researchers and students coming from a very diverse ba
 {% include list.html data="members" component="portrait" filters="priority: guest" %}
 
 ## Former members
-{% include list.html data="members" component="former_member" filters="priority: former" %}
+{% include list.html data="members" component="portrait" filters="priority: former" %}
 
 ## {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
