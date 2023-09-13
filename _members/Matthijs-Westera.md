@@ -4,7 +4,7 @@ image: https://www.gmdcentre.nl/uploads/cfgmd/styles/auto_1600/public/mwestera.p
 role: assist_p
 links:
   home-page: https://mwestera.humanities.uva.nl/index.shtml/
-priority: other_staff
+priority: affiliate
 ---
 I am Assistant Professor in Humanities and AI at LUCL in Leiden (SAILS). I'm working on:
 
