@@ -1,5 +1,5 @@
 ---
-title: Deep Learning for Beginners from 6 February 2024
+title: Deep Learning for Beginners Feb 2024 - Apr 2024
 author: Admin
 tags:
   - Workshop
