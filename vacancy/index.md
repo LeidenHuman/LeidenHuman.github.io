@@ -13,4 +13,4 @@ Motivated students who are interested in our projects are encouraged to contact 
 
 ## Latest vacancies
 
-{% include list.html data="posts" component="post-excerpt" filters="tags: vacancy" %}
+{% include list.html data="posts" component="post-excerpt" filters="tags: Vacancy" %}
