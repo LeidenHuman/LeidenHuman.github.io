@@ -1,11 +1,11 @@
 ---
-title: Upcoming Workshop in Methods of Dialectology
+title: Workshop on Methods in Dialectology Oct 2023 - Nov 2023
 author: Admin
 tags:
  - Workshop
  - Dialectology
 ---
-# New workshop on the latest methods of dialectology
+# New workshop on the latest methods in dialectology 
 
 Interested in dialects? Want to know how to analyse dialects? Want to learn how to create linguistic maps? Then this is the workshop for you! This semester, the Leiden Dialectology Workshop Series will give 5 workshops on different aspects of dialectology; you will learn how to read maps, extract dialect data as well as creating your own linguistic maps with hands on experience.
 
@@ -19,7 +19,7 @@ Please find the syllabus of the workshop [here](https://drive.google.com/file/d/
 Location: Digital Lab, P.J. Veth 1.07
 
 ### Date & Time
-The workshop will run from Oct 2023 - Apr 2024.
+The workshop will run from Oct 2023 - Nov 2023
 
 ### Availability
 This workshop is only available in person. Please register [here](https://fd24.formdesk.com/universiteitleiden/form692543424)
