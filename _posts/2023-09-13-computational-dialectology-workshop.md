@@ -15,6 +15,9 @@ Throughout the semester, we will digitize a dialect dataset together. From this 
 
 Please find the syllabus of the workshop [here](https://drive.google.com/file/d/13QNSMlWtftnXc_oGkL4SP9w0h9zo_pUP/view)
 
+### Instructor
+Matthew Sung
+
 ### Location
 Location: Digital Lab, P.J. Veth 1.07
 
