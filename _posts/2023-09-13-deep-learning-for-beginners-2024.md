@@ -1,6 +1,6 @@
 ---
-title: Deep Learning for Beginners
-author: Aron van de Pol
+title: Deep Learning for Beginners from 6 February 2024
+author: Admin
 tags:
   - Workshop
   - Deep learning
@@ -24,7 +24,7 @@ Join our 6-part workshop series and go from zero to building a basic image class
 Location: Digital Lab, P.J. Veth 1.07
 
 ### Date & Time
-The workshop will run from Feb 2024 - Apr 2024.
+The workshop will run from Feb 2024 - Apr 2024
 
 ### Availability
 This workshop is only available in person. Please register [here](https://docs.google.com/forms/d/e/1FAIpQLSdk0NqAA0LrNxg5ObRC9IUajTH4HUPPiABgS5QBn6gJfY2oSg/viewform)
