@@ -20,6 +20,9 @@ Please find the syllabus of the workshop [here](https://www.universiteitleiden.n
 
 Join our 6-part workshop series and go from zero to building a basic image classification model. With this knowledge, you can continue to teach yourself further in expanding beyond the focus of images onto other forms of data such a text (NLP tasks).
 
+### Instructor
+Aron van de Pol
+
 ### Location
 Location: Digital Lab, P.J. Veth 1.07
 
