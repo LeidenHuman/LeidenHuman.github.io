@@ -1,6 +1,6 @@
 ---
 name: Anne Heyer
-image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/a/other/a.-anne-heyer.jpg/a.-anne-heyer.jpg/d200x250
+image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/a/2022/a.-anne-heyer-2022.jpg/a.-anne-heyer-2022.jpg/d200x250
 role: assist_p
 aliases:
   - A. Heyer
