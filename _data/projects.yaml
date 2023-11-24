@@ -6,8 +6,8 @@
   description: This project investigates this relationship where it will focus especially on information flows on social media as a legitimation of direct violence, i.e. Cultural Violence. 
   #repo: greenelab/lab-website-template
   tags:
-    - Project
-    - Jelena Prokic
+    - 
+    - 
 
 - title: From Pixels to Purpose
   subtitle: Bridging Deep Learning, Computer Vision, and Korean Visual Data
@@ -17,10 +17,10 @@
   description: This project utilises computer vision, OCR and object segmentation techniques to digitise and analyse Korean texts and images to understand the evoluation of Korean society
   #repo: greenelab/lab-website-template
   tags:
-    - Project
-    - Aron van de Pol
+    - 
+    - 
 
-- title: Measuring Tonal Distances using Dialect Tonometry (TBC)
+- title: Measuring Tonal Distances using Dialect Tonometry
   #subtitle: a subtitle
   image: images/Computational_dialectology2.png
   #link: 
@@ -28,9 +28,9 @@
   #repo: greenelab/lab-website-template
   group: featured
   tags:
-    - Project
-    - Matthew Sung
-    - Jelena Prokic
+    - 
+    - 
+    - 
 
 - title: Tracing the History of Technocracy in Historical Parliamentary Debates
   #subtitle: a subtitle
@@ -39,8 +39,8 @@
   description: This research studies the rise of technocratic ways of thinking and the impact they have on democratic debate by mining and modelling millions of parliamentary debates from the twentieth century Dutch Lower House using NLP (Natural Language Processing) methods.
   #repo: greenelab/lab-website-template
   tags:
-    - Project
-    - Reuben Vos
+    - 
+    - 
 
 - title: Text Alignment via Genetic Algorithm
   subtitle: An Experiment on Sanskrit/Tibetan/Chinese Buddhist Texts
@@ -49,8 +49,8 @@
   description: Using a custom genetic algorithm, this project demonstrates some ways that the ambiguities of text alignment of multiple Buddhist texts in various langauges can be transformed from obstacles into assets in the analysis of unknown texts.
   #repo: greenelab/lab-website-template
   tags:
-    - Project
-    - Chris Handy
+    - 
+    - 
 
 - title: Political Social Networks in Indonesia
   #subtitle: An Experiment on Sanskrit/Tibetan/Chinese Buddhist Texts
