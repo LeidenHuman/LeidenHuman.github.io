@@ -1,6 +1,6 @@
 ---
 name: Ruben Ros
-image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/r/r.-ruben-ros-2022.png/r.-ruben-ros-2022.png/d200x250
+image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/r/2022/r.-ruben-ros-2022.png/r.-ruben-ros-2022.png/d200x250
 role: phd
 aliases:
   - R. Ros
