@@ -13,7 +13,7 @@
   subtitle: Bridging Deep Learning, Computer Vision, and Korean Visual Data
   group: featured
   image: https://library.harvard.edu/sites/default/files/styles/content_embed/public/Korean-2.jpg?itok=LrPU0LY2
-  link: https://github.com/
+  #link: 
   description: This project utilises computer vision, OCR and object segmentation techniques to digitise and analyse Korean texts and images to understand the evoluation of Korean society
   #repo: greenelab/lab-website-template
   tags:
