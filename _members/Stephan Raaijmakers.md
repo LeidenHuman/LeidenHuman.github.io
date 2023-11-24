@@ -1,6 +1,6 @@
 ---
 name: Stephan Raaijmakers
-image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/s/s.a.-stephan-raaijmakers.jpg/s.a.-stephan-raaijmakers.jpg/d200x250
+image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/s/2021/s.a.-stephan-raaijmakers-2021.jpg/s.a.-stephan-raaijmakers-2021.jpg/d200x250
 role: prof
 aliases:
   - S. A. Raaijmakers
