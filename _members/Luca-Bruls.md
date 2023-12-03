@@ -8,5 +8,5 @@ aliases:
 priority: staff
 ---
 
-Carolina Zucchi is a PhD Researcher at the Centre for Digital Humanities (LUCDH) and the Leiden Institute for History, working on the project Digital warfare in the Sahel: popular networks of war and Cultural Violence.
+Luca Bruls is a PhD Researcher at the Centre for Digital Humanities (LUCDH) and the Leiden Institute for History, working on the project Digital warfare in the Sahel: popular networks of war and Cultural Violence.
 
