@@ -1,7 +1,7 @@
 ---
 name: Ada Shi
 image: https://raw.githubusercontent.com/LeidenHuman/LeidenHuman.github.io/main/images/ada.jpg
-role: research assistant
+role: researcher
 aliases:
   - Ada
 priority: other_staff
