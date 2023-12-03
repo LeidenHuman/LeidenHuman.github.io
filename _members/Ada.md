@@ -4,8 +4,6 @@ image: https://raw.githubusercontent.com/LeidenHuman/LeidenHuman.github.io/main/
 role: research assistant
 aliases:
   - Ada
-links:
-  #home-page: https://jyeungtin.github.io/
 priority: other_staff
 ---
 
