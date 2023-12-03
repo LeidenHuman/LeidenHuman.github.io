@@ -12,5 +12,4 @@ Ada Shi is a third-year Bachelor’s Communication Science student at the Univer
 ## Fields of interest
 - Network theory and network analysis
 - Political communication
-- Science and Technology Studies (STS)
 
