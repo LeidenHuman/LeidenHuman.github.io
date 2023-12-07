@@ -56,7 +56,7 @@
   #subtitle: An Experiment on Sanskrit/Tibetan/Chinese Buddhist Texts
   image: https://c.files.bbci.co.uk/111B3/production/_106976007_ballot_paper.jpg
   #link: https://github.com/
-  description: The project utilises computational methods to discover the social network in the political landscape in Indonesia.
+  description: This project combines expertise in political economy of Indonesia and expertise in web scraping, social network analysis and machine learning, in order to make election data freely and easily accessible to all researchers interested in the political economy and democracy in Indonesia.
   #repo: greenelab/lab-website-template
   tags:
     - 
