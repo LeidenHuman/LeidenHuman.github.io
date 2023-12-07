@@ -1,5 +1,5 @@
 ---
-title: SAILS WOrkshop - December 2023
+title: SAILS Workshop - December 2023
 author: Admin
 tags:
  - LLMs
