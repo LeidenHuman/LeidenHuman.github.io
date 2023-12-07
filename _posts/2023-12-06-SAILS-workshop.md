@@ -1,12 +1,9 @@
 ---
-title: Welcoming new member - Ada Shi November 2023
+title: SAILS WOrkshop - December 2023
 author: Admin
 tags:
- - New member
+ - LLMs
 ---
-# Leiden HumAN welcomes its new student researcher Ada Shi
+# SAILS workshop "AI and LLMs: Keeping the Linguist in the Loop" 
 
-Ada Shi has joined HumAN lab in November 2023. She is a third-year Bachelor's Communication
-Science student at the University of Amsterdam. Ada will work as a research assistant in the
-Digital warfare in the Sahel project, where she will focus on the usage of social
-media in the Sahel region. 
+On Friday, 8 December, Jelena Prokic will will take part in the discussion panel at the SAILS workshop titled "AI and LLMs: Keeping the Linguist in the Loop" at Leiden University. Panel discussion with Sjef Barbiers and Vincent Vandeghinste, moderated by Carole Tiberius. 
