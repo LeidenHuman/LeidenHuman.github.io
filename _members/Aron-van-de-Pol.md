@@ -1,6 +1,6 @@
 ---
 name: Aron van de Pol
-image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/a/2023/a.-aron-van-der-pol-2023.jpg/a.-aron-van-der-pol-2023.jpg/d200x250
+image: images/aron.jpg
 role: phd
 aliases:
   - A.M. van de Pol
