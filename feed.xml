@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-01-31T16:28:45+00:00</updated><id>/feed.xml</id><title type="html">Leiden HumAN</title><subtitle>Combining forces of the humanities and Artificial Intelligence</subtitle><entry><title type="html">Leiden HumAN researchers talk at Oxford Internet Institute</title><link href="/2024/01/31/oii-indonesia-talk.html" rel="alternate" type="text/html" title="Leiden HumAN researchers talk at Oxford Internet Institute" /><published>2024-01-31T00:00:00+00:00</published><updated>2024-01-31T16:27:38+00:00</updated><id>/2024/01/31/oii-indonesia-talk</id><content type="html" xml:base="/2024/01/31/oii-indonesia-talk.html"><![CDATA[<h1 id="zooming-in-on-the-digital-aspects-of-the-indonesian-election">Zooming in on the digital aspects of the Indonesian election</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-02-10T22:14:04+00:00</updated><id>/feed.xml</id><title type="html">Leiden HumAN</title><subtitle>Combining forces of the humanities and Artificial Intelligence</subtitle><entry><title type="html">Introduction to Dialectometry</title><link href="/2024/02/07/intro-to-dialectometry.html" rel="alternate" type="text/html" title="Introduction to Dialectometry" /><published>2024-02-07T00:00:00+00:00</published><updated>2024-02-10T22:11:43+00:00</updated><id>/2024/02/07/intro-to-dialectometry</id><content type="html" xml:base="/2024/02/07/intro-to-dialectometry.html"><![CDATA[<h1 id="introduction-to-dialectometry-2024">Introduction to Dialectometry (2024)</h1>
+
+<p>Many proposals of dialect classification use isoglosses to identify dialect areas. However, isogloss maps are often messy, and they are also susceptible to some further problems: 
+1) features shown on a map can potentially be cherry-picked; 
+2) very often it is difficult to analyse many features all at once, 
+3) it is difficult to analyse the relationship between dialects (areas) which are geographically distant and 
+4) it is difficult to assess how representative features are in an analysis.</p>
+
+<p>In order to overcome these problems and make dialect classifications more objective, dialectologists have employed computational methods in dialectology, often known as  <em>dialectometry</em> , the measurement of dialect distances. Dialectometry applies a set of techniques on a large amount of dialect data in order to get an aggregate picture of the variation hidden the dialect landscape.</p>
+
+<p>In this workshop series, the reasoning behind the dialectometric approaches will first be introduced in the first week, then in the following weeks, various techniques in dialectometry will be introduced with hands on exercises. Lastly, the workshop series will end with an overview of the contemporary approaches in the field.</p>
+
+<p>Programming knowledge is not required for this workshop series.</p>
+
+<h1 id="time--location">Time &amp; Location</h1>
+
+<p>Tuesdays: 27 February; 12 March; 26 March; 9 April; 23 April at PJ Veth 1.07 DH Lab</p>
+
+<h3 id="availability">Availability</h3>
+
+<p><a href="https://www.formdesk.com/universiteitleiden/intro_dialectometry_2024">Registration</a></p>]]></content><author><name>Matthew Sung</name></author><category term="Workshop" /><category term="Dialectometry" /><summary type="html"><![CDATA[Introduction to Dialectometry (2024)]]></summary></entry><entry><title type="html">Deep Learning for the Humanities Workshop</title><link href="/2024/02/06/deep-learning-for-beginners-2024.html" rel="alternate" type="text/html" title="Deep Learning for the Humanities Workshop" /><published>2024-02-06T00:00:00+00:00</published><updated>2024-02-10T22:11:43+00:00</updated><id>/2024/02/06/deep-learning-for-beginners-2024</id><content type="html" xml:base="/2024/02/06/deep-learning-for-beginners-2024.html"><![CDATA[<h1 id="deep-learning-for-the-humanities-workshop">Deep Learning for the Humanities workshop</h1>
+
+<p>Deep-learning has been used in many recent applications You’ve likely seen use cases such as Stable diffusion - image generation, ChatGPT text generation, image classification and, object detection in self-driving cars. Deep-learning is also gaining popularity in the humanities, even beyond NLP uses.</p>
+
+<p>In this workshop we are teaching humanities students &amp; researchers how to train neural networks using PyTorch, thereby allowing them to eventually use this for their own research interests. Meaning this course is heavily focused onto the practical side of neural network programming.</p>
+
+<p>The main focus revolves around visual data, but the basics taught in this course are equally important for language or audio related deep learning:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Session</th>
+      <th>Date</th>
+      <th>Topic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Session 1</td>
+      <td>6 February</td>
+      <td>Tensors</td>
+    </tr>
+    <tr>
+      <td>Session 2</td>
+      <td>20 February</td>
+      <td>Linear regression (Training Pt 1.)</td>
+    </tr>
+    <tr>
+      <td>Session 2</td>
+      <td>5 March</td>
+      <td>Non-Linear Data (Training Pt 2. &amp; Evaluation)</td>
+    </tr>
+    <tr>
+      <td>Session 3</td>
+      <td>19 March</td>
+      <td>Images as Data</td>
+    </tr>
+    <tr>
+      <td>Session 4</td>
+      <td>2 April</td>
+      <td>Image classification</td>
+    </tr>
+    <tr>
+      <td>Session 5</td>
+      <td>16 April</td>
+      <td>Transfer Learning</td>
+    </tr>
+    <tr>
+      <td>Session 6</td>
+      <td>30 April</td>
+      <td>Spill-over Session</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="https://www.dlfh.aronvandepol.com/">More Information</a></p>
+
+<h3 id="location">Location</h3>
+
+<p>Digital Lab, P.J. Veth 1.07 Time: biweekly starting 6th of Feb. 13-15</p>
+
+<h3 id="availability">Availability</h3>]]></content><author><name>Aron van de Pol</name></author><category term="Workshop" /><category term="Deep learning" /><summary type="html"><![CDATA[Deep Learning for the Humanities workshop]]></summary></entry><entry><title type="html">Leiden HumAN researchers talk at Oxford Internet Institute</title><link href="/2024/01/31/oii-indonesia-talk.html" rel="alternate" type="text/html" title="Leiden HumAN researchers talk at Oxford Internet Institute" /><published>2024-01-31T00:00:00+00:00</published><updated>2024-02-10T22:11:43+00:00</updated><id>/2024/01/31/oii-indonesia-talk</id><content type="html" xml:base="/2024/01/31/oii-indonesia-talk.html"><![CDATA[<h1 id="zooming-in-on-the-digital-aspects-of-the-indonesian-election">Zooming in on the digital aspects of the Indonesian election</h1>
 
 <p>Leiden HumAN researchers Wang Ngai Yeung and Leiden Institute for Area Studies researcher Dr. Rizal Shidiq will present at the upcoming event at the Oxford Internet Institute (OII) on their latest work Political Social Network in Indonesia (POLISONI).</p>
 
@@ -13,7 +94,7 @@
 <p>Wednesday 7 Feb 2024, 18:00 - 19:00 (CEST)</p>
 
 <h3 id="registration">Registration</h3>
-<p>Click <a href="https://www.oii.ox.ac.uk/news-events/events/zooming-in-on-the-digital-aspects-of-the-indonesian-election/">here</a> to register</p>]]></content><author><name>Admin</name></author><category term="Talk" /><category term="Leiden HumAN" /><category term="Oxford Internet Institute" /><category term="Indonesia" /><summary type="html"><![CDATA[Zooming in on the digital aspects of the Indonesian election]]></summary></entry><entry><title type="html">Political Social Networks in Indonesia 15 Dec 2023</title><link href="/2023/12/12/POLISONI-workshop.html" rel="alternate" type="text/html" title="Political Social Networks in Indonesia 15 Dec 2023" /><published>2023-12-12T00:00:00+00:00</published><updated>2024-01-31T16:27:38+00:00</updated><id>/2023/12/12/POLISONI-workshop</id><content type="html" xml:base="/2023/12/12/POLISONI-workshop.html"><![CDATA[<h1 id="polisoni-project-is-organizing-a-workshop-on-15-december">PoliSoNI project is organizing a workshop on 15 December</h1>
+<p>Click <a href="https://www.oii.ox.ac.uk/news-events/events/zooming-in-on-the-digital-aspects-of-the-indonesian-election/">here</a> to register</p>]]></content><author><name>Admin</name></author><category term="Talk" /><category term="Leiden HumAN" /><category term="Oxford Internet Institute" /><category term="Indonesia" /><summary type="html"><![CDATA[Zooming in on the digital aspects of the Indonesian election]]></summary></entry><entry><title type="html">Political Social Networks in Indonesia 15 Dec 2023</title><link href="/2023/12/12/POLISONI-workshop.html" rel="alternate" type="text/html" title="Political Social Networks in Indonesia 15 Dec 2023" /><published>2023-12-12T00:00:00+00:00</published><updated>2024-02-10T22:11:43+00:00</updated><id>/2023/12/12/POLISONI-workshop</id><content type="html" xml:base="/2023/12/12/POLISONI-workshop.html"><![CDATA[<h1 id="polisoni-project-is-organizing-a-workshop-on-15-december">PoliSoNI project is organizing a workshop on 15 December</h1>
 
 <p>Political social networks in Indonesia is a multidisciplinary project aiming at creating a large-scale digital database of the profiles of aspiring politicians for the upcoming 2024 general elections in Indonesia. On 14 February 2024 Indonesia, home of 205 million registered eligible voters, will hold a massive-scale general election, with about 300,000 candidates running for 20,614 political seats. Political social networks in Indonesia project combines expertise in political economy of Indonesia (LIAS/SSEA) and expertise in web scraping, social network analysis and machine learning (LUCDH/LUCL), in order to make election data freely and easily accessible to all researchers interested in the political economy and democracy in Indonesia.</p>
 
@@ -26,14 +107,18 @@
 <p>Location: Digital Lab, P.J. Veth 1.07</p>
 
 <h3 id="date--time">Date &amp; Time</h3>
-<p>15 December 2023; 10:00-12:00</p>]]></content><author><name>Admin</name></author><category term="Workshop" /><summary type="html"><![CDATA[PoliSoNI project is organizing a workshop on 15 December]]></summary></entry><entry><title type="html">SAILS Workshop - December 2023</title><link href="/2023/12/06/SAILS-workshop.html" rel="alternate" type="text/html" title="SAILS Workshop - December 2023" /><published>2023-12-06T00:00:00+00:00</published><updated>2024-01-31T16:27:38+00:00</updated><id>/2023/12/06/SAILS-workshop</id><content type="html" xml:base="/2023/12/06/SAILS-workshop.html"><![CDATA[<h1 id="sails-workshop-ai-and-llms-keeping-the-linguist-in-the-loop">SAILS workshop “AI and LLMs: Keeping the Linguist in the Loop”</h1>
+<p>15 December 2023; 10:00-12:00</p>]]></content><author><name>Admin</name></author><category term="Workshop" /><summary type="html"><![CDATA[PoliSoNI project is organizing a workshop on 15 December]]></summary></entry><entry><title type="html">SAILS Workshop - December 2023</title><link href="/2023/12/06/SAILS-workshop.html" rel="alternate" type="text/html" title="SAILS Workshop - December 2023" /><published>2023-12-06T00:00:00+00:00</published><updated>2024-02-10T22:11:43+00:00</updated><id>/2023/12/06/SAILS-workshop</id><content type="html" xml:base="/2023/12/06/SAILS-workshop.html"><![CDATA[<h1 id="sails-workshop-ai-and-llms-keeping-the-linguist-in-the-loop">SAILS workshop “AI and LLMs: Keeping the Linguist in the Loop”</h1>
 
-<p>On Friday, 8 December, Jelena Prokic will will take part in the discussion panel at the SAILS workshop titled “AI and LLMs: Keeping the Linguist in the Loop” at Leiden University. Panel discussion with Sjef Barbiers and Vincent Vandeghinste, moderated by Carole Tiberius.</p>]]></content><author><name>Admin</name></author><category term="LLMs" /><summary type="html"><![CDATA[SAILS workshop “AI and LLMs: Keeping the Linguist in the Loop”]]></summary></entry><entry><title type="html">Welcoming new member - Ada Shi November 2023</title><link href="/2023/11/23/new-member-ada.html" rel="alternate" type="text/html" title="Welcoming new member - Ada Shi November 2023" /><published>2023-11-23T00:00:00+00:00</published><updated>2024-01-31T16:27:38+00:00</updated><id>/2023/11/23/new-member-ada</id><content type="html" xml:base="/2023/11/23/new-member-ada.html"><![CDATA[<h1 id="leiden-human-welcomes-its-new-student-researcher-ada-shi">Leiden HumAN welcomes its new student researcher Ada Shi</h1>
+<p>On Friday, 8 December, Jelena Prokic will will take part in the discussion panel at the SAILS workshop titled “AI and LLMs: Keeping the Linguist in the Loop” at Leiden University. Panel discussion with Sjef Barbiers and Vincent Vandeghinste, moderated by Carole Tiberius.</p>]]></content><author><name>Admin</name></author><category term="LLMs" /><summary type="html"><![CDATA[SAILS workshop “AI and LLMs: Keeping the Linguist in the Loop”]]></summary></entry><entry><title type="html">Clariah LLM Talk</title><link href="/2023/11/30/clariah.html" rel="alternate" type="text/html" title="Clariah LLM Talk" /><published>2023-11-30T00:00:00+00:00</published><updated>2024-02-10T22:11:43+00:00</updated><id>/2023/11/30/clariah</id><content type="html" xml:base="/2023/11/30/clariah.html"><![CDATA[<h1 id="navigating-chatgpt-a-primer-on-functionality-safety-and-academic-use">Navigating ChatGPT: A Primer on Functionality, safety and Academic Use</h1>
+
+<p><img src="/resources/primer.png" alt="" class="img-responsive" /></p>
+
+<p>Aron’s presentation at the CLARIAH Annual Conference 2023, “Navigating ChatGPT: A Primer on Functionality, Safety, and Academic Use,” offered a succinct exploration into the workings of ChatGPT and large language models (LLMs). He explained their mechanisms, touched on the significance of open-source models for academia, and provided examples of their academic applications. Aron also delved into critical issues like LLM jailbreaking and security, emphasizing the need for ethical usage and robust safeguards in academic research. This talk was a valuable primer for anyone looking to understand or apply ChatGPT and LLMs in their work.</p>]]></content><author><name>Aron van de Pol</name></author><category term="Talks" /><category term="LLM" /><summary type="html"><![CDATA[Navigating ChatGPT: A Primer on Functionality, safety and Academic Use]]></summary></entry><entry><title type="html">Welcoming new member - Ada Shi November 2023</title><link href="/2023/11/23/new-member-ada.html" rel="alternate" type="text/html" title="Welcoming new member - Ada Shi November 2023" /><published>2023-11-23T00:00:00+00:00</published><updated>2024-02-10T22:11:43+00:00</updated><id>/2023/11/23/new-member-ada</id><content type="html" xml:base="/2023/11/23/new-member-ada.html"><![CDATA[<h1 id="leiden-human-welcomes-its-new-student-researcher-ada-shi">Leiden HumAN welcomes its new student researcher Ada Shi</h1>
 
 <p>Ada Shi has joined HumAN lab in November 2023. She is a third-year Bachelor’s Communication
 Science student at the University of Amsterdam. Ada will work as a research assistant in the
 Digital warfare in the Sahel project, where she will focus on the usage of social
-media in the Sahel region.</p>]]></content><author><name>Admin</name></author><category term="New member" /><summary type="html"><![CDATA[Leiden HumAN welcomes its new student researcher Ada Shi]]></summary></entry><entry><title type="html">Applications of Large Language Models to the Humanities Workshop 21 Nov 2023</title><link href="/2023/11/05/llms-humanities-workshop.html" rel="alternate" type="text/html" title="Applications of Large Language Models to the Humanities Workshop 21 Nov 2023" /><published>2023-11-05T00:00:00+00:00</published><updated>2024-01-31T16:27:38+00:00</updated><id>/2023/11/05/llms-humanities-workshop</id><content type="html" xml:base="/2023/11/05/llms-humanities-workshop.html"><![CDATA[<h1 id="applications-of-large-language-models-to-the-humanities-workshop">Applications of Large Language Models to the Humanities Workshop</h1>
+media in the Sahel region.</p>]]></content><author><name>Admin</name></author><category term="New member" /><summary type="html"><![CDATA[Leiden HumAN welcomes its new student researcher Ada Shi]]></summary></entry><entry><title type="html">Applications of Large Language Models to the Humanities Workshop 21 Nov 2023</title><link href="/2023/11/05/llms-humanities-workshop.html" rel="alternate" type="text/html" title="Applications of Large Language Models to the Humanities Workshop 21 Nov 2023" /><published>2023-11-05T00:00:00+00:00</published><updated>2024-02-10T22:11:43+00:00</updated><id>/2023/11/05/llms-humanities-workshop</id><content type="html" xml:base="/2023/11/05/llms-humanities-workshop.html"><![CDATA[<h1 id="applications-of-large-language-models-to-the-humanities-workshop">Applications of Large Language Models to the Humanities Workshop</h1>
 
 <p>In this workshop, we will explore different approaches for applying a Large Language Model (like BERT) to a specific tagging problem in the context of Computational Humanities research. Following up on the current “pre-train and fine-tune” paradigm in the field of Computational Linguistics, we will try to reach an understanding of the techniques used in the “fine-tuning” step. Besides this theoretical part, we will have a hands-on session on working with computing clusters. Because carrying out this type of approach requires computational power often not available in personal computers, we will walk through an example of how to script and deploy fine-tuning jobs on ALICE (the high performance computing cluster at Leiden University). We will complete the workshop emphasising the need for evaluation and comparison of different approaches before consuming the output of the fine-tuned models.</p>
 
@@ -47,7 +132,7 @@ media in the Sahel region.</p>]]></content><author><name>Admin</name></author><c
 <p>The workshop will take place on 21 Nov 2023, 10:00-13:00</p>
 
 <h3 id="availability">Availability</h3>
-<p>This workshop is only available in person. Please register <a href="https://fd24.formdesk.com/universiteitleiden/LLM-Workshop-21nov2023">here</a></p>]]></content><author><name>Admin</name></author><category term="Workshop" /><category term="LLMs" /><summary type="html"><![CDATA[Applications of Large Language Models to the Humanities Workshop]]></summary></entry><entry><title type="html">Workshop on Methods in Dialectology Oct 2023 - Nov 2023</title><link href="/2023/09/13/computational-dialectology-workshop.html" rel="alternate" type="text/html" title="Workshop on Methods in Dialectology Oct 2023 - Nov 2023" /><published>2023-09-13T00:00:00+00:00</published><updated>2024-01-31T16:27:38+00:00</updated><id>/2023/09/13/computational-dialectology-workshop</id><content type="html" xml:base="/2023/09/13/computational-dialectology-workshop.html"><![CDATA[<h1 id="new-workshop-on-the-latest-methods-in-dialectology">New workshop on the latest methods in dialectology</h1>
+<p>This workshop is only available in person. Please register <a href="https://fd24.formdesk.com/universiteitleiden/LLM-Workshop-21nov2023">here</a></p>]]></content><author><name>Admin</name></author><category term="Workshop" /><category term="LLMs" /><summary type="html"><![CDATA[Applications of Large Language Models to the Humanities Workshop]]></summary></entry><entry><title type="html">Workshop on Methods in Dialectology Oct 2023 - Nov 2023</title><link href="/2023/09/13/computational-dialectology-workshop.html" rel="alternate" type="text/html" title="Workshop on Methods in Dialectology Oct 2023 - Nov 2023" /><published>2023-09-13T00:00:00+00:00</published><updated>2024-02-10T22:11:43+00:00</updated><id>/2023/09/13/computational-dialectology-workshop</id><content type="html" xml:base="/2023/09/13/computational-dialectology-workshop.html"><![CDATA[<h1 id="new-workshop-on-the-latest-methods-in-dialectology">New workshop on the latest methods in dialectology</h1>
 
 <p>Interested in dialects? Want to know how to analyse dialects? Want to learn how to create linguistic maps? Then this is the workshop for you! This semester, the Leiden Dialectology Workshop Series will give 5 workshops on different aspects of dialectology; you will learn how to read maps, extract dialect data as well as creating your own linguistic maps with hands on experience.</p>
 
@@ -67,7 +152,7 @@ media in the Sahel region.</p>]]></content><author><name>Admin</name></author><c
 <p>The workshop will run from Oct 2023 - Nov 2023</p>
 
 <h3 id="availability">Availability</h3>
-<p>This workshop is only available in person. Please register <a href="https://fd24.formdesk.com/universiteitleiden/form692543424">here</a></p>]]></content><author><name>Admin</name></author><category term="Workshop" /><category term="Dialectology" /><summary type="html"><![CDATA[New workshop on the latest methods in dialectology]]></summary></entry><entry><title type="html">Deep Learning for Beginners Feb 2024 - Apr 2024</title><link href="/2023/09/13/deep-learning-for-beginners-2024.html" rel="alternate" type="text/html" title="Deep Learning for Beginners Feb 2024 - Apr 2024" /><published>2023-09-13T00:00:00+00:00</published><updated>2024-01-31T16:27:38+00:00</updated><id>/2023/09/13/deep-learning-for-beginners-2024</id><content type="html" xml:base="/2023/09/13/deep-learning-for-beginners-2024.html"><![CDATA[<h1 id="how-to-make-a-computer-think-like-a-human">How to Make a Computer Think like a Human</h1>
+<p>This workshop is only available in person. Please register <a href="https://fd24.formdesk.com/universiteitleiden/form692543424">here</a></p>]]></content><author><name>Admin</name></author><category term="Workshop" /><category term="Dialectology" /><summary type="html"><![CDATA[New workshop on the latest methods in dialectology]]></summary></entry><entry><title type="html">Deep Learning for Beginners Feb 2024 - Apr 2024</title><link href="/2023/09/13/deep-learning-for-beginners-2024.html" rel="alternate" type="text/html" title="Deep Learning for Beginners Feb 2024 - Apr 2024" /><published>2023-09-13T00:00:00+00:00</published><updated>2024-02-10T22:11:43+00:00</updated><id>/2023/09/13/deep-learning-for-beginners-2024</id><content type="html" xml:base="/2023/09/13/deep-learning-for-beginners-2024.html"><![CDATA[<h1 id="how-to-make-a-computer-think-like-a-human">How to Make a Computer Think like a Human</h1>
 
 <p>Deep-learning has been used in many recent applications. You’ve likely seen use cases such as Stable diffusion, DALL-E image generation, ChatGPT text generation, image classification and, object detection in self-driving cars. Deep-learning is also gaining popularity in the humanities beyond NLP uses. Here are the topics we will cover:</p>
 
@@ -94,70 +179,4 @@ media in the Sahel region.</p>]]></content><author><name>Admin</name></author><c
 <p>The workshop will run from Feb 2024 - Apr 2024</p>
 
 <h3 id="availability">Availability</h3>
-<p>This workshop is only available in person. Please register <a href="https://docs.google.com/forms/d/e/1FAIpQLSdk0NqAA0LrNxg5ObRC9IUajTH4HUPPiABgS5QBn6gJfY2oSg/viewform">here</a></p>]]></content><author><name>Admin</name></author><category term="Workshop" /><category term="Deep learning" /><summary type="html"><![CDATA[How to Make a Computer Think like a Human]]></summary></entry><entry><title type="html">Research Assistantship for Digital Warfare in the Sahel - CLOSED</title><link href="/2023/07/05/ra-sahel.html" rel="alternate" type="text/html" title="Research Assistantship for Digital Warfare in the Sahel - CLOSED" /><published>2023-07-05T00:00:00+00:00</published><updated>2024-01-31T16:27:38+00:00</updated><id>/2023/07/05/ra-sahel</id><content type="html" xml:base="/2023/07/05/ra-sahel.html"><![CDATA[<h1 id="we-are-looking-for-research-assistants-for-the-project-digital-warfare-in-the-sahel">We are looking for research assistants for the project Digital Warfare in the Sahel</h1>
-
-<p>The Leiden University Institute for History invites applications for a research assistant for the NWO-funded project ‘Digital warfare in the Sahel: popular networks of war and Cultural Violence’. This interdisciplinary project will combine historical-ethnographic approach with natural language processing and social network analysis to study the role of social media networks in the spread of violence in Sahel region.</p>
-
-<h2 id="key-responsibilities">Key responsibilities</h2>
-
-<ul>
-  <li>Data collection;</li>
-  <li>Data analysis;</li>
-  <li>Creation of Jupyter notebooks;</li>
-  <li>Collaboration with members of the team.</li>
-</ul>
-
-<h2 id="selection-criteria">Selection Criteria</h2>
-
-<ul>
-  <li>MA degree in computational linguistics, computational social sciences or closely related area;</li>
-  <li>Excellent programming skills, preferably in Python;</li>
-  <li>Experience with natural language processing and social network analysis;</li>
-  <li>Interest in the Humanities and Social Sciences;</li>
-  <li>Good command of English;</li>
-  <li>Ability to work both independently and as part of an (international) team;</li>
-  <li>Ability to work in an international and highly competitive environment.</li>
-</ul>
-
-<h2 id="start-date">Start date</h2>
-<p>1 October 2023</p>
-
-<h2 id="salary-and-conditions">Salary and Conditions</h2>
-<p>The appointment (0.2 fte) is initially for one year with the possibility of extending the contract for three years after positive evaluation (or 0.4 fte for one year with the possibility of extending the contract for one year after positive evaluation). Depending on qualifications and experience, the maximum gross monthly salary for this position is € 2.679 for a full-time position, based on the collective salary agreement of the Association of Dutch Univerisities (CAO)</p>
-
-<h2 id="employee-benefits">Employee benefits</h2>
-<p>Leiden University offers an attractive benefits package with additional holiday (8%) and end-of-year bonuses (8.3 %), training and career development and sabbatical leave. Our individual choices model gives you some freedom to assemble your own set of terms and conditions.</p>
-
-<h2 id="apply-now">Apply now!</h2>
-<p>Applications should be submitted <a href="https://careers.universiteitleiden.nl/job/Leiden-Research-Assistant/950868801/">here</a> in English and include a:</p>
-
-<ul>
-  <li>Motivation letter;</li>
-  <li>Curriculum vitae;</li>
-  <li>List of two referees to your application (with full postal addresses, telephone numbers, and emails). Referees will be contacted directly by the search committee.</li>
-</ul>
-
-<h3 id="deadline">Deadline</h3>
-<p>21 July 2023</p>
-
-<h3 id="questions">Questions?</h3>
-<p>Please feel free to contact Professor Mirjam de Bruijn (m.e.de.bruijn@hum.leidenuniv.nl) and Dr. Jelena Prokic (j.prokic@hum.leidenuniv.nl ) for more information.</p>]]></content><author><name>Admin</name></author><category term="Vacancy" /><summary type="html"><![CDATA[We are looking for research assistants for the project Digital Warfare in the Sahel]]></summary></entry><entry><title type="html">Sails Lunch Time Seminar The Role of AI in the Humanities</title><link href="/2023/06/10/sails-talk-jelena.html" rel="alternate" type="text/html" title="Sails Lunch Time Seminar The Role of AI in the Humanities" /><published>2023-06-10T00:00:00+00:00</published><updated>2024-01-31T16:27:38+00:00</updated><id>/2023/06/10/sails-talk-jelena</id><content type="html" xml:base="/2023/06/10/sails-talk-jelena.html"><![CDATA[<h1 id="sails-lunch-time-seminar-the-role-of-ai-in-the-humanities">Sails Lunch Time Seminar: The Role of AI in the Humanities</h1>
-
-<p>Ever since the emergence of Artificial Intelligence (AI), the vast majority of research at the intersection of the Humanities and AI was dedicated to the ethical side of AI and how AI impacts our cultures and societies. While philosophy and critical thinking of AI remain indispensable research areas in the Humanities, lately there has been a surge of research that uses AI to investigate diverse questions in the Humanities.</p>
-
-<p>In this talk I will address the recently established research group Leiden Humanities AI and NLP group, Leiden HumAN, which works at the intersection of AI and the Humanities. The group focuses on development and application of NLP and deep learning methods in diverse areas of the Humanities, including Linguistics, History, East-Asian studies and Anthropology. The goal is to bring together traditional and state-of-the-art computational methods and foster innovative research in the Humanities. At the same time, the research objective is to increase the role of the Humanities in the development of socially responsible and diverse AI. I will present several ongoing research projects in which members of the group are involved.</p>
-
-<p>I will also introduce the BA minor Digital Humanities &amp; Atificial Intelligence, an initiative by the Leiden University Centre for Digital Humanities at the Faculty of Humanities. Tailored to appeal to students from all fields of humanities research, the minor aims to complement BA studies with a skill set that includes a foundation in programming, text and image analysis, while offering a space for thinking about and debating digitization, and the influence of AI in our daily lives. The Artificial Intelligence track, starting from the 2023/24 academic year, will offer a deep dive into the theories and advanced methods, including NLP and deep learning, needed to work with and understand the AI revolution.</p>
-
-<h3 id="location">Location</h3>
-<p>Online</p>
-
-<h3 id="date--time">Date &amp; Time</h3>
-<p>Monday 12 June 2023, 12:00 - 13:00 (CEST)</p>
-
-<h3 id="registration">Registration</h3>
-<p>Click <a href="https://fd24.formdesk.com/universiteitleiden/SAILS">here</a> to register</p>]]></content><author><name>Jelena Prokic</name></author><category term="Talk" /><category term="Leiden HumAN" /><summary type="html"><![CDATA[Sails Lunch Time Seminar: The Role of AI in the Humanities]]></summary></entry><entry><title type="html">Welcoming new member - Justin Yeung</title><link href="/2023/05/28/new-member-justin.html" rel="alternate" type="text/html" title="Welcoming new member - Justin Yeung" /><published>2023-05-28T00:00:00+00:00</published><updated>2024-01-31T16:27:38+00:00</updated><id>/2023/05/28/new-member-justin</id><content type="html" xml:base="/2023/05/28/new-member-justin.html"><![CDATA[<h1 id="leiden-human-welcomes-its-new-staff-researcher-justin-yeung">Leiden HumAN welcomes its new staff researcher Justin Yeung</h1>
-
-<p>Justin Yeung is joining Leiden HumAN as a staff researcher starting in May 2023. His research interests include political communication, migration studies and science &amp; technology studies (STS). In our group, along with other staff, he will be responsible for two projects, namely Political Social Network in Indonesia and Generative AI for Investigative Journalism.</p>
-
-<p>Get to know more about Justin <a href="/members/Justin-Yeung.md">here</a></p>]]></content><author><name>Admin</name></author><category term="New member" /><summary type="html"><![CDATA[Leiden HumAN welcomes its new staff researcher Justin Yeung]]></summary></entry></feed>
+<p>This workshop is only available in person. Please register <a href="https://docs.google.com/forms/d/e/1FAIpQLSdk0NqAA0LrNxg5ObRC9IUajTH4HUPPiABgS5QBn6gJfY2oSg/viewform">here</a></p>]]></content><author><name>Admin</name></author><category term="Workshop" /><category term="Deep learning" /><summary type="html"><![CDATA[How to Make a Computer Think like a Human]]></summary></entry></feed>
