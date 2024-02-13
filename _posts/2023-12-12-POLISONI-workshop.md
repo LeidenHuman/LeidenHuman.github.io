@@ -1,0 +1,21 @@
+---
+title: Political Social Networks in Indonesia 15 Dec 2023
+author: Admin
+tags:
+  - Workshop
+  - 
+---
+# PoliSoNI project is organizing a workshop on 15 December
+
+Political social networks in Indonesia is a multidisciplinary project aiming at creating a large-scale digital database of the profiles of aspiring politicians for the upcoming 2024 general elections in Indonesia. On 14 February 2024 Indonesia, home of 205 million registered eligible voters, will hold a massive-scale general election, with about 300,000 candidates running for 20,614 political seats. Political social networks in Indonesia project combines expertise in political economy of Indonesia (LIAS/SSEA) and expertise in web scraping, social network analysis and machine learning (LUCDH/LUCL), in order to make election data freely and easily accessible to all researchers interested in the political economy and democracy in Indonesia.
+
+In this workshop we will present the preliminary results of the project and discuss it with both experts in Indonesian general elections/politics and software developers. The workshop is open to everyone interested in Indonesian 2024 elections and how digital technologies can help us in using web data to create easily accessible research materials for studies on politics and political economy.
+
+### Organizers
+Jelena Prokic & Rizal Shidiq
+
+### Location
+Location: Digital Lab, P.J. Veth 1.07
+
+### Date & Time
+15 December 2023; 10:00-12:00
