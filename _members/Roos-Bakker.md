@@ -1,6 +1,6 @@
 ---
 name: Roos Bakker
-image: image/photo.jpg
+image: https://raw.githubusercontent.com/LeidenHuman/LeidenHuman.github.io/main/images/Roos-Bakker.jpg
 role: phd
 aliases:
   - R.M. Bakker
