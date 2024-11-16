@@ -1,0 +1,44 @@
+---
+pagetitle: "Leiden HumAN"
+title: "Leiden HumAN"
+# page-layout: full
+toc: false
+listing:
+  - id: latest-pub
+    contents: "./publications/*/*.qmd"
+    type: grid
+    image-height: 100px
+    grid-columns: 3
+    fields: [image, title, subtitle]
+    grid-item-align: center
+    sort: sortby
+    field-display-names: 
+      started: "Started"
+    feed:
+        items: 10
+
+---
+
+::: {.lead}
+Leiden Humanities AI and NLP group, Leiden HumAN, is a research group at Leiden University Faculty of Humanities working at the intersection of AI and the Humanities. We focus on development and application of NLP and deep learning methods in diverse areas of the Humanities, including Linguistics, History, East-Asian studies and Anthropology. Our goal is to bring together traditional and state-of-the-art computational methods and foster innovative research in the Humanities. At the same time our research objective is to increase the role of the Humanities in the development of Human AI.
+:::
+
+
+
+::: {layout-ncol=4 .start-icons}
+
+[{{< iconify icon-park:tree-diagram width=100px >}} **Dialectometry**](your-quarto-page-url){style="color: black;"}
+
+[{{< iconify tabler:camera-ai width=100px >}} **Computer Vision**](your-quarto-page-url){style="color: black;"}
+
+[{{< iconify hugeicons:ai-brain-02 width=100px >}} **Natural Language Processing**](your-quarto-page-url){style="color: black;"}
+
+[{{< iconify ph:robot-duotone width=100px >}} **Robotics**](your-quarto-page-url){style="color: black;"}
+
+:::
+
+### Latest
+---
+::: {latest-pub}
+:::
+<!-- ![](./img/){.hero} -->

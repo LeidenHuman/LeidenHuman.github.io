@@ -1,0 +1,52 @@
+[
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/articles/sung_prokic2024.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/posts/2024-08-15-JUSTIN-PHD.html",
+      "/posts/2024-08-08-RA-SAHEL.html",
+      "/posts/2024-06-01-ARON-KJG.html",
+      "/posts/2024-03-28-CLIN34.html",
+      "/posts/2024-02-07-intro-to-dialectometry.html",
+      "/posts/2024-02-06-deep-learning-for-beginners-2024.html",
+      "/posts/2024-01-31-oii-indonesia-talk.html",
+      "/posts/2023-12-12-POLISONI-workshop.html",
+      "/posts/2023-12-06-SAILS-workshop.html",
+      "/posts/2023-11-30-clariah.html",
+      "/posts/2023-11-23-new-member-ada.html",
+      "/posts/2023-11-05-llms-humanities-workshop.html",
+      "/posts/2023-09-13-computational-dialectology-workshop.html",
+      "/posts/2023-09-13-deep-learning-for-beginners-2024.html",
+      "/posts/2023-07-05-ra-sahel.html",
+      "/posts/2023-06-10-sails-talk-jelena.html",
+      "/posts/2023-05-28-new-member-justin.html",
+      "/posts/2023-05-11-text-alignment-talk.html",
+      "/posts/2023-04-21-Bert-workshop.html",
+      "/posts/2023-02-16-deep-learning-for-beginners-2023.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/staff/jelena_prokic.html",
+      "/people/staff/chris_handy.html",
+      "/people/phd/aron_vandepol.html",
+      "/people/phd/carolina_zucchi.html",
+      "/people/phd/jiahui_liang.html",
+      "/people/phd/justin_yeung.html",
+      "/people/phd/luca_bruls.html",
+      "/people/phd/matthew_sung.html",
+      "/people/phd/ruben_ros.html",
+      "/people/ra/test_test.html",
+      "/people/alumni/jing_chen.html",
+      "/people/alumni/allie_lassche.html",
+      "/people/alumni/jiehai_liu.html",
+      "/people/alumni/ada_shi.html"
+    ]
+  }
+]

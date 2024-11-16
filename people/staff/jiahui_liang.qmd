@@ -1,0 +1,27 @@
+---
+title: "Jiahui Liang"
+sortby: "2"
+subtitle: "PhD Student"
+image: ../../img/Photo_Jiahui.png
+toc: false
+# resources: 
+#   - "cv.pdf"
+started: "Winter 2020
+"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    # - icon: file-earmark-text
+    #   text: vitae
+    #   href: ./people/staff/_cv.pdf-
+    - icon: link
+      text: website
+      href: https://sites.google.com/view/matthew-sung-dialectologist/home
+---
+
+:::{#person-profile}
+:::
+
+Jiahui Liang is a PhD candidate at the Leiden Centre for Linguistics.

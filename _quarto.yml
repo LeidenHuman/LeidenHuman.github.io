@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+execute:
+    freeze: auto
+
+website:
+  title: ""
+  navbar:
+    background: primary
+    logo: "./img/logo2.svg"
+
+    right:
+      - href: news.qmd
+        text: News
+      - href: people.qmd
+        text: People
+      - href: publications.qmd
+        text: Publications
+      # - href: opportunities.qmd
+      #   text: Opportunities
+      - href: contact.qmd
+        text: Contact
+  page-footer: "Copyright 2024 &copy; Leiden HumAN"
+  # site-url:
+  repo-url: https://github.com/LeidenHuman/LeidenHuman.github.io
+
+format:
+  html:
+    theme: 
+      - styles.scss
+    code-copy: true
+    code-overflow: wrap
+    navbar:
+      background: light
+      search: true  # if you want search
+      collapse-below: lg
+      padding: 1rem
+    toc: true

@@ -1,0 +1,24 @@
+---
+title: "Chris Handy"
+sortby: "1"
+subtitle: "Software Developer"
+image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/c/2024/c.-christopher-handy-240119.jpg/c.-christopher-handy-240119.jpg/d200x250
+started: "Summer 2024"
+toc: false
+# resources: 
+#   - "cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://www.universiteitleiden.nl/medewerkers/chris-handy#tab-1 
+---
+
+:::{#person-profile}
+:::
+
+## Biography
+Chris Handy is a software engineer at Leiden University Informatisering en Facilitaire Zaken (IFZ).
+

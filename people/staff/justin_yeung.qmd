@@ -1,0 +1,28 @@
+---
+title: "Justin Yeung"
+sortby: "2"
+subtitle: "PhD Student"
+image: https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/832a4cca-60fa-438a-b4a7-73bcbb435ae6/jwny_pic.jpg
+toc: false
+# resources: 
+#   - "cv.pdf"
+started: "Winter 2022"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    # - icon: file-earmark-text
+    #   text: vitae
+    #   href: ./people/staff/_cv.pdf-
+    - icon: link
+      text: website
+      href: https://jyeungtin.github.io
+---
+
+:::{#person-profile}
+:::
+
+Justin is an incoming PhD student at the Complex Connection Lab at Network Science Institute, Notheastern University, directed by Prof. Riccardo Di Clemente. Justin is broadly interested in developing and applying techniques from network theory and information theory to study (collective) human behaviours, for example opinion dynamics and information spreading mechanisms. As of 2024, his work has been published at AI & Society, Journalism Studies and various international conferences such as Conference on Complex Systems and ICA conference.
+
+Justin is finalizing his MSc Social Data Science at the Oxford Internet Institute, University of Oxford and holds a BSc Communication Science at the University

@@ -1,0 +1,25 @@
+---
+title: "Luca Bruls"
+sortby: "2"
+subtitle: "PhD Student"
+image: https://decodingdigitalmedia.org/wp-content/uploads/2022/02/luca-768x953.jpg 
+toc: false
+# resources: 
+#   - "cv.pdf"
+started: "Winter 2022"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    # - icon: file-earmark-text
+    #   text: vitae
+    #   href: ./people/staff/_cv.pdf-
+    - icon: link
+      text: website
+      href: https://decodingdigitalmedia.org/luca-bruls/
+---
+:::{#person-profile}
+:::
+
+Luca Bruls is a PhD Researcher at the Centre for Digital Humanities (LUCDH) and the Leiden Institute for History, working on the project Digital warfare in the Sahel: popular networks of war and Cultural Violence.

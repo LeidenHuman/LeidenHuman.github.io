@@ -1,0 +1,19 @@
+---
+pagetitle: "Contact"
+toc: false
+email-obfuscation: javascript
+---
+
+## Visit Us
+
+Leiden HumAN is located within the Leiden Centre for Digital Humanities in the Huizinga building at Leiden University.
+
+> **Street Address:** Doelensteeg 16, 2311 VL Leiden, Netherlands
+
+```{=html}
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d779.9636520283258!2d4.483067224678037!3d52.15777979176992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c6f18a09c7bd%3A0xa7bb01736e983cb1!2sHuizinga%20Building!5e0!3m2!1sen!2skr!4v1729922139204!5m2!1sen!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+```
+## Contact Us:
+
+...
+

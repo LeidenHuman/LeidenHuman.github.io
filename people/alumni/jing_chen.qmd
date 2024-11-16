@@ -1,0 +1,17 @@
+---
+title: "Jing Chen"
+sortby: "Chen, Jing"
+subtitle: "Former Guest Researcher"
+image: ../../img/JingChen.jpeg
+started: "Winter 2023"
+ended: "Summer 2023"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+---
+
+:::{#person-profile}
+## Biography
+
+:::

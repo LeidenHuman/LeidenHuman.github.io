@@ -1,0 +1,22 @@
+---
+pagetitle: "Publications"
+toc: false
+listing:
+  - id: articles
+    contents: "publications/*/**.qmd"
+    categories: true
+    sort:
+      - "date desc"
+      - "title"
+    sort-ui: ["title", "author", "container-title", "date"]
+    filter-ui: ["title", "author", "container-title", "date"]
+    page-size: 10
+    field-display-names: 
+      title: "Title"
+      author: "Author"
+      container-title: "Publication"
+      date: "Year"
+---
+
+:::{#articles}
+:::
