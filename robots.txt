@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://LeidenHuman.github.io/sitemap.xml

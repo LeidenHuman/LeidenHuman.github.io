@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Leiden HumAN</title>
+<title>People | Leiden HumAN</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,7 +41,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-latest-pub .list');
+    const listingTargetEl = window.document.querySelector('#listing-research-staff .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -81,11 +80,95 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-latest-pub'] = new List('listing-latest-pub', options);
+    window['quarto-listings']['listing-research-staff'] = new List('listing-research-staff', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-affiliated .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-affiliated'] = new List('listing-affiliated', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-research-assistants .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-research-assistants'] = new List('listing-research-assistants', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-subtitle","listing-started","listing-ended"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -153,7 +236,7 @@ window.Quarto = {
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link active" href="./people.html" aria-current="page"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
@@ -179,69 +262,128 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Leiden HumAN</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="lead">
-<p>Leiden Humanities AI and NLP group, Leiden HumAN, is a research group at Leiden University Faculty of Humanities working at the intersection of AI and the Humanities. We focus on development and application of NLP and deep learning methods in diverse areas of the Humanities, including Linguistics, History, East-Asian studies and Anthropology. Our goal is to bring together traditional and state-of-the-art computational methods and foster innovative research in the Humanities. At the same time our research objective is to increase the role of the Humanities in the development of Human AI.</p>
-</div>
-<div>
-
-</div>
-<div class="start-icons quarto-layout-panel" data-layout-ncol="4">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="your-quarto-page-url" style="color: black;"><iconify-icon role="img" inline="" icon="icon-park:tree-diagram" aria-label="Icon tree-diagram from icon-park Iconify.design set." title="Icon tree-diagram from icon-park Iconify.design set." width="100px"></iconify-icon> <strong>Dialectometry</strong></a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="your-quarto-page-url" style="color: black;"><iconify-icon role="img" inline="" icon="tabler:camera-ai" aria-label="Icon camera-ai from tabler Iconify.design set." title="Icon camera-ai from tabler Iconify.design set." width="100px"></iconify-icon> <strong>Computer Vision</strong></a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="your-quarto-page-url" style="color: black;"><iconify-icon role="img" inline="" icon="hugeicons:ai-brain-02" aria-label="Icon ai-brain-02 from hugeicons Iconify.design set." title="Icon ai-brain-02 from hugeicons Iconify.design set." width="100px"></iconify-icon> <strong>Natural Language Processing</strong></a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="your-quarto-page-url" style="color: black;"><iconify-icon role="img" inline="" icon="ph:robot-duotone" aria-label="Icon robot-duotone from ph Iconify.design set." title="Icon robot-duotone from ph Iconify.design set." width="100px"></iconify-icon> <strong>Robotics</strong></a></p>
-</div>
-</div>
-</div>
-<section id="latest" class="level3">
-<h3 class="anchored" data-anchor-id="latest">Latest</h3>
-<hr>
-<div class="{latest-pub}">
-
-</div>
-<!-- ![](./img/){.hero} -->
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-latest-pub">
+<section id="research-staff" class="level2">
+<h2 class="anchored" data-anchor-id="research-staff">Research Staff</h2>
+<div id="listing-research-staff" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="dialectometry,dataset" data-listing-date-sort="1711033200000" data-listing-file-modified-sort="1731741977838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
-<a href="./publications/articles/sung_prokic2024.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1731741775375" data-listing-reading-time-sort="2" data-listing-word-count-sort="248">
+<a href="./people/staff/jelena_prokic.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top"><img src="img/cover2.png" style="height: 100px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./img/jelena.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-A New Dataset for Tonal and Segmental Dialectometry from the Yue- and Pinghua-Speaking Area
+Jelena Prokic
 </h5>
+<div class="card-subtitle listing-subtitle">
+Lab Director
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1731741977837" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
+<a href="./people/staff/aron_vandepol.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./img/aron.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Aron van de Pol
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Student
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1731741775376" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<a href="./people/staff/jiahui_liang.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./img/Photo_Jiahui.png" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jiahui Liang
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Student
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1731741977837" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
+<a href="./people/staff/justin_yeung.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/832a4cca-60fa-438a-b4a7-73bcbb435ae6/jwny_pic.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Justin Yeung
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Student
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1731741775376" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+<a href="./people/staff/luca_bruls.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="https://decodingdigitalmedia.org/wp-content/uploads/2022/02/luca-768x953.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Luca Bruls
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Student
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1731741977837" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
+<a href="./people/staff/matthew_sung.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./img/m_sung00004-2.png" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Matthew Sung
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Student
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1731741775376" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<a href="./people/staff/ruben_ros.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/r/2022/r.-ruben-ros-2022.png/r.-ruben-ros-2022.png/d200x250" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ruben Ros
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Student
+</div>
 </div>
 </div>
 </a>
@@ -250,7 +392,177 @@ A New Dataset for Tonal and Segmental Dialectometry from the Yue- and Pinghua-Sp
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="phd-students" class="level2">
+<h2 class="anchored" data-anchor-id="phd-students">PhD Students</h2>
+<div id="listing-affiliated" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1731741775373" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
+<a href="./people/affiliated/carolina_zucchi.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="https://www.universiteitleiden.nl/binaries/content/gallery/ul2/main-images/humanities/lucdh/lucdh2023/staff-pages/s2-photo_carolina.jpg/s2-photo_carolina.jpg/d200x250" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Carolina Zucchi
+</h5>
+<div class="card-subtitle listing-subtitle">
+External PhD Student
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1731741775373" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<a href="./people/affiliated/chris_handy.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/c/2024/c.-christopher-handy-240119.jpg/c.-christopher-handy-240119.jpg/d200x250" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Chris Handy
+</h5>
+<div class="card-subtitle listing-subtitle">
+Software Developer
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="research-assistants" class="level2">
+<h2 class="anchored" data-anchor-id="research-assistants">Research Assistants</h2>
+<div id="listing-research-assistants" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="alumni" class="level2">
+<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
+<div id="listing-alumni" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-alumni-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-alumni'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Name
+        </option>
+         <option value="listing-subtitle" data-direction="asc">
+          Role
+        </option>
+         <option value="listing-started" data-direction="asc">
+          Started
+        </option>
+         <option value="listing-ended" data-direction="asc">
+          Ended
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Name</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-subtitle" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Role</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-started" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Started</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-ended" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Ended</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-file-modified-sort="1731741775375" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Jing Chen" data-listing-filename-sort="jing_chen.qmd">
+<td>
+<a href="./people/alumni/jing_chen.html" class="title listing-title">Jing Chen</a>
+</td>
+<td>
+<span class="listing-subtitle">Former Guest Researcher</span>
+</td>
+<td>
+<span class="listing-started">Winter 2023</span>
+</td>
+<td>
+<span class="listing-ended">Summer 2023</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1731741775374" data-listing-reading-time-sort="2" data-listing-word-count-sort="269" data-listing-title-sort="Alie Lassche" data-listing-filename-sort="allie_lassche.qmd">
+<td>
+<a href="./people/alumni/allie_lassche.html" class="title listing-title">Alie Lassche</a>
+</td>
+<td>
+<span class="listing-subtitle">Former PhD Student</span>
+</td>
+<td>
+<span class="listing-started">Fall 2022</span>
+</td>
+<td>
+<span class="listing-ended">Spring 2023</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-file-modified-sort="1731741775374" data-listing-reading-time-sort="1" data-listing-word-count-sort="101" data-listing-title-sort="Jiehai Liu" data-listing-filename-sort="jiehai_liu.qmd">
+<td>
+<a href="./people/alumni/jiehai_liu.html" class="title listing-title">Jiehai Liu</a>
+</td>
+<td>
+<span class="listing-subtitle">Former Guest Researcher</span>
+</td>
+<td>
+<span class="listing-started">Winter 2022</span>
+</td>
+<td>
+<span class="listing-ended">Summer 2023</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-file-modified-sort="1731741775374" data-listing-reading-time-sort="1" data-listing-word-count-sort="43" data-listing-title-sort="Ada Shi" data-listing-filename-sort="ada_shi.qmd">
+<td>
+<a href="./people/alumni/ada_shi.html" class="title listing-title">Ada Shi</a>
+</td>
+<td>
+<span class="listing-subtitle">Research Assistant</span>
+</td>
+<td>
+<span class="listing-started">Fall 2022</span>
+</td>
+<td>
+<span class="listing-ended">Spring 2023</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
