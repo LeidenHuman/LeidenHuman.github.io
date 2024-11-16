@@ -1,6 +1,24 @@
 [
   {
-    "listing": "/publications.html",
+    "listing": "/people.html",
+    "items": [
+      "/people/staff/jelena_prokic.html",
+      "/people/staff/aron_vandepol.html",
+      "/people/staff/jiahui_liang.html",
+      "/people/staff/justin_yeung.html",
+      "/people/staff/luca_bruls.html",
+      "/people/staff/matthew_sung.html",
+      "/people/staff/ruben_ros.html",
+      "/people/affiliated/carolina_zucchi.html",
+      "/people/affiliated/chris_handy.html",
+      "/people/alumni/jing_chen.html",
+      "/people/alumni/allie_lassche.html",
+      "/people/alumni/jiehai_liu.html",
+      "/people/alumni/ada_shi.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
     "items": [
       "/publications/articles/sung_prokic2024.html"
     ]
@@ -31,22 +49,9 @@
     ]
   },
   {
-    "listing": "/people.html",
+    "listing": "/publications.html",
     "items": [
-      "/people/staff/jelena_prokic.html",
-      "/people/staff/chris_handy.html",
-      "/people/phd/aron_vandepol.html",
-      "/people/phd/carolina_zucchi.html",
-      "/people/phd/jiahui_liang.html",
-      "/people/phd/justin_yeung.html",
-      "/people/phd/luca_bruls.html",
-      "/people/phd/matthew_sung.html",
-      "/people/phd/ruben_ros.html",
-      "/people/ra/test_test.html",
-      "/people/alumni/jing_chen.html",
-      "/people/alumni/allie_lassche.html",
-      "/people/alumni/jiehai_liu.html",
-      "/people/alumni/ada_shi.html"
+      "/publications/articles/sung_prokic2024.html"
     ]
   }
 ]
