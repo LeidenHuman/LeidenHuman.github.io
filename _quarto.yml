@@ -9,7 +9,7 @@ website:
   title: ""
   navbar:
     background: primary
-    logo: "./img/logo2.svg"
+    logo: "./img/logo.png"
 
     right:
       - href: news.qmd
@@ -29,7 +29,7 @@ website:
 format:
   html:
     theme: 
-      - styles.scss
+      light: ./styles.scss
     code-copy: true
     code-overflow: wrap
     navbar:

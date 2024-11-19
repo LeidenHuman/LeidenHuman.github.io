@@ -1,0 +1,112 @@
+---
+title: Computer Vision for Computational Humanities
+toc: true
+author: 
+    name: Aron van de Pol
+    url: "../people/staff/aron_vandepol.qmd"
+date: 11-19-2024
+---
+
+## Introduction
+
+The digital humanities field is experiencing a transformation through the integration of Computer Vision (CV) technologies. These advanced computational methods are opening new possibilities for analyzing and understanding our cultural heritage at unprecedented scales. This article explores how modern CV techniques are reshaping humanities research.
+
+## Why Computer Vision Matters in Digital Humanities
+
+Computer Vision offers humanities scholars powerful new tools for:
+
+- Analyzing large collections of historical documents
+- Discovering patterns across vast visual archives
+- Automating routine visual analysis tasks
+- Supporting new research questions
+- Bridging close and distant viewing approaches
+
+## Current Applications
+
+### Document Analysis
+- Automatic transcription of historical texts
+- Layout analysis of printed materials
+- Identification of printing techniques and sources
+- Character and font recognition
+
+### Art History
+- Style analysis across large collections
+- Artist attribution
+- Influence tracking
+- Composition analysis
+
+### Material Culture
+- Artifact classification
+- Pattern recognition in textiles and decorative arts
+- Change detection in architectural photography
+- Archaeological site mapping
+
+## Case Study: AttriMIL for Historical Documents
+
+The Attribute-Driven Multiple Instance Learning (AttriMIL) framework demonstrates the potential of advanced CV in humanities research. Originally developed for medical imaging, this approach has been adapted for analyzing historical documents.
+
+### Key Benefits
+
+1. **Multi-scale Analysis**
+   - Examines both fine details and overall patterns
+   - Captures hierarchical relationships in visual data
+   - Integrates information across different scales
+
+2. **Interpretable Results**
+   - Shows which parts of an image influenced decisions
+   - Generates visual explanations
+   - Supports scholarly interpretation
+
+3. **Adaptability**
+   - Works with varying document qualities
+   - Handles different types of visual materials
+   - Accommodates diverse research questions
+
+## Impact on Humanities Research
+
+### New Research Possibilities
+- Analyzing entire archives rather than samples
+- Discovering previously hidden patterns
+- Testing historical hypotheses at scale
+- Creating new ways to explore collections
+
+### Enhanced Understanding
+- Combining computational and traditional methods
+- Supporting both close and distant viewing
+- Generating new research questions
+- Enabling comparative studies across collections
+
+### Democratizing Access
+- Making collections more accessible
+- Supporting public engagement
+- Enabling virtual research
+- Preserving cultural heritage
+
+## Future Directions
+
+### Methodological Development
+- Integration with other digital methods
+- Enhanced visualization techniques
+- Improved handling of degraded materials
+- Development of specialized tools
+
+### Research Applications
+- Cross-cultural studies
+- Temporal analysis
+- Network analysis
+- Material culture studies
+
+## Conclusion
+
+Computer Vision is becoming an essential tool in digital humanities research. By enabling analysis at unprecedented scales while maintaining attention to detail, these methods are transforming how we study and understand our cultural heritage. The future promises even more exciting possibilities as these technologies continue to evolve.
+
+## Further Reading
+
+1. "Digital Humanities and Computer Vision"
+2. "Visual Pattern Recognition in Cultural Heritage"
+3. "Computational Approaches to Art History"
+4. "Machine Learning in Historical Research"
+
+## About
+
+This overview was prepared by the Digital Humanities Research Lab as part of our ongoing exploration of computational methods in humanities research.

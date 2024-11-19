@@ -1,281 +1,110 @@
 /*-- scss:defaults --*/
 // Import fonts
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Inclusive+Sans:ital@0;1&display=swap');
 
-// Core brand colors
-$cream: #fffefa !default;           // Warm cream background
-$navy: #003461 !default;            // Deep navy for headings & navbar
-$brown: #50443c !default;           // Rich brown for body text
-$light-navy: #004b8c !default;      // Lighter navy for hover states
-$dark-brown: #403530 !default;      // Darker brown for emphasis
+// Light theme colors
+$text: #0c0e13;
+$background: #fbfbfd;
+$primary: #06123b;
+$secondary: #9faedf;
+$accent: #6a84d9;
 
-// Supporting colors
-$gray-100: #f7f6f4 !default;
-$gray-200: #eae8e6 !default;
-$gray-300: #dcd9d7 !default;
-$gray-400: #ccc9c7 !default;
-$gray-500: #aaa7a5 !default;
-$gray-600: #847f7c !default;
-$gray-700: #6b6662 !default;
-$gray-800: #4a423d !default;
-$gray-900: #332d29 !default;
+$body-bg: $background;
 
-// Theme colors
-$primary: $navy !default;
-$secondary: $brown !default;
-$body-bg: $cream !default;
-$body-color: $brown !default;
-$link-color: $light-navy !default;
-$navbar-bg: $navy !default;
-$navbar-fg: $cream !default;
-$navbar-hl: lighten($navy, 40%) !default;
-
-// Typography
-$web-font-path: "No" !default;
-$font-family-base: "Merriweather" !default;
-$headings-font-family: "Lora" !default;
-$font-family-serif: "Merriweather" !default;
-$font-family-sans-serif: "Merriweather" !default;
-$font-family-monospace: "Merriweather" !default;
-$bs-body-font-family: "Merriweather" !default;
-
-$font-size-base: 1rem !default;
-$headings-font-weight: 700 !default;
-$headings-color: $navy !default;
-
-// Component colors
-$border-color: $gray-200 !default;
-$code-color: $brown !default;
-
-/*-- scss:rules --*/
-// Base styles
-body {
-  background-color: $cream;
-  color: $brown;
-  font-family: $font-family-base;
+// Core styles for light theme
+body , p {
+  color: $text;
+  font-family: "Inclusive Sans", sans-serif;
   line-height: 1.8;
   font-weight: 400;
 }
 
-// Navbar
 .navbar {
-  background-color: $navy !important;
-  border-bottom: none;
-  box-shadow: 0 2px 4px rgba(0,0,0,.1);
-  
+  background-color: $primary;
+  color: $background;
+
   .navbar-logo {
-    max-height: 50px;
-    width: auto;
-    padding-right: 4px;
+    max-height: 35px;
+   
+    color: $background;
   }
-  .navbar-title {
-    font-family: $headings-font-family !important;
-    color: $cream !important;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-  }
-  
+
   .nav-link {
-    color: $cream !important;
-    font-weight: 500;
-    opacity: 0.9;
-    transition: all 0.2s ease;
-    
+    color: $background;
+
     &:hover {
-      color: $navbar-hl !important;
-      opacity: 1;
-    }
-    
-    &.active {
-      color: $navbar-hl !important;
-      opacity: 1;
-      border-bottom: 2px solid $navbar-hl;
+      color: $secondary;
     }
   }
 }
 
 // Typography
 h1, h2, h3, h4, h5, h6 {
-  font-family: $headings-font-family;
-  color: $navy;
-  font-weight: $headings-font-weight;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  color: $text;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 700;
 }
 
 // Links
 a {
-  color: $link-color;
+  color: $primary;
   text-decoration: none;
-  transition: all 0.2s ease;
-  
+
   &:hover {
-    color: lighten($link-color, 10%);
+    color: $accent;
   }
 }
 
-// Code blocks
-pre {
-  background-color: $gray-100;
-  border: 1px solid $gray-200;
-  border-radius: 4px;
-  padding: 1rem;
+// Buttons
+.btn-primary {
+  background-color: $primary;
+  color: $background;
+
+  &:hover {
+    background-color: $accent;
+  }
 }
 
-code {
-  color: $dark-brown;
-  background-color: $gray-100;
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-}
 
-// Tables
-table {
-  width: 100%;
-  margin: 1.5rem 0;
-  
-  thead {
-    border-bottom: 2px solid $navy;
-    
-    th {
-      padding: 0.75rem;
-      color: $navy;
-      font-weight: 700;
+/* Styling for .start-icons */
+.start-icons {
+  text-align: center;
+
+  /* Styling each layout cell */
+  .quarto-layout-cell {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center;   /* Center align both icon and text */
+    justify-content: center; /* Center content within the cell */
+    flex-basis: 25%;       /* Ensure consistent width for each cell */
+  }
+
+  /* Styling for the links */
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: $secondary;        /* Inherit color for better theme flexibility */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+      color: $accent; /* Optional: Change color on hover */
+    }
+
+    /* Styling for the icon */
+    iconify-icon {
+      display: block;      /* Ensure the icon is treated as a block */
+      margin-bottom: 8px;  /* Add space between icon and text */
+      width: 100px;        /* Consistent icon size */
+      height: auto;        /* Maintain aspect ratio */
+    }
+
+    /* Styling for the text */
+    strong {
+      font-size: 1rem;     /* Adjust text size if needed */
+      font-weight: bold;
     }
   }
-  
-  td {
-    padding: 0.75rem;
-    border-bottom: 1px solid $gray-200;
-  }
 }
 
-// Footer - explicitly white
-.nav-footer {
-  background-color: white !important;
-  color: $brown !important;
-  border-top: 1px solid $gray-200 !important;
-  padding: 2rem 0;
-  
-  .nav-footer-left,
-  .nav-footer-center,
-  .nav-footer-right {
-    color: $brown !important;
-  }
-}
-
-// Buttons and interactive elements
-.btn-primary {
-  background-color: $navy;
-  border-color: $navy;
-  
-  &:hover {
-    background-color: $light-navy;
-    border-color: $light-navy;
-  }
-}
-
-// Custom classes
-.pub-list a.btn {
-  border: 1px solid $navy;
-  color: $navy;
-  font-size: 0.9rem;
-  padding: 0.4rem 0.8rem;
-  transition: all 0.2s ease;
-  
-  &:hover {
-    background-color: $navy;
-    color: $cream;
-    text-decoration: none;
-  }
-}
-
-.card-other-values {
-  background-color: $gray-100;
-  border-radius: 4px;
-  padding: 1.5rem;
-  
-  tr > td:first-of-type {
-    color: $navy;
-    font-weight: 600;
-  }
-}
-
-// Blockquotes
-blockquote {
-  border-left: 4px solid $navy;
-  background-color: $gray-100;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-  font-style: italic;
-  color: $dark-brown;
-}
-
-// Title block
-.quarto-title {
-  .title {
-    color: $navy;
-    font-weight: 800;
-    letter-spacing: -0.03em;
-  }
-  
-  .subtitle {
-    color: $brown;
-  }
-}
-
-// TOC
-.sidebar nav[role="doc-toc"] > ul > li > a {
-  color: $brown;
-  
-  &:hover {
-    color: $navy;
-  }
-  
-  &.active {
-    color: $navy !important;
-    border-left: 2px solid $navy;
-  }
-}
-
-// Description and metadata
-.description {
-  color: $brown;
-}
-
-.quarto-title-meta {
-  color: $gray-700;
-}
-
-/* Styling for the start-icons container */
-.start-icons.quarto-layout-panel {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px; /* Space between columns */
-  text-align: center; /* Center text inside cells */
-}
-
-/* Styling for each child cell inside the start-icons container */
-.start-icons .quarto-layout-cell {
-  display: flex;
-  flex-direction: column;
-  align-items: center;  /* Center content horizontally */
-  justify-content: center; /* Center content vertically */
-  flex-basis: 25%; /* Each cell takes up 25% of the width */
-  padding: 10px; /* Add padding for spacing */
-}
-
-/* Optional: Responsive design for smaller screens */
-@media (max-width: 768px) {
-  .start-icons .quarto-layout-cell {
-    flex-basis: 50%; /* On smaller screens, make each cell take up 50% of the width */
-  }
-}
-
-@media (max-width: 480px) {
-  .start-icons .quarto-layout-cell {
-    flex-basis: 100%; /* On very small screens, make each cell take up the full width */
-  }
-}
 

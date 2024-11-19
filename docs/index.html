@@ -139,7 +139,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="././img/logo2.svg" alt="" class="navbar-logo">
+    <img src="././img/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -179,23 +179,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Leiden HumAN</h1>
-</div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <div class="lead">
@@ -207,16 +191,16 @@ window.Quarto = {
 <div class="start-icons quarto-layout-panel" data-layout-ncol="4">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="your-quarto-page-url" style="color: black;"><iconify-icon role="img" inline="" icon="icon-park:tree-diagram" aria-label="Icon tree-diagram from icon-park Iconify.design set." title="Icon tree-diagram from icon-park Iconify.design set." width="100px"></iconify-icon> <strong>Dialectometry</strong></a></p>
+<p><a href="your-quarto-page-url"><iconify-icon role="img" inline="" icon="material-symbols:graph-3" aria-label="Icon graph-3 from material-symbols Iconify.design set." title="Icon graph-3 from material-symbols Iconify.design set." width="100px"></iconify-icon> <strong>Dialectometry</strong></a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="your-quarto-page-url" style="color: black;"><iconify-icon role="img" inline="" icon="tabler:camera-ai" aria-label="Icon camera-ai from tabler Iconify.design set." title="Icon camera-ai from tabler Iconify.design set." width="100px"></iconify-icon> <strong>Computer Vision</strong></a></p>
+<p><a href="./areas/cv.html"><iconify-icon role="img" inline="" icon="tabler:camera-ai" aria-label="Icon camera-ai from tabler Iconify.design set." title="Icon camera-ai from tabler Iconify.design set." width="100px"></iconify-icon> <strong>Computer Vision</strong></a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="your-quarto-page-url" style="color: black;"><iconify-icon role="img" inline="" icon="hugeicons:ai-brain-02" aria-label="Icon ai-brain-02 from hugeicons Iconify.design set." title="Icon ai-brain-02 from hugeicons Iconify.design set." width="100px"></iconify-icon> <strong>Natural Language Processing</strong></a></p>
+<p><a href="your-quarto-page-url"><iconify-icon role="img" inline="" icon="hugeicons:ai-brain-02" aria-label="Icon ai-brain-02 from hugeicons Iconify.design set." title="Icon ai-brain-02 from hugeicons Iconify.design set." width="100px"></iconify-icon> <strong>Natural Language Processing</strong></a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="your-quarto-page-url" style="color: black;"><iconify-icon role="img" inline="" icon="ph:robot-duotone" aria-label="Icon robot-duotone from ph Iconify.design set." title="Icon robot-duotone from ph Iconify.design set." width="100px"></iconify-icon> <strong>Robotics</strong></a></p>
+<p><a href="your-quarto-page-url"><iconify-icon role="img" inline="" icon="mdi:repost" aria-label="Icon repost from mdi Iconify.design set." title="Icon repost from mdi Iconify.design set." width="100px"></iconify-icon> <strong>Computational Social Sciences</strong></a></p>
 </div>
 </div>
 </div>
@@ -343,7 +327,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/LeidenHuman\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

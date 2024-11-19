@@ -79,9 +79,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Leiden HumAN",
+    "title": "",
     "section": "",
-    "text": "Leiden Humanities AI and NLP group, Leiden HumAN, is a research group at Leiden University Faculty of Humanities working at the intersection of AI and the Humanities. We focus on development and application of NLP and deep learning methods in diverse areas of the Humanities, including Linguistics, History, East-Asian studies and Anthropology. Our goal is to bring together traditional and state-of-the-art computational methods and foster innovative research in the Humanities. At the same time our research objective is to increase the role of the Humanities in the development of Human AI.\n\n\n\n\n\n\n\n Dialectometry\n\n\n Computer Vision\n\n\n Natural Language Processing\n\n\n Robotics\n\n\n\n\nLatest\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA New Dataset for Tonal and Segmental Dialectometry from the Yue- and Pinghua-Speaking Area\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Leiden Humanities AI and NLP group, Leiden HumAN, is a research group at Leiden University Faculty of Humanities working at the intersection of AI and the Humanities. We focus on development and application of NLP and deep learning methods in diverse areas of the Humanities, including Linguistics, History, East-Asian studies and Anthropology. Our goal is to bring together traditional and state-of-the-art computational methods and foster innovative research in the Humanities. At the same time our research objective is to increase the role of the Humanities in the development of Human AI.\n\n\n\n\n\n\n\n Dialectometry\n\n\n Computer Vision\n\n\n Natural Language Processing\n\n\n Computational Social Sciences\n\n\n\n\nLatest\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA New Dataset for Tonal and Segmental Dialectometry from the Yue- and Pinghua-Speaking Area\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications/articles/sung_prokic2024.html",
@@ -467,5 +467,131 @@
     "title": "Justin Yeung",
     "section": "",
     "text": "website\n  \n\n\n\nJustin is an incoming PhD student at the Complex Connection Lab at Network Science Institute, Notheastern University, directed by Prof. Riccardo Di Clemente. Justin is broadly interested in developing and applying techniques from network theory and information theory to study (collective) human behaviours, for example opinion dynamics and information spreading mechanisms. As of 2024, his work has been published at AI & Society, Journalism Studies and various international conferences such as Conference on Complex Systems and ICA conference.\nJustin is finalizing his MSc Social Data Science at the Oxford Internet Institute, University of Oxford and holds a BSc Communication Science at the University"
+  },
+  {
+    "objectID": "areas/cv.html",
+    "href": "areas/cv.html",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "",
+    "text": "The digital humanities field is experiencing a transformation through the integration of Computer Vision (CV) technologies. These advanced computational methods are opening new possibilities for analyzing and understanding our cultural heritage at unprecedented scales. This article explores how modern CV techniques are reshaping humanities research."
+  },
+  {
+    "objectID": "areas/cv.html#authors",
+    "href": "areas/cv.html#authors",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "",
+    "text": "Digital Humanities Research Lab\nNovember 19, 2024"
+  },
+  {
+    "objectID": "areas/cv.html#abstract",
+    "href": "areas/cv.html#abstract",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "",
+    "text": "The integration of Computer Vision (CV) into Digital Humanities (DH) research represents a significant methodological advancement for analyzing visual cultural heritage at scale. This article explores how advanced CV methods, particularly Multiple Instance Learning (MIL), can revolutionize the analysis of historical printed materials. Through a case study of Korean colonial printshop identification, we demonstrate the potential of modern deep learning approaches to enhance our understanding of historical visual artifacts."
+  },
+  {
+    "objectID": "areas/cv.html#introduction",
+    "href": "areas/cv.html#introduction",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "",
+    "text": "The digital humanities field is experiencing a transformation through the integration of Computer Vision (CV) technologies. These advanced computational methods are opening new possibilities for analyzing and understanding our cultural heritage at unprecedented scales. This article explores how modern CV techniques are reshaping humanities research."
+  },
+  {
+    "objectID": "areas/cv.html#the-promise-of-computer-vision-in-digital-humanities",
+    "href": "areas/cv.html#the-promise-of-computer-vision-in-digital-humanities",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "",
+    "text": "Computer Vision enables humanities scholars to:\n\nAnalyze vast collections of visual materials systematically\nIdentify patterns invisible to manual inspection\nGenerate quantifiable insights about visual features\nBridge close and distant reading approaches\n\n\n\n\nCurrent applications in DH include:\n\nLayout analysis of historical documents\nArtistic style classification\nHandwriting recognition\nMaterial culture analysis\nVisual pattern identification across large corpora"
+  },
+  {
+    "objectID": "areas/cv.html#case-study-attrimil-for-printshop-identification",
+    "href": "areas/cv.html#case-study-attrimil-for-printshop-identification",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "",
+    "text": "Understanding the material production of texts during the colonial period provides crucial insights into knowledge circulation and cultural power dynamics. Traditional methods of printshop identification rely on manual examination of typographic details and layout patterns - a time-consuming process that limits the scale of analysis.\n\n\n\nThe Attribute-Driven Multiple Instance Learning (AttriMIL) framework offers several key advantages for historical document analysis:\n\nMulti-scale Analysis\n\nCaptures both fine-grained typographic details\nAnalyzes broader layout patterns\nIntegrates information across multiple scales\n\nInterpretable Results\n\nGenerates attention heatmaps\nVisualizes decision-making process\nHighlights significant regions\n\nRobust Learning\n\nHandles varying page layouts\nAdapts to print quality variations\nManages document degradation\n\n\n\n\n\nclass PrintshopAttriMIL:\n    def __init__(self):\n        self.backbone = HistologyAdaptiveBackbone(\n            base_model=\"resnet50\",\n            scales=[0.25, 0.5, 1.0]\n        )\n        \n        self.attribute_scorer = AttributeScorer(\n            features_dim=2048,\n            num_classes=len(PRINTSHOP_CLASSES)\n        )\n        \n        self.spatial_constraint = SpatialAttributeConstraint(\n            neighbor_weight=0.1\n        )"
+  },
+  {
+    "objectID": "areas/cv.html#methodological-implications",
+    "href": "areas/cv.html#methodological-implications",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "",
+    "text": "The application of AttriMIL to historical document analysis demonstrates several key advantages:\n\nScalability\n\nEnables analysis of large collections\nMaintains attention to detail\nAutomates feature extraction\n\nInterpretability\n\nProvides insights into model decisions\nGenerates visual explanations\nSupports scholarly interpretation\n\nFlexibility\n\nAdapts to document variations\nHandles multiple languages\nWorks with different print technologies\n\nMulti-scale Analysis\n\nCaptures micro-level features\nAnalyzes macro-level patterns\nIntegrates multiple perspectives"
+  },
+  {
+    "objectID": "areas/cv.html#future-directions",
+    "href": "areas/cv.html#future-directions",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "Future Directions",
+    "text": "Future Directions\n\nMethodological Development\n\nIntegration with other digital methods\nEnhanced visualization techniques\nImproved handling of degraded materials\nDevelopment of specialized tools\n\n\n\nResearch Applications\n\nCross-cultural studies\nTemporal analysis\nNetwork analysis\nMaterial culture studies"
+  },
+  {
+    "objectID": "areas/cv.html#conclusion",
+    "href": "areas/cv.html#conclusion",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "Conclusion",
+    "text": "Conclusion\nComputer Vision is becoming an essential tool in digital humanities research. By enabling analysis at unprecedented scales while maintaining attention to detail, these methods are transforming how we study and understand our cultural heritage. The future promises even more exciting possibilities as these technologies continue to evolve."
+  },
+  {
+    "objectID": "areas/cv.html#references",
+    "href": "areas/cv.html#references",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "",
+    "text": "Cai, L., et al. (2024). “Rethinking Attention-Based Multiple Instance Learning for Whole-Slide Pathological Image Classification: An Instance Attribute Viewpoint.” IEEE Transactions on Medical Imaging.\nSrinidhi, C. L., et al. (2021). “Deep neural network models for computational histopathology: A survey.” Medical Image Analysis.\nDosovitskiy, A., et al. (2020). “An image is worth 16x16 words: Transformers for image recognition at scale.” arXiv preprint.\n[Additional relevant DH and CV references to be added]"
+  },
+  {
+    "objectID": "areas/cv.html#acknowledgments",
+    "href": "areas/cv.html#acknowledgments",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "",
+    "text": "This research was supported by [funding organization]. We thank acknowledgments."
+  },
+  {
+    "objectID": "areas/cv.html#author-information",
+    "href": "areas/cv.html#author-information",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "",
+    "text": "Digital Humanities Research Lab\nDepartment of Digital Humanities\nEmail: research@dhlab.org\nWebsite: https://dhlab.org"
+  },
+  {
+    "objectID": "areas/cv.html#why-computer-vision-matters-in-digital-humanities",
+    "href": "areas/cv.html#why-computer-vision-matters-in-digital-humanities",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "Why Computer Vision Matters in Digital Humanities",
+    "text": "Why Computer Vision Matters in Digital Humanities\nComputer Vision offers humanities scholars powerful new tools for:\n\nAnalyzing large collections of historical documents\nDiscovering patterns across vast visual archives\nAutomating routine visual analysis tasks\nSupporting new research questions\nBridging close and distant viewing approaches"
+  },
+  {
+    "objectID": "areas/cv.html#current-applications",
+    "href": "areas/cv.html#current-applications",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "Current Applications",
+    "text": "Current Applications\n\nDocument Analysis\n\nAutomatic transcription of historical texts\nLayout analysis of printed materials\nIdentification of printing techniques and sources\nCharacter and font recognition\n\n\n\nArt History\n\nStyle analysis across large collections\nArtist attribution\nInfluence tracking\nComposition analysis\n\n\n\nMaterial Culture\n\nArtifact classification\nPattern recognition in textiles and decorative arts\nChange detection in architectural photography\nArchaeological site mapping"
+  },
+  {
+    "objectID": "areas/cv.html#case-study-attrimil-for-historical-documents",
+    "href": "areas/cv.html#case-study-attrimil-for-historical-documents",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "Case Study: AttriMIL for Historical Documents",
+    "text": "Case Study: AttriMIL for Historical Documents\nThe Attribute-Driven Multiple Instance Learning (AttriMIL) framework demonstrates the potential of advanced CV in humanities research. Originally developed for medical imaging, this approach has been adapted for analyzing historical documents.\n\nKey Benefits\n\nMulti-scale Analysis\n\nExamines both fine details and overall patterns\nCaptures hierarchical relationships in visual data\nIntegrates information across different scales\n\nInterpretable Results\n\nShows which parts of an image influenced decisions\nGenerates visual explanations\nSupports scholarly interpretation\n\nAdaptability\n\nWorks with varying document qualities\nHandles different types of visual materials\nAccommodates diverse research questions"
+  },
+  {
+    "objectID": "areas/cv.html#impact-on-humanities-research",
+    "href": "areas/cv.html#impact-on-humanities-research",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "Impact on Humanities Research",
+    "text": "Impact on Humanities Research\n\nNew Research Possibilities\n\nAnalyzing entire archives rather than samples\nDiscovering previously hidden patterns\nTesting historical hypotheses at scale\nCreating new ways to explore collections\n\n\n\nEnhanced Understanding\n\nCombining computational and traditional methods\nSupporting both close and distant viewing\nGenerating new research questions\nEnabling comparative studies across collections\n\n\n\nDemocratizing Access\n\nMaking collections more accessible\nSupporting public engagement\nEnabling virtual research\nPreserving cultural heritage"
+  },
+  {
+    "objectID": "areas/cv.html#further-reading",
+    "href": "areas/cv.html#further-reading",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "Further Reading",
+    "text": "Further Reading\n\n“Digital Humanities and Computer Vision”\n“Visual Pattern Recognition in Cultural Heritage”\n“Computational Approaches to Art History”\n“Machine Learning in Historical Research”"
+  },
+  {
+    "objectID": "areas/cv.html#about",
+    "href": "areas/cv.html#about",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "About",
+    "text": "About\nThis overview was prepared by the Digital Humanities Research Lab as part of our ongoing exploration of computational methods in humanities research."
   }
 ]
