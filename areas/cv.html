@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Matthew Sung">
-<meta name="dcterms.date" content="2024-02-07">
+<meta name="author" content="Aron van de Pol">
+<meta name="dcterms.date" content="2024-11-19">
 
-<title>Introduction to Dialectometry</title>
+<title>Computer Vision for Computational Humanities</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -121,11 +121,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction-to-dialectometry-2024" id="toc-introduction-to-dialectometry-2024" class="nav-link active" data-scroll-target="#introduction-to-dialectometry-2024">Introduction to Dialectometry (2024)</a></li>
-  <li><a href="#time-location" id="toc-time-location" class="nav-link" data-scroll-target="#time-location">Time &amp; Location</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#why-computer-vision-matters-in-digital-humanities" id="toc-why-computer-vision-matters-in-digital-humanities" class="nav-link" data-scroll-target="#why-computer-vision-matters-in-digital-humanities">Why Computer Vision Matters in Digital Humanities</a></li>
+  <li><a href="#current-applications" id="toc-current-applications" class="nav-link" data-scroll-target="#current-applications">Current Applications</a>
   <ul class="collapse">
-  <li><a href="#availability" id="toc-availability" class="nav-link" data-scroll-target="#availability">Availability</a></li>
+  <li><a href="#document-analysis" id="toc-document-analysis" class="nav-link" data-scroll-target="#document-analysis">Document Analysis</a></li>
+  <li><a href="#art-history" id="toc-art-history" class="nav-link" data-scroll-target="#art-history">Art History</a></li>
+  <li><a href="#material-culture" id="toc-material-culture" class="nav-link" data-scroll-target="#material-culture">Material Culture</a></li>
   </ul></li>
+  <li><a href="#case-study-attrimil-for-historical-documents" id="toc-case-study-attrimil-for-historical-documents" class="nav-link" data-scroll-target="#case-study-attrimil-for-historical-documents">Case Study: AttriMIL for Historical Documents</a>
+  <ul class="collapse">
+  <li><a href="#key-benefits" id="toc-key-benefits" class="nav-link" data-scroll-target="#key-benefits">Key Benefits</a></li>
+  </ul></li>
+  <li><a href="#impact-on-humanities-research" id="toc-impact-on-humanities-research" class="nav-link" data-scroll-target="#impact-on-humanities-research">Impact on Humanities Research</a>
+  <ul class="collapse">
+  <li><a href="#new-research-possibilities" id="toc-new-research-possibilities" class="nav-link" data-scroll-target="#new-research-possibilities">New Research Possibilities</a></li>
+  <li><a href="#enhanced-understanding" id="toc-enhanced-understanding" class="nav-link" data-scroll-target="#enhanced-understanding">Enhanced Understanding</a></li>
+  <li><a href="#democratizing-access" id="toc-democratizing-access" class="nav-link" data-scroll-target="#democratizing-access">Democratizing Access</a></li>
+  </ul></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a>
+  <ul class="collapse">
+  <li><a href="#methodological-development" id="toc-methodological-development" class="nav-link" data-scroll-target="#methodological-development">Methodological Development</a></li>
+  <li><a href="#research-applications" id="toc-research-applications" class="nav-link" data-scroll-target="#research-applications">Research Applications</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further Reading</a></li>
+  <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
   </ul>
 </nav>
     </div>
@@ -134,12 +155,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction to Dialectometry</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Workshop</div>
-    <div class="quarto-category">Dialectometry</div>
-  </div>
-  </div>
+<h1 class="title">Computer Vision for Computational Humanities</h1>
+</div>
 
 
 
@@ -148,14 +165,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Matthew Sung </p>
+             <p><a href="../people/staff/aron_vandepol.html">Aron van de Pol</a> </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 7, 2024</p>
+      <p class="date">November 19, 2024</p>
     </div>
   </div>
   
@@ -167,23 +184,147 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="../img/ITD.jpeg" class="img-fluid"></p>
-<section id="introduction-to-dialectometry-2024" class="level1">
-<h1>Introduction to Dialectometry (2024)</h1>
-<p>Many proposals of dialect classification use isoglosses to identify dialect areas. However, isogloss maps are often messy, and they are also susceptible to some further problems: 1) features shown on a map can potentially be cherry-picked; 2) very often it is difficult to analyse many features all at once, 3) it is difficult to analyse the relationship between dialects (areas) which are geographically distant and 4) it is difficult to assess how representative features are in an analysis.</p>
-<p>In order to overcome these problems and make dialect classifications more objective, dialectologists have employed computational methods in dialectology, often known as <em>dialectometry</em> , the measurement of dialect distances. Dialectometry applies a set of techniques on a large amount of dialect data in order to get an aggregate picture of the variation hidden the dialect landscape.</p>
-<p>In this workshop series, the reasoning behind the dialectometric approaches will first be introduced in the first week, then in the following weeks, various techniques in dialectometry will be introduced with hands on exercises. Lastly, the workshop series will end with an overview of the contemporary approaches in the field.</p>
-<p>Programming knowledge is not required for this workshop series.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The digital humanities field is experiencing a transformation through the integration of Computer Vision (CV) technologies. These advanced computational methods are opening new possibilities for analyzing and understanding our cultural heritage at unprecedented scales. This article explores how modern CV techniques are reshaping humanities research.</p>
 </section>
-<section id="time-location" class="level1">
-<h1>Time &amp; Location</h1>
-<p>Tuesdays: 27 February; 12 March; 26 March; 9 April; 23 April at PJ Veth 1.07 DH Lab</p>
-<section id="availability" class="level3">
-<h3 class="anchored" data-anchor-id="availability">Availability</h3>
-<p><a href="https://www.formdesk.com/universiteitleiden/intro_dialectometry_2024">Registration</a></p>
+<section id="why-computer-vision-matters-in-digital-humanities" class="level2">
+<h2 class="anchored" data-anchor-id="why-computer-vision-matters-in-digital-humanities">Why Computer Vision Matters in Digital Humanities</h2>
+<p>Computer Vision offers humanities scholars powerful new tools for:</p>
+<ul>
+<li>Analyzing large collections of historical documents</li>
+<li>Discovering patterns across vast visual archives</li>
+<li>Automating routine visual analysis tasks</li>
+<li>Supporting new research questions</li>
+<li>Bridging close and distant viewing approaches</li>
+</ul>
+</section>
+<section id="current-applications" class="level2">
+<h2 class="anchored" data-anchor-id="current-applications">Current Applications</h2>
+<section id="document-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="document-analysis">Document Analysis</h3>
+<ul>
+<li>Automatic transcription of historical texts</li>
+<li>Layout analysis of printed materials</li>
+<li>Identification of printing techniques and sources</li>
+<li>Character and font recognition</li>
+</ul>
+</section>
+<section id="art-history" class="level3">
+<h3 class="anchored" data-anchor-id="art-history">Art History</h3>
+<ul>
+<li>Style analysis across large collections</li>
+<li>Artist attribution</li>
+<li>Influence tracking</li>
+<li>Composition analysis</li>
+</ul>
+</section>
+<section id="material-culture" class="level3">
+<h3 class="anchored" data-anchor-id="material-culture">Material Culture</h3>
+<ul>
+<li>Artifact classification</li>
+<li>Pattern recognition in textiles and decorative arts</li>
+<li>Change detection in architectural photography</li>
+<li>Archaeological site mapping</li>
+</ul>
+</section>
+</section>
+<section id="case-study-attrimil-for-historical-documents" class="level2">
+<h2 class="anchored" data-anchor-id="case-study-attrimil-for-historical-documents">Case Study: AttriMIL for Historical Documents</h2>
+<p>The Attribute-Driven Multiple Instance Learning (AttriMIL) framework demonstrates the potential of advanced CV in humanities research. Originally developed for medical imaging, this approach has been adapted for analyzing historical documents.</p>
+<section id="key-benefits" class="level3">
+<h3 class="anchored" data-anchor-id="key-benefits">Key Benefits</h3>
+<ol type="1">
+<li><strong>Multi-scale Analysis</strong>
+<ul>
+<li>Examines both fine details and overall patterns</li>
+<li>Captures hierarchical relationships in visual data</li>
+<li>Integrates information across different scales</li>
+</ul></li>
+<li><strong>Interpretable Results</strong>
+<ul>
+<li>Shows which parts of an image influenced decisions</li>
+<li>Generates visual explanations</li>
+<li>Supports scholarly interpretation</li>
+</ul></li>
+<li><strong>Adaptability</strong>
+<ul>
+<li>Works with varying document qualities</li>
+<li>Handles different types of visual materials</li>
+<li>Accommodates diverse research questions</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="impact-on-humanities-research" class="level2">
+<h2 class="anchored" data-anchor-id="impact-on-humanities-research">Impact on Humanities Research</h2>
+<section id="new-research-possibilities" class="level3">
+<h3 class="anchored" data-anchor-id="new-research-possibilities">New Research Possibilities</h3>
+<ul>
+<li>Analyzing entire archives rather than samples</li>
+<li>Discovering previously hidden patterns</li>
+<li>Testing historical hypotheses at scale</li>
+<li>Creating new ways to explore collections</li>
+</ul>
+</section>
+<section id="enhanced-understanding" class="level3">
+<h3 class="anchored" data-anchor-id="enhanced-understanding">Enhanced Understanding</h3>
+<ul>
+<li>Combining computational and traditional methods</li>
+<li>Supporting both close and distant viewing</li>
+<li>Generating new research questions</li>
+<li>Enabling comparative studies across collections</li>
+</ul>
+</section>
+<section id="democratizing-access" class="level3">
+<h3 class="anchored" data-anchor-id="democratizing-access">Democratizing Access</h3>
+<ul>
+<li>Making collections more accessible</li>
+<li>Supporting public engagement</li>
+<li>Enabling virtual research</li>
+<li>Preserving cultural heritage</li>
+</ul>
+</section>
+</section>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
+<section id="methodological-development" class="level3">
+<h3 class="anchored" data-anchor-id="methodological-development">Methodological Development</h3>
+<ul>
+<li>Integration with other digital methods</li>
+<li>Enhanced visualization techniques</li>
+<li>Improved handling of degraded materials</li>
+<li>Development of specialized tools</li>
+</ul>
+</section>
+<section id="research-applications" class="level3">
+<h3 class="anchored" data-anchor-id="research-applications">Research Applications</h3>
+<ul>
+<li>Cross-cultural studies</li>
+<li>Temporal analysis</li>
+<li>Network analysis</li>
+<li>Material culture studies</li>
+</ul>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Computer Vision is becoming an essential tool in digital humanities research. By enabling analysis at unprecedented scales while maintaining attention to detail, these methods are transforming how we study and understand our cultural heritage. The future promises even more exciting possibilities as these technologies continue to evolve.</p>
+</section>
+<section id="further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<ol type="1">
+<li>“Digital Humanities and Computer Vision”</li>
+<li>“Visual Pattern Recognition in Cultural Heritage”</li>
+<li>“Computational Approaches to Art History”</li>
+<li>“Machine Learning in Historical Research”</li>
+</ol>
+</section>
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>This overview was prepared by the Digital Humanities Research Lab as part of our ongoing exploration of computational methods in humanities research.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
