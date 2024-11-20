@@ -22,7 +22,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -41,6 +95,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -121,37 +178,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#why-computer-vision-matters-in-digital-humanities" id="toc-why-computer-vision-matters-in-digital-humanities" class="nav-link" data-scroll-target="#why-computer-vision-matters-in-digital-humanities">Why Computer Vision Matters in Digital Humanities</a></li>
-  <li><a href="#current-applications" id="toc-current-applications" class="nav-link" data-scroll-target="#current-applications">Current Applications</a>
+  <li><a href="#computer-vision-and-the-humanities" id="toc-computer-vision-and-the-humanities" class="nav-link active" data-scroll-target="#computer-vision-and-the-humanities">Computer Vision and The Humanities</a></li>
+  <li><a href="#distantly-viewing-colonial-korean-print-shops-advertisements." id="toc-distantly-viewing-colonial-korean-print-shops-advertisements." class="nav-link" data-scroll-target="#distantly-viewing-colonial-korean-print-shops-advertisements.">Distantly viewing Colonial Korean Print shops &amp; Advertisements.</a>
   <ul class="collapse">
-  <li><a href="#document-analysis" id="toc-document-analysis" class="nav-link" data-scroll-target="#document-analysis">Document Analysis</a></li>
-  <li><a href="#art-history" id="toc-art-history" class="nav-link" data-scroll-target="#art-history">Art History</a></li>
-  <li><a href="#material-culture" id="toc-material-culture" class="nav-link" data-scroll-target="#material-culture">Material Culture</a></li>
+  <li><a href="#colonial-korean-print-shops" id="toc-colonial-korean-print-shops" class="nav-link" data-scroll-target="#colonial-korean-print-shops">1. Colonial Korean Print shops</a></li>
+  <li><a href="#colonial-korean-advertisements" id="toc-colonial-korean-advertisements" class="nav-link" data-scroll-target="#colonial-korean-advertisements">2. Colonial Korean Advertisements</a></li>
   </ul></li>
-  <li><a href="#case-study-attrimil-for-historical-documents" id="toc-case-study-attrimil-for-historical-documents" class="nav-link" data-scroll-target="#case-study-attrimil-for-historical-documents">Case Study: AttriMIL for Historical Documents</a>
-  <ul class="collapse">
-  <li><a href="#key-benefits" id="toc-key-benefits" class="nav-link" data-scroll-target="#key-benefits">Key Benefits</a></li>
-  </ul></li>
-  <li><a href="#impact-on-humanities-research" id="toc-impact-on-humanities-research" class="nav-link" data-scroll-target="#impact-on-humanities-research">Impact on Humanities Research</a>
-  <ul class="collapse">
-  <li><a href="#new-research-possibilities" id="toc-new-research-possibilities" class="nav-link" data-scroll-target="#new-research-possibilities">New Research Possibilities</a></li>
-  <li><a href="#enhanced-understanding" id="toc-enhanced-understanding" class="nav-link" data-scroll-target="#enhanced-understanding">Enhanced Understanding</a></li>
-  <li><a href="#democratizing-access" id="toc-democratizing-access" class="nav-link" data-scroll-target="#democratizing-access">Democratizing Access</a></li>
-  </ul></li>
-  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a>
-  <ul class="collapse">
-  <li><a href="#methodological-development" id="toc-methodological-development" class="nav-link" data-scroll-target="#methodological-development">Methodological Development</a></li>
-  <li><a href="#research-applications" id="toc-research-applications" class="nav-link" data-scroll-target="#research-applications">Research Applications</a></li>
-  </ul></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further Reading</a></li>
-  <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -184,150 +221,95 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>The digital humanities field is experiencing a transformation through the integration of Computer Vision (CV) technologies. These advanced computational methods are opening new possibilities for analyzing and understanding our cultural heritage at unprecedented scales. This article explores how modern CV techniques are reshaping humanities research.</p>
+<section id="computer-vision-and-the-humanities" class="level1 page-columns page-full">
+<h1>Computer Vision and The Humanities</h1>
+<p>Computer vision - the field that enables machines to “see” and interpret visual information - has transformed how we can analyze images at scale. While originally developed for tasks like facial recognition and autonomous vehicles, these technologies offer powerful new possibilities for humanities research through an approach called “distant viewing.” At its core, distant viewing provides a theoretical framework for applying computer vision to computational analysis of digital images while accounting for how images uniquely convey meaning.<span class="citation" data-cites="arnold2023a"><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></span></p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;<a href="#ref-arnold2023a" role="doc-biblioref">Arnold and Tilton, <em>Distant <span>Viewing</span></em></a>.</p></div></div></section>
+<section id="distantly-viewing-colonial-korean-print-shops-advertisements." class="level1 page-columns page-full">
+<h1>Distantly viewing Colonial Korean Print shops &amp; Advertisements.</h1>
+<p>At our lab, <a href="../people/staff/aron_vandepol.html">Aron</a> is working on the application of Computer Vision to documents dating to Colonial Korea (1910-1945). This research demonstrates how distant viewing can uncover patterns and meanings in historical visual materials through computational analysis. This project creates structured annotations of historical images, organizes them with contextual metadata, and explores patterns that reveal insights about colonial visual culture.</p>
+<section id="colonial-korean-print-shops" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="colonial-korean-print-shops">1. Colonial Korean Print shops</h2>
+<p>Using Multi-Instance Learning (MIL), a technique borrowed from the field of medical imagery,<span class="citation" data-cites="cai2024"><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></span> Aron investigates interpretable features that characterize Colonial Korean print shops. Print shops were vital centers of cultural production and knowledge dissemination during the colonial period, serving as spaces where new forms of media, literature, and political discourse were physically produced and circulated. This computational approach allows us to identify and analyze recurring visual patterns, spatial arrangements, and distinctive characteristics that defined these crucial sites of colonial cultural production. The MIL technique is particularly valuable as an yet underexplored technique in the computation humanities. It allows for better understandable feature interpretation when compared to standard convolutional networks or vision transformers, making it especially suitable for humanities research where interpretation and context are crucial.</p>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;See <a href="#ref-cai2024" role="doc-biblioref">Cai et al., <span>“Rethinking Attention-Based Multiple Instance Learning for Whole-Slide Pathological Image Classification”</span></a>.</p></div></div><div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-patchatt" class="lightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-patchatt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../img/patchatt.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: Patch Attention of a MIL applied to Colonial Korean Printshop"><img src="../img/patchatt.jpeg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-patchatt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Patch Attention of a MIL applied to Colonial Korean Printshop
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-patchatt" class="lightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-patchatt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../img/proj.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;2: TSNE Projection of High attention patches."><img src="../img/proj.jpeg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-patchatt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: TSNE Projection of High attention patches.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="why-computer-vision-matters-in-digital-humanities" class="level2">
-<h2 class="anchored" data-anchor-id="why-computer-vision-matters-in-digital-humanities">Why Computer Vision Matters in Digital Humanities</h2>
-<p>Computer Vision offers humanities scholars powerful new tools for:</p>
-<ul>
-<li>Analyzing large collections of historical documents</li>
-<li>Discovering patterns across vast visual archives</li>
-<li>Automating routine visual analysis tasks</li>
-<li>Supporting new research questions</li>
-<li>Bridging close and distant viewing approaches</li>
-</ul>
-</section>
-<section id="current-applications" class="level2">
-<h2 class="anchored" data-anchor-id="current-applications">Current Applications</h2>
-<section id="document-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="document-analysis">Document Analysis</h3>
-<ul>
-<li>Automatic transcription of historical texts</li>
-<li>Layout analysis of printed materials</li>
-<li>Identification of printing techniques and sources</li>
-<li>Character and font recognition</li>
-</ul>
-</section>
-<section id="art-history" class="level3">
-<h3 class="anchored" data-anchor-id="art-history">Art History</h3>
-<ul>
-<li>Style analysis across large collections</li>
-<li>Artist attribution</li>
-<li>Influence tracking</li>
-<li>Composition analysis</li>
-</ul>
-</section>
-<section id="material-culture" class="level3">
-<h3 class="anchored" data-anchor-id="material-culture">Material Culture</h3>
-<ul>
-<li>Artifact classification</li>
-<li>Pattern recognition in textiles and decorative arts</li>
-<li>Change detection in architectural photography</li>
-<li>Archaeological site mapping</li>
-</ul>
-</section>
-</section>
-<section id="case-study-attrimil-for-historical-documents" class="level2">
-<h2 class="anchored" data-anchor-id="case-study-attrimil-for-historical-documents">Case Study: AttriMIL for Historical Documents</h2>
-<p>The Attribute-Driven Multiple Instance Learning (AttriMIL) framework demonstrates the potential of advanced CV in humanities research. Originally developed for medical imaging, this approach has been adapted for analyzing historical documents.</p>
-<section id="key-benefits" class="level3">
-<h3 class="anchored" data-anchor-id="key-benefits">Key Benefits</h3>
-<ol type="1">
-<li><strong>Multi-scale Analysis</strong>
-<ul>
-<li>Examines both fine details and overall patterns</li>
-<li>Captures hierarchical relationships in visual data</li>
-<li>Integrates information across different scales</li>
-</ul></li>
-<li><strong>Interpretable Results</strong>
-<ul>
-<li>Shows which parts of an image influenced decisions</li>
-<li>Generates visual explanations</li>
-<li>Supports scholarly interpretation</li>
-</ul></li>
-<li><strong>Adaptability</strong>
-<ul>
-<li>Works with varying document qualities</li>
-<li>Handles different types of visual materials</li>
-<li>Accommodates diverse research questions</li>
-</ul></li>
-</ol>
-</section>
-</section>
-<section id="impact-on-humanities-research" class="level2">
-<h2 class="anchored" data-anchor-id="impact-on-humanities-research">Impact on Humanities Research</h2>
-<section id="new-research-possibilities" class="level3">
-<h3 class="anchored" data-anchor-id="new-research-possibilities">New Research Possibilities</h3>
-<ul>
-<li>Analyzing entire archives rather than samples</li>
-<li>Discovering previously hidden patterns</li>
-<li>Testing historical hypotheses at scale</li>
-<li>Creating new ways to explore collections</li>
-</ul>
-</section>
-<section id="enhanced-understanding" class="level3">
-<h3 class="anchored" data-anchor-id="enhanced-understanding">Enhanced Understanding</h3>
-<ul>
-<li>Combining computational and traditional methods</li>
-<li>Supporting both close and distant viewing</li>
-<li>Generating new research questions</li>
-<li>Enabling comparative studies across collections</li>
-</ul>
-</section>
-<section id="democratizing-access" class="level3">
-<h3 class="anchored" data-anchor-id="democratizing-access">Democratizing Access</h3>
-<ul>
-<li>Making collections more accessible</li>
-<li>Supporting public engagement</li>
-<li>Enabling virtual research</li>
-<li>Preserving cultural heritage</li>
-</ul>
-</section>
-</section>
-<section id="future-directions" class="level2">
-<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
-<section id="methodological-development" class="level3">
-<h3 class="anchored" data-anchor-id="methodological-development">Methodological Development</h3>
-<ul>
-<li>Integration with other digital methods</li>
-<li>Enhanced visualization techniques</li>
-<li>Improved handling of degraded materials</li>
-<li>Development of specialized tools</li>
-</ul>
-</section>
-<section id="research-applications" class="level3">
-<h3 class="anchored" data-anchor-id="research-applications">Research Applications</h3>
-<ul>
-<li>Cross-cultural studies</li>
-<li>Temporal analysis</li>
-<li>Network analysis</li>
-<li>Material culture studies</li>
-</ul>
-</section>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>Computer Vision is becoming an essential tool in digital humanities research. By enabling analysis at unprecedented scales while maintaining attention to detail, these methods are transforming how we study and understand our cultural heritage. The future promises even more exciting possibilities as these technologies continue to evolve.</p>
-</section>
-<section id="further-reading" class="level2">
-<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
-<ol type="1">
-<li>“Digital Humanities and Computer Vision”</li>
-<li>“Visual Pattern Recognition in Cultural Heritage”</li>
-<li>“Computational Approaches to Art History”</li>
-<li>“Machine Learning in Historical Research”</li>
-</ol>
-</section>
-<section id="about" class="level2">
-<h2 class="anchored" data-anchor-id="about">About</h2>
-<p>This overview was prepared by the Digital Humanities Research Lab as part of our ongoing exploration of computational methods in humanities research.</p>
+<section id="colonial-korean-advertisements" class="level2">
+<h2 class="anchored" data-anchor-id="colonial-korean-advertisements">2. Colonial Korean Advertisements</h2>
+<p>The advertising space in Colonial Korea was diverse. With a growing commercial culture in the colonial metropole, both Japanese and Korean companies actively advertised in newspapers, magazines and other print media. In this study Aron uses Vision Language Models (VLMs) to extract and tag information from these historical advertisements. VLMs represent a significant advance in computer vision, as they can process both visual and textual elements simultaneously, making them particularly well-suited for analyzing advertisements that combine imagery with multilingual text in Korean, Japanese, and mixed scripts.</p>
+<p>By leveraging large language models like Qwen-2.5, this research automates the extraction of key metadata such as product types, company names, locations, and visual elements. This computational approach allows us to systematically analyze large collections of colonial-era advertisements, revealing patterns in marketing strategies, visual design, and the use of language across different periods and contexts.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/ad.jpeg" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption>LLM Driven metadata Annotation of Colonial Korean Advertisements. Generated with Qwen2.5 7B</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="sourceCode" id="cb1"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"product"</span><span class="fu">:</span> <span class="st">"Shoes"</span><span class="fu">,</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"company"</span><span class="fu">:</span> <span class="st">"朴德裕洋靴店"</span><span class="fu">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"location"</span><span class="fu">:</span> <span class="st">"京城府宽𤏩洞五一番地"</span><span class="fu">,</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"language"</span><span class="fu">:</span> <span class="st">"Korean (mixed)"</span><span class="fu">,</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"visual_elements"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"illustration"</span><span class="fu">:</span> <span class="st">"Man wearing shoes, </span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="st">     pointing at product illustration"</span><span class="fu">,</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"text"</span><span class="fu">:</span> <span class="st">"Advertisement text in Korean"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-arnold2023a" class="csl-entry" role="listitem">
+Arnold, Taylor, and Lauren Tilton. <em>Distant <span>Viewing</span>: <span>Computational Exploration</span> of <span>Digital Images</span></em>. 1st ed. Cambridge: MIT Press, 2023.
+</div>
+<div id="ref-cai2024" class="csl-entry" role="listitem">
+Cai, Linghan, Shenjin Huang, Ye Zhang, Jinpeng Lu, and Yongbing Zhang. <span>“Rethinking Attention-Based Multiple Instance Learning for Whole-Slide Pathological Image Classification: An Instance Attribute Viewpoint,”</span> 2024. <a href="http://arxiv.org/abs/2404.00351">http://arxiv.org/abs/2404.00351</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -762,6 +744,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
