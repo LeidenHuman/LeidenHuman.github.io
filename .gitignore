@@ -6,3 +6,10 @@
 .DS_Store
 /.quarto/
 docs/
+
+*.log
+*.fls
+*.fdb_latexmk
+*.aux
+.DS_Store
+.DS_Store

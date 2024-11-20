@@ -81,7 +81,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Leiden Humanities AI and NLP group, Leiden HumAN, is a research group at Leiden University Faculty of Humanities working at the intersection of AI and the Humanities. We focus on development and application of NLP and deep learning methods in diverse areas of the Humanities, including Linguistics, History, East-Asian studies and Anthropology. Our goal is to bring together traditional and state-of-the-art computational methods and foster innovative research in the Humanities. At the same time our research objective is to increase the role of the Humanities in the development of Human AI.\n\n\n\n\n\n\n\n Dialectometry\n\n\n Computer Vision\n\n\n Natural Language Processing\n\n\n Computational Social Sciences\n\n\n\n\nLatest\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA New Dataset for Tonal and Segmental Dialectometry from the Yue- and Pinghua-Speaking Area\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Leiden Humanities AI and NLP group, Leiden HumAN, is a research group at Leiden University Faculty of Humanities working at the intersection of AI and the Humanities. We focus on development and application of NLP and deep learning methods in diverse areas of the Humanities, including Linguistics, History, East-Asian studies and Anthropology. Our goal is to bring together traditional and state-of-the-art computational methods and foster innovative research in the Humanities. At the same time our research objective is to increase the role of the Humanities in the development of Human AI.\n\n\n\n\n\n\n\n Dialectometry\n\n\n Computer Vision\n\n\n Natural Language Processing\n\n\n Computational Social Sciences\n\n\n\n\nLatest\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA New Dataset for Tonal and Segmental Dialectometry from the Yue- and Pinghua-Speaking Area\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications/articles/sung_prokic2024.html",
@@ -473,7 +473,7 @@
     "href": "areas/cv.html",
     "title": "Computer Vision for Computational Humanities",
     "section": "",
-    "text": "The digital humanities field is experiencing a transformation through the integration of Computer Vision (CV) technologies. These advanced computational methods are opening new possibilities for analyzing and understanding our cultural heritage at unprecedented scales. This article explores how modern CV techniques are reshaping humanities research."
+    "text": "Computer vision - the field that enables machines to “see” and interpret visual information - has transformed how we can analyze images at scale. While originally developed for tasks like facial recognition and autonomous vehicles, these technologies offer powerful new possibilities for humanities research through an approach called “distant viewing.” At its core, distant viewing provides a theoretical framework for applying computer vision to computational analysis of digital images while accounting for how images uniquely convey meaning.1\n1 Arnold and Tilton, Distant Viewing."
   },
   {
     "objectID": "areas/cv.html#authors",
@@ -593,5 +593,19 @@
     "title": "Computer Vision for Computational Humanities",
     "section": "About",
     "text": "About\nThis overview was prepared by the Digital Humanities Research Lab as part of our ongoing exploration of computational methods in humanities research."
+  },
+  {
+    "objectID": "areas/cv.html#colonial-korean-print-shops",
+    "href": "areas/cv.html#colonial-korean-print-shops",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "1. Colonial Korean Print shops",
+    "text": "1. Colonial Korean Print shops\nUsing Multi-Instance Learning (MIL), a technique borrowed from the field of medical imagery2, Aron looks into how we can learn interpretable features that inform us about visual characteristics of Colonial Korean print shops.\n\n\n\n2 See Cai et al., “Rethinking Attention-Based Multiple Instance Learning for Whole-Slide Pathological Image Classification”."
+  },
+  {
+    "objectID": "areas/cv.html#colonial-korean-advertisements",
+    "href": "areas/cv.html#colonial-korean-advertisements",
+    "title": "Computer Vision for Computational Humanities",
+    "section": "2. Colonial Korean Advertisements",
+    "text": "2. Colonial Korean Advertisements\nThe advertising space in Colonial Korea was diverse. With a growing commercial culture in the colonial metropole, both Japanese and Korean companies actively advertised in newspapers, magazines and other print media. In this study Aron uses Vision Language Models (VLMs) to extract and tag information from these historical advertisements. VLMs represent a significant advance in computer vision, as they can process both visual and textual elements simultaneously, making them particularly well-suited for analyzing advertisements that combine imagery with multilingual text in Korean, Japanese, and mixed scripts.\nBy leveraging large language models like Qwen-2.5, this research automates the extraction of key metadata such as product types, company names, locations, and visual elements. This computational approach allows us to systematically analyze large collections of colonial-era advertisements, revealing patterns in marketing strategies, visual design, and the use of language across different periods and contexts.\n\n\n\n\n\n\n\n\n\nLLM Driven metadata Annotation of Colonial Korean Advertisements. Generated with Qwen2.5 7B\n\n\n\n\n{\n  \"product\": \"Shoes\",\n  \"company\": \"朴德裕洋靴店\",\n  \"location\": \"京城府宽𤏩洞五一番地\",\n  \"language\": \"Korean (mixed)\",\n  \"visual_elements\": {\n    \"illustration\": \"Man wearing shoes, \n     pointing at product illustration\",\n    \"text\": \"Advertisement text in Korean\"\n  }\n}"
   }
 ]
