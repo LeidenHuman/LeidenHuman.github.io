@@ -7,106 +7,49 @@ author:
 date: 11-19-2024
 ---
 
-## Introduction
+# Computer Vision and The Humanities
 
-The digital humanities field is experiencing a transformation through the integration of Computer Vision (CV) technologies. These advanced computational methods are opening new possibilities for analyzing and understanding our cultural heritage at unprecedented scales. This article explores how modern CV techniques are reshaping humanities research.
+Computer vision - the field that enables machines to "see" and interpret visual information - has transformed how we can analyze images at scale. While originally developed for tasks like facial recognition and autonomous vehicles, these technologies offer powerful new possibilities for humanities research through an approach called "distant viewing." At its core, distant viewing provides a theoretical framework for applying computer vision to computational analysis of digital images while accounting for how images uniquely convey meaning.[@arnold2023a]
 
-## Why Computer Vision Matters in Digital Humanities
+# Distantly viewing Colonial Korean Print shops & Advertisements.
 
-Computer Vision offers humanities scholars powerful new tools for:
+At our lab, [Aron](../people/staff/aron_vandepol.qmd) is working on the application of Computer Vision to documents dating to Colonial Korea (1910-1945). This research demonstrates how distant viewing can uncover patterns and meanings in historical visual materials through computational analysis. This project creates structured annotations of historical images, organizes them with contextual metadata, and explores patterns that reveal insights about colonial visual culture.
 
-- Analyzing large collections of historical documents
-- Discovering patterns across vast visual archives
-- Automating routine visual analysis tasks
-- Supporting new research questions
-- Bridging close and distant viewing approaches
+## 1. Colonial Korean Print shops
 
-## Current Applications
+Using Multi-Instance Learning (MIL), a technique borrowed from the field of medical imagery [see @cai2024], Aron investigates interpretable features that characterize Colonial Korean print shops. Print shops were vital centers of cultural production and knowledge dissemination during the colonial period, serving as spaces where new forms of media, literature, and political discourse were physically produced and circulated. This computational approach allows us to identify and analyze recurring visual patterns, spatial arrangements, and distinctive characteristics that defined these crucial sites of colonial cultural production. The MIL technique is particularly valuable as an yet underexplored technique in the computation humanities. It allows for better understandable feature interpretation when compared to standard convolutional networks or vision transformers, making it especially suitable for humanities research where interpretation and context are crucial.
 
-### Document Analysis
-- Automatic transcription of historical texts
-- Layout analysis of printed materials
-- Identification of printing techniques and sources
-- Character and font recognition
+::: {layout-ncol=2}
 
-### Art History
-- Style analysis across large collections
-- Artist attribution
-- Influence tracking
-- Composition analysis
+![Patch Attention of a MIL applied to Colonial Korean Printshop](../img/patchatt.jpeg){#fig-patchatt .lightbox}
 
-### Material Culture
-- Artifact classification
-- Pattern recognition in textiles and decorative arts
-- Change detection in architectural photography
-- Archaeological site mapping
 
-## Case Study: AttriMIL for Historical Documents
+![TSNE Projection of High attention patches.](../img/proj.jpeg){#fig-patchatt .lightbox}
+:::
 
-The Attribute-Driven Multiple Instance Learning (AttriMIL) framework demonstrates the potential of advanced CV in humanities research. Originally developed for medical imaging, this approach has been adapted for analyzing historical documents.
+## 2. Colonial Korean Advertisements
 
-### Key Benefits
+The advertising space in Colonial Korea was diverse. With a growing commercial culture in the colonial metropole, both Japanese and Korean companies actively advertised in newspapers, magazines and other print media. In this study Aron uses Vision Language Models (VLMs) to extract and tag information from these historical advertisements. VLMs represent a significant advance in computer vision, as they can process both visual and textual elements simultaneously, making them particularly well-suited for analyzing advertisements that combine imagery with multilingual text in Korean, Japanese, and mixed scripts.
 
-1. **Multi-scale Analysis**
-   - Examines both fine details and overall patterns
-   - Captures hierarchical relationships in visual data
-   - Integrates information across different scales
+By leveraging large language models like Qwen-2.5, this research automates the extraction of key metadata such as product types, company names, locations, and visual elements. This computational approach allows us to systematically analyze large collections of colonial-era advertisements, revealing patterns in marketing strategies, visual design, and the use of language across different periods and contexts.
 
-2. **Interpretable Results**
-   - Shows which parts of an image influenced decisions
-   - Generates visual explanations
-   - Supports scholarly interpretation
+::: {layout-ncol=2}
 
-3. **Adaptability**
-   - Works with varying document qualities
-   - Handles different types of visual materials
-   - Accommodates diverse research questions
+![LLM Driven metadata Annotation of Colonial Korean Advertisements. Generated with Qwen2.5 7B](../img/ad.jpeg){width=40%}
 
-## Impact on Humanities Research
+```json
+{
+  "product": "Shoes",
+  "company": "朴德裕洋靴店",
+  "location": "京城府宽𤏩洞五一番地",
+  "language": "Korean (mixed)",
+  "visual_elements": {
+    "illustration": "Man wearing shoes, 
+     pointing at product illustration",
+    "text": "Advertisement text in Korean"
+  }
+}
 
-### New Research Possibilities
-- Analyzing entire archives rather than samples
-- Discovering previously hidden patterns
-- Testing historical hypotheses at scale
-- Creating new ways to explore collections
+```
+:::
 
-### Enhanced Understanding
-- Combining computational and traditional methods
-- Supporting both close and distant viewing
-- Generating new research questions
-- Enabling comparative studies across collections
-
-### Democratizing Access
-- Making collections more accessible
-- Supporting public engagement
-- Enabling virtual research
-- Preserving cultural heritage
-
-## Future Directions
-
-### Methodological Development
-- Integration with other digital methods
-- Enhanced visualization techniques
-- Improved handling of degraded materials
-- Development of specialized tools
-
-### Research Applications
-- Cross-cultural studies
-- Temporal analysis
-- Network analysis
-- Material culture studies
-
-## Conclusion
-
-Computer Vision is becoming an essential tool in digital humanities research. By enabling analysis at unprecedented scales while maintaining attention to detail, these methods are transforming how we study and understand our cultural heritage. The future promises even more exciting possibilities as these technologies continue to evolve.
-
-## Further Reading
-
-1. "Digital Humanities and Computer Vision"
-2. "Visual Pattern Recognition in Cultural Heritage"
-3. "Computational Approaches to Art History"
-4. "Machine Learning in Historical Research"
-
-## About
-
-This overview was prepared by the Digital Humanities Research Lab as part of our ongoing exploration of computational methods in humanities research.
