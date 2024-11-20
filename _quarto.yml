@@ -38,3 +38,6 @@ format:
       collapse-below: lg
       padding: 1rem
     toc: true
+bibliography: ./references.bib
+csl: ./chic.csl
+reference-location: margin
