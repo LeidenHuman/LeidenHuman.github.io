@@ -1,0 +1,55 @@
+---
+title: nlp
+toc: true
+author: 
+    name: Aron van de Pol
+    url: "../people/staff/aron_vandepol.qmd"
+date: 11-19-2024
+---
+
+# Computer Vision and The Humanities
+
+Computer vision - the field that enables machines to "see" and interpret visual information - has transformed how we can analyze images at scale. While originally developed for tasks like facial recognition and autonomous vehicles, these technologies offer powerful new possibilities for humanities research through an approach called "distant viewing." At its core, distant viewing provides a theoretical framework for applying computer vision to computational analysis of digital images while accounting for how images uniquely convey meaning.[@arnold2023a]
+
+# Distantly viewing Colonial Korean Print shops & Advertisements.
+
+At our lab, [Aron](../people/staff/aron_vandepol.qmd) is working on the application of Computer Vision to documents dating to Colonial Korea (1910-1945). This research demonstrates how distant viewing can uncover patterns and meanings in historical visual materials through computational analysis. This project creates structured annotations of historical images, organizes them with contextual metadata, and explores patterns that reveal insights about colonial visual culture.
+
+## 1. Colonial Korean Print shops
+
+Using Multi-Instance Learning (MIL), a technique borrowed from the field of medical imagery [see @cai2024], Aron investigates interpretable features that characterize Colonial Korean print shops. Print shops were vital centers of cultural production and knowledge dissemination during the colonial period, serving as spaces where new forms of media, literature, and political discourse were physically produced and circulated. This computational approach allows us to identify and analyze recurring visual patterns, spatial arrangements, and distinctive characteristics that defined these crucial sites of colonial cultural production. The MIL technique is particularly valuable as an yet underexplored technique in the computation humanities. It allows for better understandable feature interpretation when compared to standard convolutional networks or vision transformers, making it especially suitable for humanities research where interpretation and context are crucial.
+
+::: {layout-ncol=2}
+
+![Patch Attention of a MIL applied to Colonial Korean Printshop](../img/patchatt.jpeg){#fig-patchatt .lightbox}
+
+
+![TSNE Projection of High attention patches.](../img/proj.jpeg){#fig-patchatt .lightbox}
+:::
+
+## 2. Colonial Korean Advertisements
+
+The advertising space in Colonial Korea was diverse. With a growing commercial culture in the colonial metropole, both Japanese and Korean companies actively advertised in newspapers, magazines and other print media. In this study Aron uses Vision Language Models (VLMs) to extract and tag information from these historical advertisements. VLMs represent a significant advance in computer vision, as they can process both visual and textual elements simultaneously, making them particularly well-suited for analyzing advertisements that combine imagery with multilingual text in Korean, Japanese, and mixed scripts.
+
+By leveraging large language models like Qwen-2.5, this research automates the extraction of key metadata such as product types, company names, locations, and visual elements. This computational approach allows us to systematically analyze large collections of colonial-era advertisements, revealing patterns in marketing strategies, visual design, and the use of language across different periods and contexts.
+
+::: {layout-ncol=2}
+
+![LLM Driven metadata Annotation of Colonial Korean Advertisements. Generated with Qwen2.5 7B](../img/ad.jpeg){width=40%}
+
+```json
+{
+  "product": "Shoes",
+  "company": "朴德裕洋靴店",
+  "location": "京城府宽𤏩洞五一番地",
+  "language": "Korean (mixed)",
+  "visual_elements": {
+    "illustration": "Man wearing shoes, 
+     pointing at product illustration",
+    "text": "Advertisement text in Korean"
+  }
+}
+
+```
+:::
+
