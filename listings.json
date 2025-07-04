@@ -2,7 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/publications/articles/sung_prokic2024.html"
+      "/publications/articles/sung_prokic2024a.html",
+      "/publications/articles/sung_prokic2024b.html"
     ]
   },
   {
@@ -51,7 +52,8 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/publications/articles/sung_prokic2024.html"
+      "/publications/articles/sung_prokic2024a.html",
+      "/publications/articles/sung_prokic2024b.html"
     ]
   }
 ]

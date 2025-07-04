@@ -35,158 +35,256 @@
     "text": "### Latest"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
+    "objectID": "publications/articles/sung_prokic2024b.html",
+    "href": "publications/articles/sung_prokic2024b.html",
+    "title": "Test",
+    "section": "",
+    "text": "Traditional dialectology or dialect geography is the study of geographical variation of language. Originated in Europe and pioneered in Germany and France, this field has predominantly been focusing on sounds, more specifically, on segments. Similarly, quantitative approaches to language variation concerned with the phonetic level are in most cases focusing on segments as well. However, more than half of the world’s languages include lexical tones (Yip, 2002). Despite this, tones are still underexplored in quantitative language comparison, partly due to the low accessibility of the suitable data. This paper aims to introduce a newly digitised dataset which comes from the Yue- and Pinghua-speaking areas in Southern China, with over 100 dialects. This dataset consists of two parts: tones and segments. In this paper, we illustrate how we can computationaly model tones in order to explore linguistic variation. We have applied a tone distance metric on our data, and we have found that 1) dialects also form a continuum on the tonal level and 2) other than tonemic (inventory) and tonetic differences, dialects can also differ in the lexical distribution of tones. The availability of this dataset will hopefully enable further exploration of the role of tones in quantitative typology and NLP research.\n\n\n\nLocalities and their respective sources"
+  },
+  {
+    "objectID": "publications/articles/sung_prokic2024b.html#abstract",
+    "href": "publications/articles/sung_prokic2024b.html#abstract",
+    "title": "Test",
+    "section": "",
+    "text": "Traditional dialectology or dialect geography is the study of geographical variation of language. Originated in Europe and pioneered in Germany and France, this field has predominantly been focusing on sounds, more specifically, on segments. Similarly, quantitative approaches to language variation concerned with the phonetic level are in most cases focusing on segments as well. However, more than half of the world’s languages include lexical tones (Yip, 2002). Despite this, tones are still underexplored in quantitative language comparison, partly due to the low accessibility of the suitable data. This paper aims to introduce a newly digitised dataset which comes from the Yue- and Pinghua-speaking areas in Southern China, with over 100 dialects. This dataset consists of two parts: tones and segments. In this paper, we illustrate how we can computationaly model tones in order to explore linguistic variation. We have applied a tone distance metric on our data, and we have found that 1) dialects also form a continuum on the tonal level and 2) other than tonemic (inventory) and tonetic differences, dialects can also differ in the lexical distribution of tones. The availability of this dataset will hopefully enable further exploration of the role of tones in quantitative typology and NLP research.\n\n\n\nLocalities and their respective sources"
+  },
+  {
+    "objectID": "posts/2024-02-07-intro-to-dialectometry.html",
+    "href": "posts/2024-02-07-intro-to-dialectometry.html",
+    "title": "Introduction to Dialectometry",
+    "section": "",
+    "text": "Introduction to Dialectometry (2024)\nMany proposals of dialect classification use isoglosses to identify dialect areas. However, isogloss maps are often messy, and they are also susceptible to some further problems: 1) features shown on a map can potentially be cherry-picked; 2) very often it is difficult to analyse many features all at once, 3) it is difficult to analyse the relationship between dialects (areas) which are geographically distant and 4) it is difficult to assess how representative features are in an analysis.\nIn order to overcome these problems and make dialect classifications more objective, dialectologists have employed computational methods in dialectology, often known as dialectometry , the measurement of dialect distances. Dialectometry applies a set of techniques on a large amount of dialect data in order to get an aggregate picture of the variation hidden the dialect landscape.\nIn this workshop series, the reasoning behind the dialectometric approaches will first be introduced in the first week, then in the following weeks, various techniques in dialectometry will be introduced with hands on exercises. Lastly, the workshop series will end with an overview of the contemporary approaches in the field.\nProgramming knowledge is not required for this workshop series.\n\n\nTime & Location\nTuesdays: 27 February; 12 March; 26 March; 9 April; 23 April at PJ Veth 1.07 DH Lab\n\nAvailability\nRegistration"
+  },
+  {
+    "objectID": "posts/2023-04-21-Bert-workshop.html",
+    "href": "posts/2023-04-21-Bert-workshop.html",
+    "title": "BERT workshop with Enrique Manjavacas",
+    "section": "",
+    "text": "BERT workshop with Enrique Manjavacas\nOn the 21th of April, Enrique Manjavacas, a postdoc research at Leiden University’s Centre for Linguistics will give a workshop on the BERT language model, and specifically the GysBERT and MacBERT models created with historical language data.\n\nLocation\nDigital Lab, P.J. Veth 1.07 Time: TBD\n\n\nAvailability\nSpots still open"
+  },
+  {
+    "objectID": "posts/2023-05-11-text-alignment-talk.html",
+    "href": "posts/2023-05-11-text-alignment-talk.html",
+    "title": "Text Alignment Talk with Chris Handy",
+    "section": "",
+    "text": "Cross-linguistic Text Alignment: An Evolutionary Approach\nText alignment is the process of finding similar passages across two or more documents. Text alignment is a process that can be useful in examining multiple versions of a document, whether in one or several languages, or in searching for text re-use within a collection of disparate documents. Some examples of the types of projects that benefit from text alignment include: 1) matching parallel readings of Bible passages across different translations, 2) compiling multiple versions of “Little Red Riding Hood” or other popular narratives, and 3) locating thematically similar texts within a larger corpus (e.g. finding medical literature within a Buddhist canon). Traditionally, the process of text alignment is done by a human being, and the determination of the boundaries of aligned segments is largely intuited from the education and experience of the researcher.\nHowever, if we attempt to automate this process, we quickly find that defining formally what similarity means can be a non-trivial task. This talk focuses on one particular solution to this problem, developed initially for a project in Buddhist Studies but then generalised to cover a wide variety of text alignment problems across any languages and genres. The basic idea is that the data presented to us are always in a less than ideal state, and that alignment of any two passages can never have a single correct solution. Instead of attempting to achieve perfect alignments, my method is to approach a hypothetical ideal alignment through an iterative process that begins with a series of educated guesses about aligned passages and then refines those guesses using a customisable scoring system. I use a simple genetic algorithm, designed in Python, to create a population of “agents” that each possess a sequence of data called a “gene” that dictates the alignment guesses each agent makes about a set of texts. Agents assign scores to themselves based on dictionary matches and other information, and a master controller combines the genes of the top scoring agents to create the next generation of agents. Over multiple generations, these agents evolve toward desired alignments, in a way that is similar to dog breeding or other processes of artificial selection among biological organisms. The system I have designed is free, open source and easy to use, allowing a researcher to select population sizes, mutation rates, scoring mechanisms and other variables to suit any particular alignment project. This software is also made to run on nearly any device, including cluster computers (e.g. the Leiden ALICE cluster), personal computers, mobile phones, and even Raspberry Pi and other single board computers.\n\nLocation\nLocation: PJ Veth 1.16 Time: 12:00-13:00\n\n\nAvailability\nSpots still available"
+  },
+  {
+    "objectID": "posts/2023-09-13-computational-dialectology-workshop.html",
+    "href": "posts/2023-09-13-computational-dialectology-workshop.html",
+    "title": "Workshop on Methods in Dialectology Oct 2023 - Nov 2023",
+    "section": "",
+    "text": "New workshop on the latest methods in dialectology\nInterested in dialects? Want to know how to analyse dialects? Want to learn how to create linguistic maps? Then this is the workshop for you! This semester, the Leiden Dialectology Workshop Series will give 5 workshops on different aspects of dialectology; you will learn how to read maps, extract dialect data as well as creating your own linguistic maps with hands on experience.\nDialectology, the study of language variation across geographical space, may not be a subject that is as accessible to everyone as before. At the end of the 19th century and throughout the 20th century, there were numerous dialect surveys conducted around the world, and some of these surveys were published as linguistic atlases (maps) and dialect surveys (tables, lists). These data typically reflect the more old-fashioned speech spoken in rural areas, which were on the verge of extinction when the surveys were conducted due to societal changes. These data, now mostly sitting in the library in book form, are covered in dust and are waiting for more people to utilize them. This workshop series aims to introduce the kind of data present in these linguistic atlases/ dialect surveys, as well as to introduce how to extract these data and analyze them.\nThroughout the semester, we will digitize a dialect dataset together. From this process, we can learn what kind of problems one might face in digitization, as well as learning how to overcome some of them. The digitized dataset will be used in the next semester (Introduction to Dialectometry 2024).\nPlease find the syllabus of the workshop here\n\nInstructor\nMatthew Sung\n\n\nLocation\nLocation: Digital Lab, P.J. Veth 1.07\n\n\nDate & Time\nThe workshop will run from Oct 2023 - Nov 2023\n\n\nAvailability\nThis workshop is only available in person. Please register here"
+  },
+  {
+    "objectID": "posts/2024-02-06-deep-learning-for-beginners-2024.html",
+    "href": "posts/2024-02-06-deep-learning-for-beginners-2024.html",
+    "title": "Deep Learning for the Humanities Workshop",
+    "section": "",
+    "text": "Deep Learning for the Humanities workshop\nDeep-learning has been used in many recent applications You’ve likely seen use cases such as Stable diffusion - image generation, ChatGPT text generation, image classification and, object detection in self-driving cars. Deep-learning is also gaining popularity in the humanities, even beyond NLP uses.\nIn this workshop we are teaching humanities students & researchers how to train neural networks using PyTorch, thereby allowing them to eventually use this for their own research interests. Meaning this course is heavily focused onto the practical side of neural network programming.\nThe main focus revolves around visual data, but the basics taught in this course are equally important for language or audio related deep learning:\n\n\n\n\n\n\n\n\nSession\nDate\nTopic\n\n\n\n\nSession 1\n6 February\nTensors\n\n\nSession 2\n20 February\nLinear regression (Training Pt 1.)\n\n\nSession 2\n5 March\nNon-Linear Data (Training Pt 2. & Evaluation)\n\n\nSession 3\n19 March\nImages as Data\n\n\nSession 4\n2 April\nImage classification\n\n\nSession 5\n16 April\nTransfer Learning\n\n\nSession 6\n30 April\nSpill-over Session\n\n\n\nMore Information\n\nLocation\nDigital Lab, P.J. Veth 1.07 Time: biweekly starting 6th of Feb. 13-15\n\n\nAvailability"
+  },
+  {
+    "objectID": "posts/2023-11-05-llms-humanities-workshop.html",
+    "href": "posts/2023-11-05-llms-humanities-workshop.html",
+    "title": "Applications of Large Language Models to the Humanities Workshop 21 Nov 2023",
+    "section": "",
+    "text": "Applications of Large Language Models to the Humanities Workshop\nIn this workshop, we will explore different approaches for applying a Large Language Model (like BERT) to a specific tagging problem in the context of Computational Humanities research. Following up on the current “pre-train and fine-tune” paradigm in the field of Computational Linguistics, we will try to reach an understanding of the techniques used in the “fine-tuning” step. Besides this theoretical part, we will have a hands-on session on working with computing clusters. Because carrying out this type of approach requires computational power often not available in personal computers, we will walk through an example of how to script and deploy fine-tuning jobs on ALICE (the high performance computing cluster at Leiden University). We will complete the workshop emphasising the need for evaluation and comparison of different approaches before consuming the output of the fine-tuned models.\n\nInstructor\nEnrique Manjavacas Arevalo\n\n\nLocation\nLocation: Digital Lab, P.J. Veth 1.07\n\n\nDate & Time\nThe workshop will take place on 21 Nov 2023, 10:00-13:00\n\n\nAvailability\nThis workshop is only available in person. Please register here"
+  },
+  {
+    "objectID": "posts/2023-11-23-new-member-ada.html",
+    "href": "posts/2023-11-23-new-member-ada.html",
+    "title": "Welcoming new member - Ada Shi November 2023",
+    "section": "",
+    "text": "Leiden HumAN welcomes its new student researcher Ada Shi\nAda Shi has joined HumAN lab in November 2023. She is a third-year Bachelor’s Communication Science student at the University of Amsterdam. Ada will work as a research assistant in the Digital warfare in the Sahel project, where she will focus on the usage of social media in the Sahel region."
+  },
+  {
+    "objectID": "posts/2023-09-13-deep-learning-for-beginners-2024.html",
+    "href": "posts/2023-09-13-deep-learning-for-beginners-2024.html",
+    "title": "Deep Learning for Beginners Feb 2024 - Apr 2024",
+    "section": "",
+    "text": "How to Make a Computer Think like a Human\nDeep-learning has been used in many recent applications. You’ve likely seen use cases such as Stable diffusion, DALL-E image generation, ChatGPT text generation, image classification and, object detection in self-driving cars. Deep-learning is also gaining popularity in the humanities beyond NLP uses. Here are the topics we will cover:\n\nTensors\nSingle Linear Neuron Models and Training Loop\nMulti-Layer Models and Activation Functions\n(Images as Data: CNN and Data Loaders\nEvaluation Metrics and Model Performances\n*Transfer Learning and Practical Applications&lt;/strong\n\nPlease find the syllabus of the workshop here\nJoin our 6-part workshop series and go from zero to building a basic image classification model. With this knowledge, you can continue to teach yourself further in expanding beyond the focus of images onto other forms of data such a text (NLP tasks).\n\nInstructor\nAron van de Pol\n\n\nLocation\nLocation: Digital Lab, P.J. Veth 1.07\n\n\nDate & Time\nThe workshop will run from Feb 2024 - Apr 2024\n\n\nAvailability\nThis workshop is only available in person. Please register here"
+  },
+  {
+    "objectID": "posts/2023-06-10-sails-talk-jelena.html",
+    "href": "posts/2023-06-10-sails-talk-jelena.html",
+    "title": "Sails Lunch Time Seminar The Role of AI in the Humanities",
+    "section": "",
+    "text": "Sails Lunch Time Seminar: The Role of AI in the Humanities\nEver since the emergence of Artificial Intelligence (AI), the vast majority of research at the intersection of the Humanities and AI was dedicated to the ethical side of AI and how AI impacts our cultures and societies. While philosophy and critical thinking of AI remain indispensable research areas in the Humanities, lately there has been a surge of research that uses AI to investigate diverse questions in the Humanities.\nIn this talk I will address the recently established research group Leiden Humanities AI and NLP group, Leiden HumAN, which works at the intersection of AI and the Humanities. The group focuses on development and application of NLP and deep learning methods in diverse areas of the Humanities, including Linguistics, History, East-Asian studies and Anthropology. The goal is to bring together traditional and state-of-the-art computational methods and foster innovative research in the Humanities. At the same time, the research objective is to increase the role of the Humanities in the development of socially responsible and diverse AI. I will present several ongoing research projects in which members of the group are involved.\nI will also introduce the BA minor Digital Humanities & Atificial Intelligence, an initiative by the Leiden University Centre for Digital Humanities at the Faculty of Humanities. Tailored to appeal to students from all fields of humanities research, the minor aims to complement BA studies with a skill set that includes a foundation in programming, text and image analysis, while offering a space for thinking about and debating digitization, and the influence of AI in our daily lives. The Artificial Intelligence track, starting from the 2023/24 academic year, will offer a deep dive into the theories and advanced methods, including NLP and deep learning, needed to work with and understand the AI revolution.\n\nLocation\nOnline\n\n\nDate & Time\nMonday 12 June 2023, 12:00 - 13:00 (CEST)\n\n\nRegistration\nClick here to register"
+  },
+  {
+    "objectID": "posts/2023-12-06-SAILS-workshop.html",
+    "href": "posts/2023-12-06-SAILS-workshop.html",
+    "title": "SAILS Workshop - December 2023",
+    "section": "",
+    "text": "SAILS workshop “AI and LLMs: Keeping the Linguist in the Loop”\nOn Friday, 8 December, Jelena Prokic will will take part in the discussion panel at the SAILS workshop titled “AI and LLMs: Keeping the Linguist in the Loop” at Leiden University. Panel discussion with Sjef Barbiers and Vincent Vandeghinste, moderated by Carole Tiberius."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
     "title": "",
     "section": "",
-    "text": "Leiden HumAN is located within the Leiden Centre for Digital Humanities in the Huizinga building at Leiden University.\n\nStreet Address: Doelensteeg 16, 2311 VL Leiden, Netherlands"
+    "text": "Lab Director\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "contact.html#visit-us",
-    "href": "contact.html#visit-us",
+    "objectID": "people.html#research-staff",
+    "href": "people.html#research-staff",
     "title": "",
     "section": "",
-    "text": "Leiden HumAN is located within the Leiden Centre for Digital Humanities in the Huizinga building at Leiden University.\n\nStreet Address: Doelensteeg 16, 2311 VL Leiden, Netherlands"
+    "text": "Lab Director\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "contact.html#contact-us",
-    "href": "contact.html#contact-us",
+    "objectID": "people.html#phd-students",
+    "href": "people.html#phd-students",
     "title": "",
-    "section": "Contact Us:",
-    "text": "Contact Us:\n…"
+    "section": "PhD Students",
+    "text": "PhD Students\n\n\n\n\n\n\n\n\n\n\nCarolina Zucchi\n\n\nExternal PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\nChris Handy\n\n\nSoftware Developer\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2024-08-15-JUSTIN-PHD.html",
-    "href": "posts/2024-08-15-JUSTIN-PHD.html",
-    "title": "Congratulations Justin!",
-    "section": "",
-    "text": "We are happy to announce that Justin has been accepted as a PhD student at the Complex Connection Lab, Network Science Institute, Northeastern University! This is an incredible achievement for Justin and a testament to his hard work and dedication.\n\n\nJustin’s research focuses on developing and applying techniques from network theory and information theory to study collective human behaviors. He aims to understand how people interact with each other and share information through opinion dynamics and information spreading mechanisms. His work has already been published in reputable journals such as AI & Society, Journalism Studies, and top international conferences.\nJustin is finalizing his MSc in Social Data Science at the Oxford Internet Institute, University of Oxford, after completing this he will start his PhD trajectory.\n\n\n\nWe are all excited to see Justin’s journey unfold and wish him every success in his PhD studies! Congratulations once again, Justin!"
+    "objectID": "people.html#research-assistants",
+    "href": "people.html#research-assistants",
+    "title": "",
+    "section": "Research Assistants",
+    "text": "Research Assistants\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2024-08-15-JUSTIN-PHD.html#about-justins-research-interests",
-    "href": "posts/2024-08-15-JUSTIN-PHD.html#about-justins-research-interests",
-    "title": "Congratulations Justin!",
-    "section": "",
-    "text": "Justin’s research focuses on developing and applying techniques from network theory and information theory to study collective human behaviors. He aims to understand how people interact with each other and share information through opinion dynamics and information spreading mechanisms. His work has already been published in reputable journals such as AI & Society, Journalism Studies, and top international conferences.\nJustin is finalizing his MSc in Social Data Science at the Oxford Internet Institute, University of Oxford, after completing this he will start his PhD trajectory."
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\nRuben Ros\n\n\nPhD Student\n\n\nWinter 2020 \n\n\nCurrent\n\n\n\n\n\n\nJing Chen\n\n\nFormer Guest Researcher\n\n\nWinter 2023\n\n\nSummer 2023\n\n\n\n\n\n\nManshan Hui\n\n\nFormer Guest Researcher\n\n\nWinter 2024\n\n\nSpring 2025\n\n\n\n\n\n\nJiehai Liu\n\n\nFormer Guest Researcher\n\n\nWinter 2022\n\n\nSummer 2023\n\n\n\n\n\n\nAda Shi\n\n\nResearch Assistant\n\n\nFall 2022\n\n\nSpring 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2024-08-15-JUSTIN-PHD.html#best-wishes",
-    "href": "posts/2024-08-15-JUSTIN-PHD.html#best-wishes",
-    "title": "Congratulations Justin!",
+    "objectID": "people/staff/jelena_prokic.html",
+    "href": "people/staff/jelena_prokic.html",
+    "title": "Jelena Prokic",
     "section": "",
-    "text": "We are all excited to see Justin’s journey unfold and wish him every success in his PhD studies! Congratulations once again, Justin!"
+    "text": "website\n  \n  \n      orcid\n  \n  \n    \n     twitter"
   },
   {
-    "objectID": "posts/2023-11-30-clariah.html",
-    "href": "posts/2023-11-30-clariah.html",
-    "title": "Clariah LLM Talk",
-    "section": "",
-    "text": "Navigating ChatGPT: A Primer on Functionality, safety and Academic Use\n\nAron’s presentation at the CLARIAH Annual Conference 2023, “Navigating ChatGPT: A Primer on Functionality, Safety, and Academic Use,” offered a succinct exploration into the workings of ChatGPT and large language models (LLMs). He explained their mechanisms, touched on the significance of open-source models for academia, and provided examples of their academic applications. Aron also delved into critical issues like LLM jailbreaking and security, emphasizing the need for ethical usage and robust safeguards in academic research. This talk was a valuable primer for anyone looking to understand or apply ChatGPT and LLMs in their work."
+    "objectID": "people/staff/jelena_prokic.html#biography",
+    "href": "people/staff/jelena_prokic.html#biography",
+    "title": "Jelena Prokic",
+    "section": "Biography",
+    "text": "Biography\nJelena Prokic relies on computational methods to explain how and why language changes and discover language internal and external factors that lead to observed change. She specializes in variation on the micro-level, where she is particularly interested in automatic dialect detection, automatic feature extraction and dynamics of language variation. She investigates problems related to formation, maintenance and evolution of dialects and their stability through time. She is dedicated to developing digital databases, tools and methods that would assist researchers in contributing to a theory of natural language and shed more light on language evolution, and eventually on human cognition, society and history. In her work she applies methods from natural language processing, machine learning, corpus linguistics and GIS.\nJelena holds a PhD in Computational Linguistics from the University of Groningen, MA degree in Computational Linguistics from the University of Tübingen and Diploma in Chinese Language and Literature from the University of Belgrade. After her PhD, she worked as a postdoctoral researcher at the University of Munich and the University of Marburg. She participated in various projects where she explored the potentials of digital methods and tools in the humanities. Her work includes projects on quantitative approaches to diversity of Bulgarian dialects (Buldialect), phylogeny of Native South American languages (QuantHistLing), digitization of German dialect data (Alignments of the PAD), automatic detection and analysis of the spread of neologisms in English (Incipient diffusion of lexical innovations) and development of the first digital phonetic database for computational historical linguistics and dialectometry (BDPA)."
   },
   {
-    "objectID": "posts/2024-08-08-RA-SAHEL.html",
-    "href": "posts/2024-08-08-RA-SAHEL.html",
-    "title": "Research Assistantship for Digital Warfare in the Sahel",
+    "objectID": "people/staff/justin_yeung.html",
+    "href": "people/staff/justin_yeung.html",
+    "title": "Justin Yeung",
     "section": "",
-    "text": "The Leiden University Institute for History invites applications for a research assistant for the NWO-funded project ‘Digital warfare in the Sahel: popular networks of war and Cultural Violence’. This interdisciplinary project will combine historical-ethnographic approach with natural language processing and social network analysis to study the role of social media networks in the spread of violence in Sahel region.\n\n\n\nData collection;\nData analysis;\nCreation of Jupyter notebooks;\nCollaboration with members of the team.\n\n\n\n\n\nMA degree in computational linguistics, computational social sciences or closely related area;\nExcellent programming skills, preferably in Python;\nExperience with natural language processing and social network analysis;\nInterest in the Humanities and Social Sciences;\nGood command of English;\nAbility to work both independently and as part of an (international) team;\nAbility to work in an international and highly competitive environment.\n\n\n\n\n1 November 2024\n\n\n\nThe appointment (0.2 fte) is initially for one year with the possibility of extending the contract for three years after positive evaluation (or 0.4 fte for one year with the possibility of extending the contract for one year after positive evaluation). Depending on qualifications and experience, the maximum gross monthly salary for this position is € 2.679 for a full-time position, based on the collective salary agreement of the Association of Dutch Univerisities (CAO)\n\n\n\nLeiden University offers an attractive benefits package with additional holiday (8%) and end-of-year bonuses (8.3 %), training and career development and sabbatical leave. Our individual choices model gives you some freedom to assemble your own set of terms and conditions.\n\n\n\nApplications should be submitted here in English and include a:\n\nMotivation letter;\nCurriculum vitae;\nList of two referees to your application (with full postal addresses, telephone numbers, and emails). Referees will be contacted directly by the search committee.\n\n\n\n15 September 2024\n\n\n\nPlease feel free to contact Professor Mirjam de Bruijn (m.e.de.bruijn@hum.leidenuniv.nl) and Dr. Jelena Prokic (j.prokic@hum.leidenuniv.nl ) for more information."
+    "text": "website\n  \n\n\n\nJustin is an incoming PhD student at the Complex Connection Lab at Network Science Institute, Notheastern University, directed by Prof. Riccardo Di Clemente. Justin is broadly interested in developing and applying techniques from network theory and information theory to study (collective) human behaviours, for example opinion dynamics and information spreading mechanisms. As of 2024, his work has been published at AI & Society, Journalism Studies and various international conferences such as Conference on Complex Systems and ICA conference.\nJustin is finalizing his MSc Social Data Science at the Oxford Internet Institute, University of Oxford and holds a BSc Communication Science at the University"
   },
   {
-    "objectID": "posts/2024-08-08-RA-SAHEL.html#key-responsibilities",
-    "href": "posts/2024-08-08-RA-SAHEL.html#key-responsibilities",
-    "title": "Research Assistantship for Digital Warfare in the Sahel",
+    "objectID": "people/staff/jiahui_liang.html",
+    "href": "people/staff/jiahui_liang.html",
+    "title": "Jiahui Liang",
     "section": "",
-    "text": "Data collection;\nData analysis;\nCreation of Jupyter notebooks;\nCollaboration with members of the team."
+    "text": "website\n  \n\n\n\nJiahui Liang is a PhD candidate at the Leiden Centre for Linguistics."
   },
   {
-    "objectID": "posts/2024-08-08-RA-SAHEL.html#selection-criteria",
-    "href": "posts/2024-08-08-RA-SAHEL.html#selection-criteria",
-    "title": "Research Assistantship for Digital Warfare in the Sahel",
+    "objectID": "people/alumni/manshan_hui.html",
+    "href": "people/alumni/manshan_hui.html",
+    "title": "Manshan Hui",
     "section": "",
-    "text": "MA degree in computational linguistics, computational social sciences or closely related area;\nExcellent programming skills, preferably in Python;\nExperience with natural language processing and social network analysis;\nInterest in the Humanities and Social Sciences;\nGood command of English;\nAbility to work both independently and as part of an (international) team;\nAbility to work in an international and highly competitive environment."
+    "text": "Jiehai Liu is a guest researcher at the Leiden University Center for Linguistics hosted by Prof. Dr. Sjef Barbiers. He holds a Ph.D. in linguistics from Nanjing University, China. His research interests include syntax, cognitive grammar, construction grammar, natural language processing, and artificial intelligence. Currently, he is studying mirativity in Chinese constructions at Leiden University. Two parts of his research are involved. The first is to use cognitive construction grammar to examine the mechanism of mirativity production and comprehension. In addition, the study of miratives in Chinese and other languages can be supported using natural language processing and machine learning technologies."
   },
   {
-    "objectID": "posts/2024-08-08-RA-SAHEL.html#start-date",
-    "href": "posts/2024-08-08-RA-SAHEL.html#start-date",
-    "title": "Research Assistantship for Digital Warfare in the Sahel",
+    "objectID": "people/alumni/manshan_hui.html#biography",
+    "href": "people/alumni/manshan_hui.html#biography",
+    "title": "Manshan Hui",
     "section": "",
-    "text": "1 November 2024"
+    "text": "Jiehai Liu is a guest researcher at the Leiden University Center for Linguistics hosted by Prof. Dr. Sjef Barbiers. He holds a Ph.D. in linguistics from Nanjing University, China. His research interests include syntax, cognitive grammar, construction grammar, natural language processing, and artificial intelligence. Currently, he is studying mirativity in Chinese constructions at Leiden University. Two parts of his research are involved. The first is to use cognitive construction grammar to examine the mechanism of mirativity production and comprehension. In addition, the study of miratives in Chinese and other languages can be supported using natural language processing and machine learning technologies."
   },
   {
-    "objectID": "posts/2024-08-08-RA-SAHEL.html#salary-and-conditions",
-    "href": "posts/2024-08-08-RA-SAHEL.html#salary-and-conditions",
-    "title": "Research Assistantship for Digital Warfare in the Sahel",
+    "objectID": "people/affiliated/chris_handy.html",
+    "href": "people/affiliated/chris_handy.html",
+    "title": "Chris Handy",
     "section": "",
-    "text": "The appointment (0.2 fte) is initially for one year with the possibility of extending the contract for three years after positive evaluation (or 0.4 fte for one year with the possibility of extending the contract for one year after positive evaluation). Depending on qualifications and experience, the maximum gross monthly salary for this position is € 2.679 for a full-time position, based on the collective salary agreement of the Association of Dutch Univerisities (CAO)"
+    "text": "website"
   },
   {
-    "objectID": "posts/2024-08-08-RA-SAHEL.html#employee-benefits",
-    "href": "posts/2024-08-08-RA-SAHEL.html#employee-benefits",
-    "title": "Research Assistantship for Digital Warfare in the Sahel",
-    "section": "",
-    "text": "Leiden University offers an attractive benefits package with additional holiday (8%) and end-of-year bonuses (8.3 %), training and career development and sabbatical leave. Our individual choices model gives you some freedom to assemble your own set of terms and conditions."
+    "objectID": "people/affiliated/chris_handy.html#biography",
+    "href": "people/affiliated/chris_handy.html#biography",
+    "title": "Chris Handy",
+    "section": "Biography",
+    "text": "Biography\nChris Handy is a software engineer at Leiden University Informatisering en Facilitaire Zaken (IFZ)."
   },
   {
-    "objectID": "posts/2024-08-08-RA-SAHEL.html#apply-now",
-    "href": "posts/2024-08-08-RA-SAHEL.html#apply-now",
-    "title": "Research Assistantship for Digital Warfare in the Sahel",
+    "objectID": "people/affiliated/carolina_zucchi.html",
+    "href": "people/affiliated/carolina_zucchi.html",
+    "title": "Carolina Zucchi",
     "section": "",
-    "text": "Applications should be submitted here in English and include a:\n\nMotivation letter;\nCurriculum vitae;\nList of two referees to your application (with full postal addresses, telephone numbers, and emails). Referees will be contacted directly by the search committee.\n\n\n\n15 September 2024\n\n\n\nPlease feel free to contact Professor Mirjam de Bruijn (m.e.de.bruijn@hum.leidenuniv.nl) and Dr. Jelena Prokic (j.prokic@hum.leidenuniv.nl ) for more information."
+    "text": "Carolina Zucchi is an external PhD Researcher at the Centre for Digital Humanities (LUCDH) and Centre for Linguistics (LUCL)"
   },
   {
-    "objectID": "posts/2023-05-28-new-member-justin.html",
-    "href": "posts/2023-05-28-new-member-justin.html",
-    "title": "Welcoming new member - Justin Yeung",
+    "objectID": "people/alumni/jiehai_liu.html",
+    "href": "people/alumni/jiehai_liu.html",
+    "title": "Jiehai Liu",
     "section": "",
-    "text": "Leiden HumAN welcomes its new staff researcher Justin Yeung\nJustin Yeung is joining Leiden HumAN as a staff researcher starting in May 2023. His research interests include political communication, migration studies and science & technology studies (STS). In our group, along with other staff, he will be responsible for two projects, namely Political Social Network in Indonesia and Generative AI for Investigative Journalism.\nGet to know more about Justin here"
+    "text": "Jiehai Liu is a guest researcher at the Leiden University Center for Linguistics hosted by Prof. Dr. Sjef Barbiers. He holds a Ph.D. in linguistics from Nanjing University, China. His research interests include syntax, cognitive grammar, construction grammar, natural language processing, and artificial intelligence. Currently, he is studying mirativity in Chinese constructions at Leiden University. Two parts of his research are involved. The first is to use cognitive construction grammar to examine the mechanism of mirativity production and comprehension. In addition, the study of miratives in Chinese and other languages can be supported using natural language processing and machine learning technologies."
   },
   {
-    "objectID": "posts/2023-12-12-POLISONI-workshop.html",
-    "href": "posts/2023-12-12-POLISONI-workshop.html",
-    "title": "Political Social Networks in Indonesia 15 Dec 2023",
+    "objectID": "people/alumni/jiehai_liu.html#biography",
+    "href": "people/alumni/jiehai_liu.html#biography",
+    "title": "Jiehai Liu",
     "section": "",
-    "text": "PoliSoNI project is organizing a workshop on 15 December\nPolitical social networks in Indonesia is a multidisciplinary project aiming at creating a large-scale digital database of the profiles of aspiring politicians for the upcoming 2024 general elections in Indonesia. On 14 February 2024 Indonesia, home of 205 million registered eligible voters, will hold a massive-scale general election, with about 300,000 candidates running for 20,614 political seats. Political social networks in Indonesia project combines expertise in political economy of Indonesia (LIAS/SSEA) and expertise in web scraping, social network analysis and machine learning (LUCDH/LUCL), in order to make election data freely and easily accessible to all researchers interested in the political economy and democracy in Indonesia.\nIn this workshop we will present the preliminary results of the project and discuss it with both experts in Indonesian general elections/politics and software developers. The workshop is open to everyone interested in Indonesian 2024 elections and how digital technologies can help us in using web data to create easily accessible research materials for studies on politics and political economy.\n\nOrganizers\nJelena Prokic & Rizal Shidiq\n\n\nLocation\nLocation: Digital Lab, P.J. Veth 1.07\n\n\nDate & Time\n15 December 2023; 10:00-12:00"
+    "text": "Jiehai Liu is a guest researcher at the Leiden University Center for Linguistics hosted by Prof. Dr. Sjef Barbiers. He holds a Ph.D. in linguistics from Nanjing University, China. His research interests include syntax, cognitive grammar, construction grammar, natural language processing, and artificial intelligence. Currently, he is studying mirativity in Chinese constructions at Leiden University. Two parts of his research are involved. The first is to use cognitive construction grammar to examine the mechanism of mirativity production and comprehension. In addition, the study of miratives in Chinese and other languages can be supported using natural language processing and machine learning technologies."
   },
   {
-    "objectID": "posts/2024-03-28-CLIN34.html",
-    "href": "posts/2024-03-28-CLIN34.html",
-    "title": "Computational Linguistics in the Netherlands (CLIN 34)",
+    "objectID": "people/alumni/ruben_ros.html",
+    "href": "people/alumni/ruben_ros.html",
+    "title": "Ruben Ros",
     "section": "",
-    "text": "Computational Linguistics in the Netherlands (CLIN 34)\nThe 34th Meeting of Computational Linguistics in The Netherlands (CLIN 34), organized by the Leiden University Centre for Linguistics (LUCL), in collaboration with the Leiden Institute of Advanced Computer Science (LIACS), and the Leiden University Centre for Digital Humanities (LUCDH), is set to be held on August 30, 2024 in the Lipsius building of Leiden University, Leiden, The Netherlands.\n\nCall for abstracts\nAbstracts describing work on any aspect of computational linguistics / natural language processing (finished or in progress), are welcome for submission at CLIN34. Submissions must be written in English and must be submitted through this web form. Please provide all information requested in the form.\nThe submission deadline is May 15th 2024 and notifications of acceptance will be sent out on June 15th 2024. Authors of accepted abstracts will have the opportunity to submit a full paper after the conference to CLIN Journal."
+    "text": "website\n  \n\n\n\nMy research focusses on the history of twentieth-century Dutch political thought and culture. In my dissertation project I study technocratic reasoning in parliamentary debate. Using computational methods, I aim to find and explain the employment of expertise in political language.\nRuben Ros completed the Research Master’s in History at Utrecht University with distinction in 2019. He wrote his thesis on the conceptual history of “the foreign” in nineteenth-century Dutch periodicals. During and after the MA, Ruben specialized in computational text analysis and conceptual history. After internships at the Helsinki Computational History Group and the KNAW DH Lab and a research project on visual cultural memory, he started his dissertation project in 2020.\nFields of interest\n\nPolitical History\nConceptual History\nComputational Text Analysis\nDigital Humanities\nText Mining"
   },
   {
-    "objectID": "posts/2024-01-31-oii-indonesia-talk.html",
-    "href": "posts/2024-01-31-oii-indonesia-talk.html",
-    "title": "Leiden HumAN researchers talk at Oxford Internet Institute",
+    "objectID": "people/alumni/ada_shi.html",
+    "href": "people/alumni/ada_shi.html",
+    "title": "Ada Shi",
     "section": "",
-    "text": "Zooming in on the digital aspects of the Indonesian election\nLeiden HumAN researchers Wang Ngai Yeung and Leiden Institute for Area Studies researcher Dr. Rizal Shidiq will present at the upcoming event at the Oxford Internet Institute (OII) on their latest work Political Social Network in Indonesia (POLISONI).\n\nAbout the event\n2024 is already promising to be an important year for elections, as over 40% of the world’s population will be eligible to vote. Digital technologies can impact campaigns, political participation, and elections in many ways. In the first event of the OII elections initiative, we would like to zoom in on the digital aspects of the Indonesian election. We will introduce the background of the Indonesian election and its importance and cover how digital media and technologies are being used by political actors. Additionally, we will discuss online content governance in the context of tensions and power negotiations involved in moderating political content. Relying on social data science approaches, we will present a database on Indonesian candidate profiles developed by researchers at Leiden University. Please join us for a discussion of the different digital aspects of the Indonesian election.\n\n\nLocation\nIn-person (1 St Giles, Oxford) / Online\n\n\nDate & Time\nWednesday 7 Feb 2024, 18:00 - 19:00 (CEST)\n\n\nRegistration\nClick here to register"
+    "text": "Ada Shi is a third-year Bachelor’s Communication Science student at the University of Amsterdam. Ada will work as a research assistant in the Digital warfare in the Sahel project, where she will focus on the usage of social media in the Sahel region."
   },
   {
-    "objectID": "posts/2024-06-01-ARON-KJG.html",
-    "href": "posts/2024-06-01-ARON-KJG.html",
-    "title": "Aron starts SNU Kyujanggak Junior Research Fellow",
+    "objectID": "people/alumni/ada_shi.html#biography",
+    "href": "people/alumni/ada_shi.html#biography",
+    "title": "Ada Shi",
     "section": "",
-    "text": "We are pleased to announce that Aron has been selected as a Junior Research Fellow at the Kyujanggak Institute of Seoul National University in South Korea! This prestigious fellowship will allow him to spend nine months researching and collaborating with international experts in both Korean studies & computational approaches to this field.\n\n\n\nDuring his time in Seoul, Aron will be working on project applying computer vision approaches to Colonial Korean printing & Visual Advertising.\n\n\n\nWe are all excited for Aron as he embarks on this new adventure, and we wish him a successful and enriching experience in Seoul!"
+    "text": "Ada Shi is a third-year Bachelor’s Communication Science student at the University of Amsterdam. Ada will work as a research assistant in the Digital warfare in the Sahel project, where she will focus on the usage of social media in the Sahel region."
   },
   {
-    "objectID": "posts/2024-06-01-ARON-KJG.html#about-the-fellowship",
-    "href": "posts/2024-06-01-ARON-KJG.html#about-the-fellowship",
-    "title": "Aron starts SNU Kyujanggak Junior Research Fellow",
+    "objectID": "people/staff/aron_vandepol.html",
+    "href": "people/staff/aron_vandepol.html",
+    "title": "Aron van de Pol",
     "section": "",
-    "text": "During his time in Seoul, Aron will be working on project applying computer vision approaches to Colonial Korean printing & Visual Advertising."
+    "text": "website\n  \n\n\n\nMy PhD dissertation is an interdisciplinary study that combines Korea studies with computer vision. The research focuses on three different case studies that employ various aspects of computer vision, namely classification, object detection, and OCR. An example of these is the case study examining the rise of modern Korean print culture during the 1920s. This era marked a significant period of growth in book, newspaper, and magazine production, and print shops played a vital role. I employ a Convolutional Neural Network (CNN) to classify the print shops of books published in colonial Korea, allowing for a quantitative analysis of this period."
   },
   {
-    "objectID": "posts/2024-06-01-ARON-KJG.html#best-of-luck",
-    "href": "posts/2024-06-01-ARON-KJG.html#best-of-luck",
-    "title": "Aron starts SNU Kyujanggak Junior Research Fellow",
+    "objectID": "people/staff/matthew_sung.html",
+    "href": "people/staff/matthew_sung.html",
+    "title": "Matthew Sung",
     "section": "",
-    "text": "We are all excited for Aron as he embarks on this new adventure, and we wish him a successful and enriching experience in Seoul!"
+    "text": "Home\n    People\n    Graduate Students\n    Matthew Sung\nMy PhD project involves using computational methods and cartographic techniques to explore, visualise and analyse dialectal variation.\nThe primary focus of my project is to develop a tone distance metric which allows dialectologists to calculate dialect distances on the tonal level. In addition, I will address dialectological questions such as “do dialect boundaries exist?” and “what are transition dialects like?” for both tonal and segmental levels, using Yue as my case study. To address these questions, I look at 100+ dialects, and the findings are aimed to be non-language-specific, while the methods are aimed to be applicable cross-linguistically."
   },
   {
-    "objectID": "posts/2023-02-16-deep-learning-for-beginners-2023.html",
-    "href": "posts/2023-02-16-deep-learning-for-beginners-2023.html",
-    "title": "Deep Learning Workshop with Aron van de Pol",
+    "objectID": "people/staff/matthew_sung.html#phd-project",
+    "href": "people/staff/matthew_sung.html#phd-project",
+    "title": "Matthew Sung",
+    "section": "PhD Project",
+    "text": "PhD Project\nMy PhD project involves using computational methods and cartographic techniques to explore, visualise and analyse dialectal variation.\nThere are two main components in my project: 1) developing a tonal distance metric, investigate how tones vary geographically and how they differ from segments, and 2) developing a method which automatically detects dialect features which are exclusive to specific dialect areas.\nIn addition, I will address classical dialectological questions using Yue as my case study. Do we find similar patterns in dialectal variation of Yue like we do in Europe? I will also revisit the classification of Yue dialects, including the internal classification within Yue, and the Yue-Pinghua dichotomy. Are Yue and Pinghua two separate Sinitic branches? Is the current classification of Yue justified under data-driven, aggregate dialectology?"
+  },
+  {
+    "objectID": "people/staff/matthew_sung.html#fields-of-interest",
+    "href": "people/staff/matthew_sung.html#fields-of-interest",
+    "title": "Matthew Sung",
+    "section": "Fields of interest",
+    "text": "Fields of interest\n\nGeneral Dialectology;\nDialectometry;\nComputational Dialectology;\nLinguistic Mapping (QGIS);\nDialect Classification;\nYue (粵語) dialectology\nSegmental and tonal variation"
+  },
+  {
+    "objectID": "people/staff/luca_bruls.html",
+    "href": "people/staff/luca_bruls.html",
+    "title": "Luca Bruls",
     "section": "",
-    "text": "Deep Learning for beginners workshop\nDeep-learning has been used in many recent applications You’ve likely seen use cases such as Stable diffusion, DALL-E image generation, ChatGPT text generation, image classification and, object detection in self-driving cars. Deep-learning is also gaining popularity in the humanities, even beyond NLP uses.\nIn this workshop we are teaching humanities students & researchers how to train neural networks using PyTorch, thereby allowing them to eventually use this for their own research interests. Meaning this course is heavily focused onto the practical side of neural network programming.\nThe main focus revolves around visual data, but the basics taught in this course are equally important for language or audio related deep learning:\n\nTensors: The powerhouse of Deep Learning\nHarnessing the power of randomness: Training Loops & Lineair regression using Neural Networks (2 March)\nClassification issues and Non-Linearity\nUnleashing the Potential of Images as Data\nConquering image classification with Convolutional Neural Networks\nLeveraging the power of Transfer Learning: Harnessing the knowledge of other datasets to reach new heights. With this knowledge, you can continue to teach yourself further in expanding beyond the focus of images onto other forms of data such a text (NLP tasks).\n\n\nLocation\nDigital Lab, P.J. Veth 1.07 Time: TBD\n\n\nAvailability"
+    "text": "website\n  \n\n\n\nLuca Bruls is a PhD Researcher at the Centre for Digital Humanities (LUCDH) and the Leiden Institute for History, working on the project Digital warfare in the Sahel: popular networks of war and Cultural Violence."
   },
   {
     "objectID": "posts/2023-07-05-ra-sahel.html",
@@ -238,253 +336,169 @@
     "text": "Applications should be submitted here in English and include a:\n\nMotivation letter;\nCurriculum vitae;\nList of two referees to your application (with full postal addresses, telephone numbers, and emails). Referees will be contacted directly by the search committee.\n\n\n\n21 July 2023\n\n\n\nPlease feel free to contact Professor Mirjam de Bruijn (m.e.de.bruijn@hum.leidenuniv.nl) and Dr. Jelena Prokic (j.prokic@hum.leidenuniv.nl ) for more information."
   },
   {
-    "objectID": "people/staff/luca_bruls.html",
-    "href": "people/staff/luca_bruls.html",
-    "title": "Luca Bruls",
+    "objectID": "posts/2023-02-16-deep-learning-for-beginners-2023.html",
+    "href": "posts/2023-02-16-deep-learning-for-beginners-2023.html",
+    "title": "Deep Learning Workshop with Aron van de Pol",
     "section": "",
-    "text": "website\n  \n\n\n\nLuca Bruls is a PhD Researcher at the Centre for Digital Humanities (LUCDH) and the Leiden Institute for History, working on the project Digital warfare in the Sahel: popular networks of war and Cultural Violence."
+    "text": "Deep Learning for beginners workshop\nDeep-learning has been used in many recent applications You’ve likely seen use cases such as Stable diffusion, DALL-E image generation, ChatGPT text generation, image classification and, object detection in self-driving cars. Deep-learning is also gaining popularity in the humanities, even beyond NLP uses.\nIn this workshop we are teaching humanities students & researchers how to train neural networks using PyTorch, thereby allowing them to eventually use this for their own research interests. Meaning this course is heavily focused onto the practical side of neural network programming.\nThe main focus revolves around visual data, but the basics taught in this course are equally important for language or audio related deep learning:\n\nTensors: The powerhouse of Deep Learning\nHarnessing the power of randomness: Training Loops & Lineair regression using Neural Networks (2 March)\nClassification issues and Non-Linearity\nUnleashing the Potential of Images as Data\nConquering image classification with Convolutional Neural Networks\nLeveraging the power of Transfer Learning: Harnessing the knowledge of other datasets to reach new heights. With this knowledge, you can continue to teach yourself further in expanding beyond the focus of images onto other forms of data such a text (NLP tasks).\n\n\nLocation\nDigital Lab, P.J. Veth 1.07 Time: TBD\n\n\nAvailability"
   },
   {
-    "objectID": "people/staff/matthew_sung.html",
-    "href": "people/staff/matthew_sung.html",
-    "title": "Matthew Sung",
+    "objectID": "posts/2024-06-01-ARON-KJG.html",
+    "href": "posts/2024-06-01-ARON-KJG.html",
+    "title": "Aron starts SNU Kyujanggak Junior Research Fellow",
     "section": "",
-    "text": "Home\n    People\n    Graduate Students\n    Matthew Sung\nMy PhD project involves using computational methods and cartographic techniques to explore, visualise and analyse dialectal variation.\nThe primary focus of my project is to develop a tone distance metric which allows dialectologists to calculate dialect distances on the tonal level. In addition, I will address dialectological questions such as “do dialect boundaries exist?” and “what are transition dialects like?” for both tonal and segmental levels, using Yue as my case study. To address these questions, I look at 100+ dialects, and the findings are aimed to be non-language-specific, while the methods are aimed to be applicable cross-linguistically."
+    "text": "We are pleased to announce that Aron has been selected as a Junior Research Fellow at the Kyujanggak Institute of Seoul National University in South Korea! This prestigious fellowship will allow him to spend nine months researching and collaborating with international experts in both Korean studies & computational approaches to this field.\n\n\n\nDuring his time in Seoul, Aron will be working on project applying computer vision approaches to Colonial Korean printing & Visual Advertising.\n\n\n\nWe are all excited for Aron as he embarks on this new adventure, and we wish him a successful and enriching experience in Seoul!"
   },
   {
-    "objectID": "people/staff/matthew_sung.html#phd-project",
-    "href": "people/staff/matthew_sung.html#phd-project",
-    "title": "Matthew Sung",
-    "section": "PhD Project",
-    "text": "PhD Project\nMy PhD project involves using computational methods and cartographic techniques to explore, visualise and analyse dialectal variation.\nThere are two main components in my project: 1) developing a tonal distance metric, investigate how tones vary geographically and how they differ from segments, and 2) developing a method which automatically detects dialect features which are exclusive to specific dialect areas.\nIn addition, I will address classical dialectological questions using Yue as my case study. Do we find similar patterns in dialectal variation of Yue like we do in Europe? I will also revisit the classification of Yue dialects, including the internal classification within Yue, and the Yue-Pinghua dichotomy. Are Yue and Pinghua two separate Sinitic branches? Is the current classification of Yue justified under data-driven, aggregate dialectology?"
-  },
-  {
-    "objectID": "people/staff/matthew_sung.html#fields-of-interest",
-    "href": "people/staff/matthew_sung.html#fields-of-interest",
-    "title": "Matthew Sung",
-    "section": "Fields of interest",
-    "text": "Fields of interest\n\nGeneral Dialectology;\nDialectometry;\nComputational Dialectology;\nLinguistic Mapping (QGIS);\nDialect Classification;\nYue (粵語) dialectology\nSegmental and tonal variation"
-  },
-  {
-    "objectID": "people/staff/aron_vandepol.html",
-    "href": "people/staff/aron_vandepol.html",
-    "title": "Aron van de Pol",
+    "objectID": "posts/2024-06-01-ARON-KJG.html#about-the-fellowship",
+    "href": "posts/2024-06-01-ARON-KJG.html#about-the-fellowship",
+    "title": "Aron starts SNU Kyujanggak Junior Research Fellow",
     "section": "",
-    "text": "website\n  \n\n\n\nMy PhD dissertation is an interdisciplinary study that combines Korea studies with computer vision. The research focuses on three different case studies that employ various aspects of computer vision, namely classification, object detection, and OCR. An example of these is the case study examining the rise of modern Korean print culture during the 1920s. This era marked a significant period of growth in book, newspaper, and magazine production, and print shops played a vital role. I employ a Convolutional Neural Network (CNN) to classify the print shops of books published in colonial Korea, allowing for a quantitative analysis of this period."
+    "text": "During his time in Seoul, Aron will be working on project applying computer vision approaches to Colonial Korean printing & Visual Advertising."
   },
   {
-    "objectID": "people/alumni/ada_shi.html",
-    "href": "people/alumni/ada_shi.html",
-    "title": "Ada Shi",
+    "objectID": "posts/2024-06-01-ARON-KJG.html#best-of-luck",
+    "href": "posts/2024-06-01-ARON-KJG.html#best-of-luck",
+    "title": "Aron starts SNU Kyujanggak Junior Research Fellow",
     "section": "",
-    "text": "Ada Shi is a third-year Bachelor’s Communication Science student at the University of Amsterdam. Ada will work as a research assistant in the Digital warfare in the Sahel project, where she will focus on the usage of social media in the Sahel region."
+    "text": "We are all excited for Aron as he embarks on this new adventure, and we wish him a successful and enriching experience in Seoul!"
   },
   {
-    "objectID": "people/alumni/ada_shi.html#biography",
-    "href": "people/alumni/ada_shi.html#biography",
-    "title": "Ada Shi",
+    "objectID": "posts/2024-01-31-oii-indonesia-talk.html",
+    "href": "posts/2024-01-31-oii-indonesia-talk.html",
+    "title": "Leiden HumAN researchers talk at Oxford Internet Institute",
     "section": "",
-    "text": "Ada Shi is a third-year Bachelor’s Communication Science student at the University of Amsterdam. Ada will work as a research assistant in the Digital warfare in the Sahel project, where she will focus on the usage of social media in the Sahel region."
+    "text": "Zooming in on the digital aspects of the Indonesian election\nLeiden HumAN researchers Wang Ngai Yeung and Leiden Institute for Area Studies researcher Dr. Rizal Shidiq will present at the upcoming event at the Oxford Internet Institute (OII) on their latest work Political Social Network in Indonesia (POLISONI).\n\nAbout the event\n2024 is already promising to be an important year for elections, as over 40% of the world’s population will be eligible to vote. Digital technologies can impact campaigns, political participation, and elections in many ways. In the first event of the OII elections initiative, we would like to zoom in on the digital aspects of the Indonesian election. We will introduce the background of the Indonesian election and its importance and cover how digital media and technologies are being used by political actors. Additionally, we will discuss online content governance in the context of tensions and power negotiations involved in moderating political content. Relying on social data science approaches, we will present a database on Indonesian candidate profiles developed by researchers at Leiden University. Please join us for a discussion of the different digital aspects of the Indonesian election.\n\n\nLocation\nIn-person (1 St Giles, Oxford) / Online\n\n\nDate & Time\nWednesday 7 Feb 2024, 18:00 - 19:00 (CEST)\n\n\nRegistration\nClick here to register"
   },
   {
-    "objectID": "people/alumni/ruben_ros.html",
-    "href": "people/alumni/ruben_ros.html",
-    "title": "Ruben Ros",
+    "objectID": "posts/2024-03-28-CLIN34.html",
+    "href": "posts/2024-03-28-CLIN34.html",
+    "title": "Computational Linguistics in the Netherlands (CLIN 34)",
     "section": "",
-    "text": "website\n  \n\n\n\nMy research focusses on the history of twentieth-century Dutch political thought and culture. In my dissertation project I study technocratic reasoning in parliamentary debate. Using computational methods, I aim to find and explain the employment of expertise in political language.\nRuben Ros completed the Research Master’s in History at Utrecht University with distinction in 2019. He wrote his thesis on the conceptual history of “the foreign” in nineteenth-century Dutch periodicals. During and after the MA, Ruben specialized in computational text analysis and conceptual history. After internships at the Helsinki Computational History Group and the KNAW DH Lab and a research project on visual cultural memory, he started his dissertation project in 2020.\nFields of interest\n\nPolitical History\nConceptual History\nComputational Text Analysis\nDigital Humanities\nText Mining"
+    "text": "Computational Linguistics in the Netherlands (CLIN 34)\nThe 34th Meeting of Computational Linguistics in The Netherlands (CLIN 34), organized by the Leiden University Centre for Linguistics (LUCL), in collaboration with the Leiden Institute of Advanced Computer Science (LIACS), and the Leiden University Centre for Digital Humanities (LUCDH), is set to be held on August 30, 2024 in the Lipsius building of Leiden University, Leiden, The Netherlands.\n\nCall for abstracts\nAbstracts describing work on any aspect of computational linguistics / natural language processing (finished or in progress), are welcome for submission at CLIN34. Submissions must be written in English and must be submitted through this web form. Please provide all information requested in the form.\nThe submission deadline is May 15th 2024 and notifications of acceptance will be sent out on June 15th 2024. Authors of accepted abstracts will have the opportunity to submit a full paper after the conference to CLIN Journal."
   },
   {
-    "objectID": "people/alumni/jiehai_liu.html",
-    "href": "people/alumni/jiehai_liu.html",
-    "title": "Jiehai Liu",
+    "objectID": "posts/2023-12-12-POLISONI-workshop.html",
+    "href": "posts/2023-12-12-POLISONI-workshop.html",
+    "title": "Political Social Networks in Indonesia 15 Dec 2023",
     "section": "",
-    "text": "Jiehai Liu is a guest researcher at the Leiden University Center for Linguistics hosted by Prof. Dr. Sjef Barbiers. He holds a Ph.D. in linguistics from Nanjing University, China. His research interests include syntax, cognitive grammar, construction grammar, natural language processing, and artificial intelligence. Currently, he is studying mirativity in Chinese constructions at Leiden University. Two parts of his research are involved. The first is to use cognitive construction grammar to examine the mechanism of mirativity production and comprehension. In addition, the study of miratives in Chinese and other languages can be supported using natural language processing and machine learning technologies."
+    "text": "PoliSoNI project is organizing a workshop on 15 December\nPolitical social networks in Indonesia is a multidisciplinary project aiming at creating a large-scale digital database of the profiles of aspiring politicians for the upcoming 2024 general elections in Indonesia. On 14 February 2024 Indonesia, home of 205 million registered eligible voters, will hold a massive-scale general election, with about 300,000 candidates running for 20,614 political seats. Political social networks in Indonesia project combines expertise in political economy of Indonesia (LIAS/SSEA) and expertise in web scraping, social network analysis and machine learning (LUCDH/LUCL), in order to make election data freely and easily accessible to all researchers interested in the political economy and democracy in Indonesia.\nIn this workshop we will present the preliminary results of the project and discuss it with both experts in Indonesian general elections/politics and software developers. The workshop is open to everyone interested in Indonesian 2024 elections and how digital technologies can help us in using web data to create easily accessible research materials for studies on politics and political economy.\n\nOrganizers\nJelena Prokic & Rizal Shidiq\n\n\nLocation\nLocation: Digital Lab, P.J. Veth 1.07\n\n\nDate & Time\n15 December 2023; 10:00-12:00"
   },
   {
-    "objectID": "people/alumni/jiehai_liu.html#biography",
-    "href": "people/alumni/jiehai_liu.html#biography",
-    "title": "Jiehai Liu",
+    "objectID": "posts/2023-05-28-new-member-justin.html",
+    "href": "posts/2023-05-28-new-member-justin.html",
+    "title": "Welcoming new member - Justin Yeung",
     "section": "",
-    "text": "Jiehai Liu is a guest researcher at the Leiden University Center for Linguistics hosted by Prof. Dr. Sjef Barbiers. He holds a Ph.D. in linguistics from Nanjing University, China. His research interests include syntax, cognitive grammar, construction grammar, natural language processing, and artificial intelligence. Currently, he is studying mirativity in Chinese constructions at Leiden University. Two parts of his research are involved. The first is to use cognitive construction grammar to examine the mechanism of mirativity production and comprehension. In addition, the study of miratives in Chinese and other languages can be supported using natural language processing and machine learning technologies."
+    "text": "Leiden HumAN welcomes its new staff researcher Justin Yeung\nJustin Yeung is joining Leiden HumAN as a staff researcher starting in May 2023. His research interests include political communication, migration studies and science & technology studies (STS). In our group, along with other staff, he will be responsible for two projects, namely Political Social Network in Indonesia and Generative AI for Investigative Journalism.\nGet to know more about Justin here"
   },
   {
-    "objectID": "people/affiliated/carolina_zucchi.html",
-    "href": "people/affiliated/carolina_zucchi.html",
-    "title": "Carolina Zucchi",
+    "objectID": "posts/2024-08-08-RA-SAHEL.html",
+    "href": "posts/2024-08-08-RA-SAHEL.html",
+    "title": "Research Assistantship for Digital Warfare in the Sahel",
     "section": "",
-    "text": "Carolina Zucchi is an external PhD Researcher at the Centre for Digital Humanities (LUCDH) and Centre for Linguistics (LUCL)"
+    "text": "The Leiden University Institute for History invites applications for a research assistant for the NWO-funded project ‘Digital warfare in the Sahel: popular networks of war and Cultural Violence’. This interdisciplinary project will combine historical-ethnographic approach with natural language processing and social network analysis to study the role of social media networks in the spread of violence in Sahel region.\n\n\n\nData collection;\nData analysis;\nCreation of Jupyter notebooks;\nCollaboration with members of the team.\n\n\n\n\n\nMA degree in computational linguistics, computational social sciences or closely related area;\nExcellent programming skills, preferably in Python;\nExperience with natural language processing and social network analysis;\nInterest in the Humanities and Social Sciences;\nGood command of English;\nAbility to work both independently and as part of an (international) team;\nAbility to work in an international and highly competitive environment.\n\n\n\n\n1 November 2024\n\n\n\nThe appointment (0.2 fte) is initially for one year with the possibility of extending the contract for three years after positive evaluation (or 0.4 fte for one year with the possibility of extending the contract for one year after positive evaluation). Depending on qualifications and experience, the maximum gross monthly salary for this position is € 2.679 for a full-time position, based on the collective salary agreement of the Association of Dutch Univerisities (CAO)\n\n\n\nLeiden University offers an attractive benefits package with additional holiday (8%) and end-of-year bonuses (8.3 %), training and career development and sabbatical leave. Our individual choices model gives you some freedom to assemble your own set of terms and conditions.\n\n\n\nApplications should be submitted here in English and include a:\n\nMotivation letter;\nCurriculum vitae;\nList of two referees to your application (with full postal addresses, telephone numbers, and emails). Referees will be contacted directly by the search committee.\n\n\n\n15 September 2024\n\n\n\nPlease feel free to contact Professor Mirjam de Bruijn (m.e.de.bruijn@hum.leidenuniv.nl) and Dr. Jelena Prokic (j.prokic@hum.leidenuniv.nl ) for more information."
   },
   {
-    "objectID": "people/affiliated/chris_handy.html",
-    "href": "people/affiliated/chris_handy.html",
-    "title": "Chris Handy",
+    "objectID": "posts/2024-08-08-RA-SAHEL.html#key-responsibilities",
+    "href": "posts/2024-08-08-RA-SAHEL.html#key-responsibilities",
+    "title": "Research Assistantship for Digital Warfare in the Sahel",
     "section": "",
-    "text": "website"
+    "text": "Data collection;\nData analysis;\nCreation of Jupyter notebooks;\nCollaboration with members of the team."
   },
   {
-    "objectID": "people/affiliated/chris_handy.html#biography",
-    "href": "people/affiliated/chris_handy.html#biography",
-    "title": "Chris Handy",
-    "section": "Biography",
-    "text": "Biography\nChris Handy is a software engineer at Leiden University Informatisering en Facilitaire Zaken (IFZ)."
-  },
-  {
-    "objectID": "people/alumni/manshan_hui.html",
-    "href": "people/alumni/manshan_hui.html",
-    "title": "Manshan Hui",
+    "objectID": "posts/2024-08-08-RA-SAHEL.html#selection-criteria",
+    "href": "posts/2024-08-08-RA-SAHEL.html#selection-criteria",
+    "title": "Research Assistantship for Digital Warfare in the Sahel",
     "section": "",
-    "text": "Jiehai Liu is a guest researcher at the Leiden University Center for Linguistics hosted by Prof. Dr. Sjef Barbiers. He holds a Ph.D. in linguistics from Nanjing University, China. His research interests include syntax, cognitive grammar, construction grammar, natural language processing, and artificial intelligence. Currently, he is studying mirativity in Chinese constructions at Leiden University. Two parts of his research are involved. The first is to use cognitive construction grammar to examine the mechanism of mirativity production and comprehension. In addition, the study of miratives in Chinese and other languages can be supported using natural language processing and machine learning technologies."
+    "text": "MA degree in computational linguistics, computational social sciences or closely related area;\nExcellent programming skills, preferably in Python;\nExperience with natural language processing and social network analysis;\nInterest in the Humanities and Social Sciences;\nGood command of English;\nAbility to work both independently and as part of an (international) team;\nAbility to work in an international and highly competitive environment."
   },
   {
-    "objectID": "people/alumni/manshan_hui.html#biography",
-    "href": "people/alumni/manshan_hui.html#biography",
-    "title": "Manshan Hui",
+    "objectID": "posts/2024-08-08-RA-SAHEL.html#start-date",
+    "href": "posts/2024-08-08-RA-SAHEL.html#start-date",
+    "title": "Research Assistantship for Digital Warfare in the Sahel",
     "section": "",
-    "text": "Jiehai Liu is a guest researcher at the Leiden University Center for Linguistics hosted by Prof. Dr. Sjef Barbiers. He holds a Ph.D. in linguistics from Nanjing University, China. His research interests include syntax, cognitive grammar, construction grammar, natural language processing, and artificial intelligence. Currently, he is studying mirativity in Chinese constructions at Leiden University. Two parts of his research are involved. The first is to use cognitive construction grammar to examine the mechanism of mirativity production and comprehension. In addition, the study of miratives in Chinese and other languages can be supported using natural language processing and machine learning technologies."
+    "text": "1 November 2024"
   },
   {
-    "objectID": "people/staff/jiahui_liang.html",
-    "href": "people/staff/jiahui_liang.html",
-    "title": "Jiahui Liang",
+    "objectID": "posts/2024-08-08-RA-SAHEL.html#salary-and-conditions",
+    "href": "posts/2024-08-08-RA-SAHEL.html#salary-and-conditions",
+    "title": "Research Assistantship for Digital Warfare in the Sahel",
     "section": "",
-    "text": "website\n  \n\n\n\nJiahui Liang is a PhD candidate at the Leiden Centre for Linguistics."
+    "text": "The appointment (0.2 fte) is initially for one year with the possibility of extending the contract for three years after positive evaluation (or 0.4 fte for one year with the possibility of extending the contract for one year after positive evaluation). Depending on qualifications and experience, the maximum gross monthly salary for this position is € 2.679 for a full-time position, based on the collective salary agreement of the Association of Dutch Univerisities (CAO)"
   },
   {
-    "objectID": "people/staff/justin_yeung.html",
-    "href": "people/staff/justin_yeung.html",
-    "title": "Justin Yeung",
+    "objectID": "posts/2024-08-08-RA-SAHEL.html#employee-benefits",
+    "href": "posts/2024-08-08-RA-SAHEL.html#employee-benefits",
+    "title": "Research Assistantship for Digital Warfare in the Sahel",
     "section": "",
-    "text": "website\n  \n\n\n\nJustin is an incoming PhD student at the Complex Connection Lab at Network Science Institute, Notheastern University, directed by Prof. Riccardo Di Clemente. Justin is broadly interested in developing and applying techniques from network theory and information theory to study (collective) human behaviours, for example opinion dynamics and information spreading mechanisms. As of 2024, his work has been published at AI & Society, Journalism Studies and various international conferences such as Conference on Complex Systems and ICA conference.\nJustin is finalizing his MSc Social Data Science at the Oxford Internet Institute, University of Oxford and holds a BSc Communication Science at the University"
+    "text": "Leiden University offers an attractive benefits package with additional holiday (8%) and end-of-year bonuses (8.3 %), training and career development and sabbatical leave. Our individual choices model gives you some freedom to assemble your own set of terms and conditions."
   },
   {
-    "objectID": "people/staff/jelena_prokic.html",
-    "href": "people/staff/jelena_prokic.html",
-    "title": "Jelena Prokic",
+    "objectID": "posts/2024-08-08-RA-SAHEL.html#apply-now",
+    "href": "posts/2024-08-08-RA-SAHEL.html#apply-now",
+    "title": "Research Assistantship for Digital Warfare in the Sahel",
     "section": "",
-    "text": "website\n  \n  \n      orcid\n  \n  \n    \n     twitter"
+    "text": "Applications should be submitted here in English and include a:\n\nMotivation letter;\nCurriculum vitae;\nList of two referees to your application (with full postal addresses, telephone numbers, and emails). Referees will be contacted directly by the search committee.\n\n\n\n15 September 2024\n\n\n\nPlease feel free to contact Professor Mirjam de Bruijn (m.e.de.bruijn@hum.leidenuniv.nl) and Dr. Jelena Prokic (j.prokic@hum.leidenuniv.nl ) for more information."
   },
   {
-    "objectID": "people/staff/jelena_prokic.html#biography",
-    "href": "people/staff/jelena_prokic.html#biography",
-    "title": "Jelena Prokic",
-    "section": "Biography",
-    "text": "Biography\nJelena Prokic relies on computational methods to explain how and why language changes and discover language internal and external factors that lead to observed change. She specializes in variation on the micro-level, where she is particularly interested in automatic dialect detection, automatic feature extraction and dynamics of language variation. She investigates problems related to formation, maintenance and evolution of dialects and their stability through time. She is dedicated to developing digital databases, tools and methods that would assist researchers in contributing to a theory of natural language and shed more light on language evolution, and eventually on human cognition, society and history. In her work she applies methods from natural language processing, machine learning, corpus linguistics and GIS.\nJelena holds a PhD in Computational Linguistics from the University of Groningen, MA degree in Computational Linguistics from the University of Tübingen and Diploma in Chinese Language and Literature from the University of Belgrade. After her PhD, she worked as a postdoctoral researcher at the University of Munich and the University of Marburg. She participated in various projects where she explored the potentials of digital methods and tools in the humanities. Her work includes projects on quantitative approaches to diversity of Bulgarian dialects (Buldialect), phylogeny of Native South American languages (QuantHistLing), digitization of German dialect data (Alignments of the PAD), automatic detection and analysis of the spread of neologisms in English (Incipient diffusion of lexical innovations) and development of the first digital phonetic database for computational historical linguistics and dialectometry (BDPA)."
+    "objectID": "posts/2023-11-30-clariah.html",
+    "href": "posts/2023-11-30-clariah.html",
+    "title": "Clariah LLM Talk",
+    "section": "",
+    "text": "Navigating ChatGPT: A Primer on Functionality, safety and Academic Use\n\nAron’s presentation at the CLARIAH Annual Conference 2023, “Navigating ChatGPT: A Primer on Functionality, Safety, and Academic Use,” offered a succinct exploration into the workings of ChatGPT and large language models (LLMs). He explained their mechanisms, touched on the significance of open-source models for academia, and provided examples of their academic applications. Aron also delved into critical issues like LLM jailbreaking and security, emphasizing the need for ethical usage and robust safeguards in academic research. This talk was a valuable primer for anyone looking to understand or apply ChatGPT and LLMs in their work."
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
+    "objectID": "posts/2024-08-15-JUSTIN-PHD.html",
+    "href": "posts/2024-08-15-JUSTIN-PHD.html",
+    "title": "Congratulations Justin!",
+    "section": "",
+    "text": "We are happy to announce that Justin has been accepted as a PhD student at the Complex Connection Lab, Network Science Institute, Northeastern University! This is an incredible achievement for Justin and a testament to his hard work and dedication.\n\n\nJustin’s research focuses on developing and applying techniques from network theory and information theory to study collective human behaviors. He aims to understand how people interact with each other and share information through opinion dynamics and information spreading mechanisms. His work has already been published in reputable journals such as AI & Society, Journalism Studies, and top international conferences.\nJustin is finalizing his MSc in Social Data Science at the Oxford Internet Institute, University of Oxford, after completing this he will start his PhD trajectory.\n\n\n\nWe are all excited to see Justin’s journey unfold and wish him every success in his PhD studies! Congratulations once again, Justin!"
+  },
+  {
+    "objectID": "posts/2024-08-15-JUSTIN-PHD.html#about-justins-research-interests",
+    "href": "posts/2024-08-15-JUSTIN-PHD.html#about-justins-research-interests",
+    "title": "Congratulations Justin!",
+    "section": "",
+    "text": "Justin’s research focuses on developing and applying techniques from network theory and information theory to study collective human behaviors. He aims to understand how people interact with each other and share information through opinion dynamics and information spreading mechanisms. His work has already been published in reputable journals such as AI & Society, Journalism Studies, and top international conferences.\nJustin is finalizing his MSc in Social Data Science at the Oxford Internet Institute, University of Oxford, after completing this he will start his PhD trajectory."
+  },
+  {
+    "objectID": "posts/2024-08-15-JUSTIN-PHD.html#best-wishes",
+    "href": "posts/2024-08-15-JUSTIN-PHD.html#best-wishes",
+    "title": "Congratulations Justin!",
+    "section": "",
+    "text": "We are all excited to see Justin’s journey unfold and wish him every success in his PhD studies! Congratulations once again, Justin!"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
     "title": "",
     "section": "",
-    "text": "Lab Director\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\nNo matching items"
+    "text": "Leiden HumAN is located within the Leiden Centre for Digital Humanities in the Huizinga building at Leiden University.\n\nStreet Address: Doelensteeg 16, 2311 VL Leiden, Netherlands"
   },
   {
-    "objectID": "people.html#research-staff",
-    "href": "people.html#research-staff",
+    "objectID": "contact.html#visit-us",
+    "href": "contact.html#visit-us",
     "title": "",
     "section": "",
-    "text": "Lab Director\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\nNo matching items"
+    "text": "Leiden HumAN is located within the Leiden Centre for Digital Humanities in the Huizinga building at Leiden University.\n\nStreet Address: Doelensteeg 16, 2311 VL Leiden, Netherlands"
   },
   {
-    "objectID": "people.html#phd-students",
-    "href": "people.html#phd-students",
+    "objectID": "contact.html#contact-us",
+    "href": "contact.html#contact-us",
     "title": "",
-    "section": "PhD Students",
-    "text": "PhD Students\n\n\n\n\n\n\n\n\n\n\nCarolina Zucchi\n\n\nExternal PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\nChris Handy\n\n\nSoftware Developer\n\n\n\n\n\nNo matching items"
+    "section": "Contact Us:",
+    "text": "Contact Us:\n…"
   },
   {
-    "objectID": "people.html#research-assistants",
-    "href": "people.html#research-assistants",
-    "title": "",
-    "section": "Research Assistants",
-    "text": "Research Assistants\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\nRuben Ros\n\n\nPhD Student\n\n\nWinter 2020 \n\n\nCurrent\n\n\n\n\n\n\nJing Chen\n\n\nFormer Guest Researcher\n\n\nWinter 2023\n\n\nSummer 2023\n\n\n\n\n\n\nManshan Hui\n\n\nFormer Guest Researcher\n\n\nWinter 2024\n\n\nSpring 2025\n\n\n\n\n\n\nJiehai Liu\n\n\nFormer Guest Researcher\n\n\nWinter 2022\n\n\nSummer 2023\n\n\n\n\n\n\nAda Shi\n\n\nResearch Assistant\n\n\nFall 2022\n\n\nSpring 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2023-12-06-SAILS-workshop.html",
-    "href": "posts/2023-12-06-SAILS-workshop.html",
-    "title": "SAILS Workshop - December 2023",
-    "section": "",
-    "text": "SAILS workshop “AI and LLMs: Keeping the Linguist in the Loop”\nOn Friday, 8 December, Jelena Prokic will will take part in the discussion panel at the SAILS workshop titled “AI and LLMs: Keeping the Linguist in the Loop” at Leiden University. Panel discussion with Sjef Barbiers and Vincent Vandeghinste, moderated by Carole Tiberius."
-  },
-  {
-    "objectID": "posts/2023-06-10-sails-talk-jelena.html",
-    "href": "posts/2023-06-10-sails-talk-jelena.html",
-    "title": "Sails Lunch Time Seminar The Role of AI in the Humanities",
-    "section": "",
-    "text": "Sails Lunch Time Seminar: The Role of AI in the Humanities\nEver since the emergence of Artificial Intelligence (AI), the vast majority of research at the intersection of the Humanities and AI was dedicated to the ethical side of AI and how AI impacts our cultures and societies. While philosophy and critical thinking of AI remain indispensable research areas in the Humanities, lately there has been a surge of research that uses AI to investigate diverse questions in the Humanities.\nIn this talk I will address the recently established research group Leiden Humanities AI and NLP group, Leiden HumAN, which works at the intersection of AI and the Humanities. The group focuses on development and application of NLP and deep learning methods in diverse areas of the Humanities, including Linguistics, History, East-Asian studies and Anthropology. The goal is to bring together traditional and state-of-the-art computational methods and foster innovative research in the Humanities. At the same time, the research objective is to increase the role of the Humanities in the development of socially responsible and diverse AI. I will present several ongoing research projects in which members of the group are involved.\nI will also introduce the BA minor Digital Humanities & Atificial Intelligence, an initiative by the Leiden University Centre for Digital Humanities at the Faculty of Humanities. Tailored to appeal to students from all fields of humanities research, the minor aims to complement BA studies with a skill set that includes a foundation in programming, text and image analysis, while offering a space for thinking about and debating digitization, and the influence of AI in our daily lives. The Artificial Intelligence track, starting from the 2023/24 academic year, will offer a deep dive into the theories and advanced methods, including NLP and deep learning, needed to work with and understand the AI revolution.\n\nLocation\nOnline\n\n\nDate & Time\nMonday 12 June 2023, 12:00 - 13:00 (CEST)\n\n\nRegistration\nClick here to register"
-  },
-  {
-    "objectID": "posts/2023-09-13-deep-learning-for-beginners-2024.html",
-    "href": "posts/2023-09-13-deep-learning-for-beginners-2024.html",
-    "title": "Deep Learning for Beginners Feb 2024 - Apr 2024",
-    "section": "",
-    "text": "How to Make a Computer Think like a Human\nDeep-learning has been used in many recent applications. You’ve likely seen use cases such as Stable diffusion, DALL-E image generation, ChatGPT text generation, image classification and, object detection in self-driving cars. Deep-learning is also gaining popularity in the humanities beyond NLP uses. Here are the topics we will cover:\n\nTensors\nSingle Linear Neuron Models and Training Loop\nMulti-Layer Models and Activation Functions\n(Images as Data: CNN and Data Loaders\nEvaluation Metrics and Model Performances\n*Transfer Learning and Practical Applications&lt;/strong\n\nPlease find the syllabus of the workshop here\nJoin our 6-part workshop series and go from zero to building a basic image classification model. With this knowledge, you can continue to teach yourself further in expanding beyond the focus of images onto other forms of data such a text (NLP tasks).\n\nInstructor\nAron van de Pol\n\n\nLocation\nLocation: Digital Lab, P.J. Veth 1.07\n\n\nDate & Time\nThe workshop will run from Feb 2024 - Apr 2024\n\n\nAvailability\nThis workshop is only available in person. Please register here"
-  },
-  {
-    "objectID": "posts/2023-11-23-new-member-ada.html",
-    "href": "posts/2023-11-23-new-member-ada.html",
-    "title": "Welcoming new member - Ada Shi November 2023",
-    "section": "",
-    "text": "Leiden HumAN welcomes its new student researcher Ada Shi\nAda Shi has joined HumAN lab in November 2023. She is a third-year Bachelor’s Communication Science student at the University of Amsterdam. Ada will work as a research assistant in the Digital warfare in the Sahel project, where she will focus on the usage of social media in the Sahel region."
-  },
-  {
-    "objectID": "posts/2023-11-05-llms-humanities-workshop.html",
-    "href": "posts/2023-11-05-llms-humanities-workshop.html",
-    "title": "Applications of Large Language Models to the Humanities Workshop 21 Nov 2023",
-    "section": "",
-    "text": "Applications of Large Language Models to the Humanities Workshop\nIn this workshop, we will explore different approaches for applying a Large Language Model (like BERT) to a specific tagging problem in the context of Computational Humanities research. Following up on the current “pre-train and fine-tune” paradigm in the field of Computational Linguistics, we will try to reach an understanding of the techniques used in the “fine-tuning” step. Besides this theoretical part, we will have a hands-on session on working with computing clusters. Because carrying out this type of approach requires computational power often not available in personal computers, we will walk through an example of how to script and deploy fine-tuning jobs on ALICE (the high performance computing cluster at Leiden University). We will complete the workshop emphasising the need for evaluation and comparison of different approaches before consuming the output of the fine-tuned models.\n\nInstructor\nEnrique Manjavacas Arevalo\n\n\nLocation\nLocation: Digital Lab, P.J. Veth 1.07\n\n\nDate & Time\nThe workshop will take place on 21 Nov 2023, 10:00-13:00\n\n\nAvailability\nThis workshop is only available in person. Please register here"
-  },
-  {
-    "objectID": "posts/2024-02-06-deep-learning-for-beginners-2024.html",
-    "href": "posts/2024-02-06-deep-learning-for-beginners-2024.html",
-    "title": "Deep Learning for the Humanities Workshop",
-    "section": "",
-    "text": "Deep Learning for the Humanities workshop\nDeep-learning has been used in many recent applications You’ve likely seen use cases such as Stable diffusion - image generation, ChatGPT text generation, image classification and, object detection in self-driving cars. Deep-learning is also gaining popularity in the humanities, even beyond NLP uses.\nIn this workshop we are teaching humanities students & researchers how to train neural networks using PyTorch, thereby allowing them to eventually use this for their own research interests. Meaning this course is heavily focused onto the practical side of neural network programming.\nThe main focus revolves around visual data, but the basics taught in this course are equally important for language or audio related deep learning:\n\n\n\n\n\n\n\n\nSession\nDate\nTopic\n\n\n\n\nSession 1\n6 February\nTensors\n\n\nSession 2\n20 February\nLinear regression (Training Pt 1.)\n\n\nSession 2\n5 March\nNon-Linear Data (Training Pt 2. & Evaluation)\n\n\nSession 3\n19 March\nImages as Data\n\n\nSession 4\n2 April\nImage classification\n\n\nSession 5\n16 April\nTransfer Learning\n\n\nSession 6\n30 April\nSpill-over Session\n\n\n\nMore Information\n\nLocation\nDigital Lab, P.J. Veth 1.07 Time: biweekly starting 6th of Feb. 13-15\n\n\nAvailability"
-  },
-  {
-    "objectID": "posts/2023-09-13-computational-dialectology-workshop.html",
-    "href": "posts/2023-09-13-computational-dialectology-workshop.html",
-    "title": "Workshop on Methods in Dialectology Oct 2023 - Nov 2023",
-    "section": "",
-    "text": "New workshop on the latest methods in dialectology\nInterested in dialects? Want to know how to analyse dialects? Want to learn how to create linguistic maps? Then this is the workshop for you! This semester, the Leiden Dialectology Workshop Series will give 5 workshops on different aspects of dialectology; you will learn how to read maps, extract dialect data as well as creating your own linguistic maps with hands on experience.\nDialectology, the study of language variation across geographical space, may not be a subject that is as accessible to everyone as before. At the end of the 19th century and throughout the 20th century, there were numerous dialect surveys conducted around the world, and some of these surveys were published as linguistic atlases (maps) and dialect surveys (tables, lists). These data typically reflect the more old-fashioned speech spoken in rural areas, which were on the verge of extinction when the surveys were conducted due to societal changes. These data, now mostly sitting in the library in book form, are covered in dust and are waiting for more people to utilize them. This workshop series aims to introduce the kind of data present in these linguistic atlases/ dialect surveys, as well as to introduce how to extract these data and analyze them.\nThroughout the semester, we will digitize a dialect dataset together. From this process, we can learn what kind of problems one might face in digitization, as well as learning how to overcome some of them. The digitized dataset will be used in the next semester (Introduction to Dialectometry 2024).\nPlease find the syllabus of the workshop here\n\nInstructor\nMatthew Sung\n\n\nLocation\nLocation: Digital Lab, P.J. Veth 1.07\n\n\nDate & Time\nThe workshop will run from Oct 2023 - Nov 2023\n\n\nAvailability\nThis workshop is only available in person. Please register here"
-  },
-  {
-    "objectID": "posts/2023-05-11-text-alignment-talk.html",
-    "href": "posts/2023-05-11-text-alignment-talk.html",
-    "title": "Text Alignment Talk with Chris Handy",
-    "section": "",
-    "text": "Cross-linguistic Text Alignment: An Evolutionary Approach\nText alignment is the process of finding similar passages across two or more documents. Text alignment is a process that can be useful in examining multiple versions of a document, whether in one or several languages, or in searching for text re-use within a collection of disparate documents. Some examples of the types of projects that benefit from text alignment include: 1) matching parallel readings of Bible passages across different translations, 2) compiling multiple versions of “Little Red Riding Hood” or other popular narratives, and 3) locating thematically similar texts within a larger corpus (e.g. finding medical literature within a Buddhist canon). Traditionally, the process of text alignment is done by a human being, and the determination of the boundaries of aligned segments is largely intuited from the education and experience of the researcher.\nHowever, if we attempt to automate this process, we quickly find that defining formally what similarity means can be a non-trivial task. This talk focuses on one particular solution to this problem, developed initially for a project in Buddhist Studies but then generalised to cover a wide variety of text alignment problems across any languages and genres. The basic idea is that the data presented to us are always in a less than ideal state, and that alignment of any two passages can never have a single correct solution. Instead of attempting to achieve perfect alignments, my method is to approach a hypothetical ideal alignment through an iterative process that begins with a series of educated guesses about aligned passages and then refines those guesses using a customisable scoring system. I use a simple genetic algorithm, designed in Python, to create a population of “agents” that each possess a sequence of data called a “gene” that dictates the alignment guesses each agent makes about a set of texts. Agents assign scores to themselves based on dictionary matches and other information, and a master controller combines the genes of the top scoring agents to create the next generation of agents. Over multiple generations, these agents evolve toward desired alignments, in a way that is similar to dog breeding or other processes of artificial selection among biological organisms. The system I have designed is free, open source and easy to use, allowing a researcher to select population sizes, mutation rates, scoring mechanisms and other variables to suit any particular alignment project. This software is also made to run on nearly any device, including cluster computers (e.g. the Leiden ALICE cluster), personal computers, mobile phones, and even Raspberry Pi and other single board computers.\n\nLocation\nLocation: PJ Veth 1.16 Time: 12:00-13:00\n\n\nAvailability\nSpots still available"
-  },
-  {
-    "objectID": "posts/2023-04-21-Bert-workshop.html",
-    "href": "posts/2023-04-21-Bert-workshop.html",
-    "title": "BERT workshop with Enrique Manjavacas",
-    "section": "",
-    "text": "BERT workshop with Enrique Manjavacas\nOn the 21th of April, Enrique Manjavacas, a postdoc research at Leiden University’s Centre for Linguistics will give a workshop on the BERT language model, and specifically the GysBERT and MacBERT models created with historical language data.\n\nLocation\nDigital Lab, P.J. Veth 1.07 Time: TBD\n\n\nAvailability\nSpots still open"
-  },
-  {
-    "objectID": "posts/2024-02-07-intro-to-dialectometry.html",
-    "href": "posts/2024-02-07-intro-to-dialectometry.html",
-    "title": "Introduction to Dialectometry",
-    "section": "",
-    "text": "Introduction to Dialectometry (2024)\nMany proposals of dialect classification use isoglosses to identify dialect areas. However, isogloss maps are often messy, and they are also susceptible to some further problems: 1) features shown on a map can potentially be cherry-picked; 2) very often it is difficult to analyse many features all at once, 3) it is difficult to analyse the relationship between dialects (areas) which are geographically distant and 4) it is difficult to assess how representative features are in an analysis.\nIn order to overcome these problems and make dialect classifications more objective, dialectologists have employed computational methods in dialectology, often known as dialectometry , the measurement of dialect distances. Dialectometry applies a set of techniques on a large amount of dialect data in order to get an aggregate picture of the variation hidden the dialect landscape.\nIn this workshop series, the reasoning behind the dialectometric approaches will first be introduced in the first week, then in the following weeks, various techniques in dialectometry will be introduced with hands on exercises. Lastly, the workshop series will end with an overview of the contemporary approaches in the field.\nProgramming knowledge is not required for this workshop series.\n\n\nTime & Location\nTuesdays: 27 February; 12 March; 26 March; 9 April; 23 April at PJ Veth 1.07 DH Lab\n\nAvailability\nRegistration"
-  },
-  {
-    "objectID": "publications/articles/sung_prokic2024.html",
-    "href": "publications/articles/sung_prokic2024.html",
+    "objectID": "publications/articles/sung_prokic2024a.html",
+    "href": "publications/articles/sung_prokic2024a.html",
     "title": "A New Dataset for Tonal and Segmental Dialectometry from the Yue- and Pinghua-Speaking Area",
     "section": "",
     "text": "Traditional dialectology or dialect geography is the study of geographical variation of language. Originated in Europe and pioneered in Germany and France, this field has predominantly been focusing on sounds, more specifically, on segments. Similarly, quantitative approaches to language variation concerned with the phonetic level are in most cases focusing on segments as well. However, more than half of the world’s languages include lexical tones (Yip, 2002). Despite this, tones are still underexplored in quantitative language comparison, partly due to the low accessibility of the suitable data. This paper aims to introduce a newly digitised dataset which comes from the Yue- and Pinghua-speaking areas in Southern China, with over 100 dialects. This dataset consists of two parts: tones and segments. In this paper, we illustrate how we can computationaly model tones in order to explore linguistic variation. We have applied a tone distance metric on our data, and we have found that 1) dialects also form a continuum on the tonal level and 2) other than tonemic (inventory) and tonetic differences, dialects can also differ in the lexical distribution of tones. The availability of this dataset will hopefully enable further exploration of the role of tones in quantitative typology and NLP research.\n\n\n\nLocalities and their respective sources"
   },
   {
-    "objectID": "publications/articles/sung_prokic2024.html#abstract",
-    "href": "publications/articles/sung_prokic2024.html#abstract",
+    "objectID": "publications/articles/sung_prokic2024a.html#abstract",
+    "href": "publications/articles/sung_prokic2024a.html#abstract",
     "title": "A New Dataset for Tonal and Segmental Dialectometry from the Yue- and Pinghua-Speaking Area",
     "section": "",
     "text": "Traditional dialectology or dialect geography is the study of geographical variation of language. Originated in Europe and pioneered in Germany and France, this field has predominantly been focusing on sounds, more specifically, on segments. Similarly, quantitative approaches to language variation concerned with the phonetic level are in most cases focusing on segments as well. However, more than half of the world’s languages include lexical tones (Yip, 2002). Despite this, tones are still underexplored in quantitative language comparison, partly due to the low accessibility of the suitable data. This paper aims to introduce a newly digitised dataset which comes from the Yue- and Pinghua-speaking areas in Southern China, with over 100 dialects. This dataset consists of two parts: tones and segments. In this paper, we illustrate how we can computationaly model tones in order to explore linguistic variation. We have applied a tone distance metric on our data, and we have found that 1) dialects also form a continuum on the tonal level and 2) other than tonemic (inventory) and tonetic differences, dialects can also differ in the lexical distribution of tones. The availability of this dataset will hopefully enable further exploration of the role of tones in quantitative typology and NLP research.\n\n\n\nLocalities and their respective sources"
@@ -501,6 +515,6 @@
     "href": "publications.html",
     "title": "",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n      \n        Year - Oldest\n      \n      \n        Year - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA New Dataset for Tonal and Segmental Dialectometry from the Yue- and Pinghua-Speaking Area\n\n\n\ndialectometry\n\ndataset\n\n\n\nThis paper introduces a newly digitized dataset from Yue- and Pinghua-speaking areas in Southern China, modeling tonal variation across over 100 dialects to explore linguistic differences, highlighting the underexplored role of tones in quantitative language comparison.\n\n\n\n\n\nMar 22, 2024\n\n\nHo Wang Matthew Sung, Jelena Prokic, Yiya Chen\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n      \n        Year - Oldest\n      \n      \n        Year - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA New Dataset for Tonal and Segmental Dialectometry from the Yue- and Pinghua-Speaking Area\n\n\n\ndialectometry\n\ndataset\n\n\n\nThis paper introduces a newly digitized dataset from Yue- and Pinghua-speaking areas in Southern China, modeling tonal variation across over 100 dialects to explore linguistic differences, highlighting the underexplored role of tones in quantitative language comparison.\n\n\n\n\n\nMar 22, 2024\n\n\nHo Wang Matthew Sung, Jelena Prokic, Yiya Chen\n\n\n\n\n\n\n\n\n\n\n\n\nTest\n\n\n\ndialectometry\n\ndataset\n\n\n\nThis paper introduces a newly digitized dataset from Yue- and Pinghua-speaking areas in Southern China, modeling tonal variation across over 100 dialects to explore linguistic differences, highlighting the underexplored role of tones in quantitative language comparison.\n\n\n\n\n\nMar 22, 2024\n\n\nHo Wang Matthew Sung, Jelena Prokic, Yiya Chen\n\n\n\n\n\nNo matching items"
   }
 ]
