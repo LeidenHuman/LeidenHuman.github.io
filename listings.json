@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/publications/articles/sung_prokic2024.html"
+    ]
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/staff/jelena_prokic.html",
@@ -8,19 +14,13 @@
       "/people/staff/justin_yeung.html",
       "/people/staff/luca_bruls.html",
       "/people/staff/matthew_sung.html",
-      "/people/staff/ruben_ros.html",
       "/people/affiliated/carolina_zucchi.html",
       "/people/affiliated/chris_handy.html",
+      "/people/alumni/ruben_ros.html",
       "/people/alumni/jing_chen.html",
-      "/people/alumni/allie_lassche.html",
+      "/people/alumni/manshan_hui.html",
       "/people/alumni/jiehai_liu.html",
       "/people/alumni/ada_shi.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/publications/articles/sung_prokic2024.html"
     ]
   },
   {
