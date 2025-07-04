@@ -4,7 +4,6 @@ description: |
   This paper introduces a newly digitized dataset from Yue- and Pinghua-speaking areas in Southern China, modeling tonal variation across over 100 dialects to explore linguistic differences, highlighting the underexplored role of tones in quantitative language comparison.
 date: 03/22/2024
 author:
-    
   - name: 
         given: Ho Wang Matthew
         family: Sung
