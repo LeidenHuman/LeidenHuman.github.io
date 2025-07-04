@@ -1,7 +1,7 @@
 ---
 title: "Carolina Zucchi"
 subtitle: "External PhD Student"
-image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/main-images/humanities/lucdh/lucdh2023/staff-pages/s2-photo_carolina.jpg/s2-photo_carolina.jpg/d200x250 
+image: https://www.arabistik.uni-bayreuth.de/pool/bilder/Zucchi-Carolina.jpg
 toc: false
 # resources: 
 #   - "cv.pdf"
