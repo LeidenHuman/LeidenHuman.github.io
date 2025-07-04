@@ -4,7 +4,6 @@ title: Political Social Networks in Indonesia 15 Dec 2023
 author: Admin
 categories:
   - Workshop
-  - 
 ---
 # PoliSoNI project is organizing a workshop on 15 December
 
