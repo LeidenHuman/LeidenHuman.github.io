@@ -1,27 +1,9 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/publications.html",
     "items": [
       "/publications/articles/sung_prokic2024a.html",
       "/publications/articles/sung_prokic2024b.html"
-    ]
-  },
-  {
-    "listing": "/people.html",
-    "items": [
-      "/people/staff/jelena_prokic.html",
-      "/people/staff/aron_vandepol.html",
-      "/people/staff/jiahui_liang.html",
-      "/people/staff/justin_yeung.html",
-      "/people/staff/luca_bruls.html",
-      "/people/staff/matthew_sung.html",
-      "/people/affiliated/carolina_zucchi.html",
-      "/people/affiliated/chris_handy.html",
-      "/people/alumni/ruben_ros.html",
-      "/people/alumni/jing_chen.html",
-      "/people/alumni/manshan_hui.html",
-      "/people/alumni/jiehai_liu.html",
-      "/people/alumni/ada_shi.html"
     ]
   },
   {
@@ -50,7 +32,25 @@
     ]
   },
   {
-    "listing": "/publications.html",
+    "listing": "/people.html",
+    "items": [
+      "/people/staff/jelena_prokic.html",
+      "/people/staff/aron_vandepol.html",
+      "/people/staff/jiahui_liang.html",
+      "/people/staff/justin_yeung.html",
+      "/people/staff/luca_bruls.html",
+      "/people/staff/matthew_sung.html",
+      "/people/affiliated/carolina_zucchi.html",
+      "/people/affiliated/chris_handy.html",
+      "/people/alumni/ruben_ros.html",
+      "/people/alumni/jing_chen.html",
+      "/people/alumni/manshan_hui.html",
+      "/people/alumni/jiehai_liu.html",
+      "/people/alumni/ada_shi.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
     "items": [
       "/publications/articles/sung_prokic2024a.html",
       "/publications/articles/sung_prokic2024b.html"
