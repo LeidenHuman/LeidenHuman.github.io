@@ -1,7 +1,7 @@
 ---
-title: "Test"
+title: "Exploring Tonal Variation Using Dialect Tonometry"
 description: | 
-  This paper introduces a newly digitized dataset from Yue- and Pinghua-speaking areas in Southern China, modeling tonal variation across over 100 dialects to explore linguistic differences, highlighting the underexplored role of tones in quantitative language comparison.
+  In this paper, we explore the phonetic and phonological variations in Yue, a lesser-studied tonal language spoken by around 80 million people in Southern China. Using a newly devised tone representation (modified Onset–Contour–Offset) combined with the Levenshtein distance, we explore the patterns of dialectal variation on the tonal level, as well as to what extent tonal variation correlates with segmental variation. Our results show that tones behave rather differently from segments, and thus, we illustrate that studying lesser-studied and tonal languages can contribute immensely to the study of dialect variation in general.
 date: 03/22/2024
 author:
   - name: 
@@ -10,6 +10,7 @@ author:
     url: https://sites.google.com/view/matthew-sung-dialectologist/home
     scholar: https://scholar.google.com/citations?user=IGZGigwAAAAJ&hl=en
     affiliation: Leiden University
+    orcid: 0009-0009-7178-6331
   - name: Jelena Prokic
     url: https://www.universiteitleiden.nl/en/staffmembers/jelena-prokic
     orcid: 0000-0001-8715-9476
