@@ -22,7 +22,7 @@ website:
       #   text: Opportunities
       - href: contact.qmd
         text: Contact
-  page-footer: "Copyright 2024 &copy; Leiden HumAN"
+  page-footer: "Copyright 2025 &copy; Leiden HumAN"
   # site-url:
   repo-url: https://github.com/LeidenHuman/LeidenHuman.github.io
 

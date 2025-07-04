@@ -3,9 +3,12 @@ pagetitle: "Leiden HumAN"
 title: ""
 # page-layout: full
 toc: false
+# TODO fix publications
 listing:
   - id: latest-pub
-    contents: "./publications/*/*.qmd"
+    contents:
+      - "./publications/*/*.qmd"
+      - "./posts/*/*.qmd"
     type: grid
     image-height: 100px
     grid-columns: 3
