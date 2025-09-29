@@ -50,17 +50,14 @@ listing:
 :::{#research-staff}
 :::
 
-## PhD Students
+## Affiliated Researchers
 
-:::{#affiliated}
+::: {#affiliated}
 :::
 
-## Research Assistants
-
-:::{#research-assistants}
-:::
 
 ## Alumni
 
 :::{#alumni}
 :::
+

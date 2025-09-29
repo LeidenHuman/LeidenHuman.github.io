@@ -1,0 +1,25 @@
+---
+title: "Bruno Allahissem"
+sortby: "2"
+subtitle: "PhD Student"
+image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/b/2023/b.-bruno-allahissem-231220.jpg/b.-bruno-allahissem-231220.jpg/d200x250
+toc: false
+# resources: 
+#   - "cv.pdf"
+started: "Winter 2022"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    # - icon: file-earmark-text
+    #   text: vitae
+    #   href: ./people/staff/_cv.pdf-
+    - icon: link
+      text: website
+      href: https://www.universiteitleiden.nl/en/staffmembers/bruno-allahissem#tab-1
+---
+:::{#person-profile}
+:::
+
+Bruno Allahissem is a PhD Researcher at the Centre for Digital Humanities (LUCDH) and the Leiden Institute for History, working on the project Digital warfare in the Sahel: popular networks of war and Cultural Violence.

@@ -6,9 +6,9 @@ image: https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/
 toc: false
 # resources: 
 #   - "cv.pdf"
-started: "Winter 2020
-"
-ended: "Current"
+started: "Winter 2020"
+ended: "April 2025"
+
 about:
   id: person-profile
   template: jolla
@@ -18,8 +18,8 @@ about:
     #   href: ./people/staff/_cv.pdf-
     - icon: link
       text: website
-      href: https://sites.google.com/view/matthew-sung-dialectologist/home
----
+      href: https://rubenros.nl/
+
 
 :::{#person-profile}
 :::
