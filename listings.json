@@ -1,5 +1,31 @@
 [
   {
+    "listing": "/people.html",
+    "items": [
+      "/people/staff/jelena_prokic.html",
+      "/people/staff/aron_vandepol.html",
+      "/people/staff/bruno_allahissem.html",
+      "/people/staff/jiahui_liang.html",
+      "/people/staff/justin_yeung.html",
+      "/people/staff/luca_bruls.html",
+      "/people/staff/matthew_sung.html",
+      "/people/affiliated/carolina_zucchi.html",
+      "/people/affiliated/chris_handy.html",
+      "/people/alumni/ruben_ros.html",
+      "/people/alumni/jing_chen.html",
+      "/people/alumni/manshan_hui.html",
+      "/people/alumni/jiehai_liu.html",
+      "/people/alumni/ada_shi.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/publications/articles/sung_prokic2024b.html",
+      "/publications/articles/sung_prokic_chen2024.html"
+    ]
+  },
+  {
     "listing": "/publications.html",
     "items": [
       "/publications/articles/sung_prokic2024b.html",
@@ -29,31 +55,6 @@
       "/posts/2023-05-11-text-alignment-talk.html",
       "/posts/2023-04-21-Bert-workshop.html",
       "/posts/2023-02-16-deep-learning-for-beginners-2023.html"
-    ]
-  },
-  {
-    "listing": "/people.html",
-    "items": [
-      "/people/staff/jelena_prokic.html",
-      "/people/staff/aron_vandepol.html",
-      "/people/staff/jiahui_liang.html",
-      "/people/staff/justin_yeung.html",
-      "/people/staff/luca_bruls.html",
-      "/people/staff/matthew_sung.html",
-      "/people/affiliated/carolina_zucchi.html",
-      "/people/affiliated/chris_handy.html",
-      "/people/alumni/ruben_ros.html",
-      "/people/alumni/jing_chen.html",
-      "/people/alumni/manshan_hui.html",
-      "/people/alumni/jiehai_liu.html",
-      "/people/alumni/ada_shi.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/publications/articles/sung_prokic2024b.html",
-      "/publications/articles/sung_prokic_chen2024.html"
     ]
   }
 ]

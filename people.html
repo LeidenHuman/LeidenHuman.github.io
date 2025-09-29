@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0fd5eb4c22834206e405989c80b8e937.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fc13e24cd7a4aef3b06b188de6bbe619.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -197,7 +198,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -223,7 +224,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="././img/logo.png" alt="" class="navbar-logo">
+    <img src="././img/logo.png" alt="" class="navbar-logo light-content">
+    <img src="././img/logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -270,7 +272,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="research-staff">Research Staff</h2>
 <div id="listing-research-staff" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1751627457505" data-listing-reading-time-sort="2" data-listing-word-count-sort="248">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="2" data-listing-word-count-sort="248">
 <a href="./people/staff/jelena_prokic.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -286,7 +288,7 @@ Lab Director
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1751627457505" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
 <a href="./people/staff/aron_vandepol.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -302,7 +304,23 @@ PhD Student
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1751627457505" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+<a href="./people/staff/bruno_allahissem.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="https://www.universiteitleiden.nl/binaries/content/gallery/ul2/portraits/humanities/b/2023/b.-bruno-allahissem-231220.jpg/b.-bruno-allahissem-231220.jpg/d200x250" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bruno Allahissem
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Student
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
 <a href="./people/staff/jiahui_liang.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -318,7 +336,7 @@ PhD Student
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1751627457505" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
 <a href="./people/staff/justin_yeung.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -334,7 +352,7 @@ PhD Student
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1751627457505" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
 <a href="./people/staff/luca_bruls.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -350,7 +368,7 @@ PhD Student
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1751627457505" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
 <a href="./people/staff/matthew_sung.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -370,11 +388,11 @@ PhD Student
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="phd-students" class="level2">
-<h2 class="anchored" data-anchor-id="phd-students">PhD Students</h2>
+<section id="affiliated-researchers" class="level2">
+<h2 class="anchored" data-anchor-id="affiliated-researchers">Affiliated Researchers</h2>
 <div id="listing-affiliated" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1751627457504" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
 <a href="./people/affiliated/carolina_zucchi.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -390,7 +408,7 @@ External PhD Student
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1751627457504" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
 <a href="./people/affiliated/chris_handy.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -406,15 +424,6 @@ Software Developer
 </div>
 </div></a>
 </div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<section id="research-assistants" class="level2">
-<h2 class="anchored" data-anchor-id="research-assistants">Research Assistants</h2>
-<div id="listing-research-assistants" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -471,7 +480,7 @@ Software Developer
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1751627457505" data-listing-reading-time-sort="1" data-listing-word-count-sort="124" data-listing-title-sort="Ruben Ros" data-listing-filename-sort="ruben_ros.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="124" data-listing-title-sort="Ruben Ros" data-listing-filename-sort="ruben_ros.qmd">
 <td>
 <a href="./people/alumni/ruben_ros.html" class="title listing-title">Ruben Ros</a>
 </td>
@@ -479,15 +488,15 @@ Software Developer
 <span class="listing-subtitle">PhD Student</span>
 </td>
 <td>
-<span class="listing-started">Winter 2020 </span>
+<span class="listing-started">Winter 2020</span>
 </td>
 <td>
-<span class="listing-ended">Current</span>
+<span class="listing-ended">April 2025</span>
 </td>
 
 </tr>
 
-<tr data-index="1" data-listing-file-modified-sort="1751627457504" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Jing Chen" data-listing-filename-sort="jing_chen.qmd">
+<tr data-index="1" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Jing Chen" data-listing-filename-sort="jing_chen.qmd">
 <td>
 <a href="./people/alumni/jing_chen.html" class="title listing-title">Jing Chen</a>
 </td>
@@ -503,7 +512,7 @@ Software Developer
 
 </tr>
 
-<tr data-index="2" data-listing-file-modified-sort="1751627457504" data-listing-reading-time-sort="1" data-listing-word-count-sort="101" data-listing-title-sort="Manshan Hui" data-listing-filename-sort="manshan_hui.qmd">
+<tr data-index="2" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Manshan Hui" data-listing-filename-sort="manshan_hui.qmd">
 <td>
 <a href="./people/alumni/manshan_hui.html" class="title listing-title">Manshan Hui</a>
 </td>
@@ -519,7 +528,7 @@ Software Developer
 
 </tr>
 
-<tr data-index="3" data-listing-file-modified-sort="1751627457504" data-listing-reading-time-sort="1" data-listing-word-count-sort="101" data-listing-title-sort="Jiehai Liu" data-listing-filename-sort="jiehai_liu.qmd">
+<tr data-index="3" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="101" data-listing-title-sort="Jiehai Liu" data-listing-filename-sort="jiehai_liu.qmd">
 <td>
 <a href="./people/alumni/jiehai_liu.html" class="title listing-title">Jiehai Liu</a>
 </td>
@@ -535,7 +544,7 @@ Software Developer
 
 </tr>
 
-<tr data-index="4" data-listing-file-modified-sort="1751627457504" data-listing-reading-time-sort="1" data-listing-word-count-sort="43" data-listing-title-sort="Ada Shi" data-listing-filename-sort="ada_shi.qmd">
+<tr data-index="4" data-listing-file-modified-sort="1759167024702" data-listing-reading-time-sort="1" data-listing-word-count-sort="43" data-listing-title-sort="Ada Shi" data-listing-filename-sort="ada_shi.qmd">
 <td>
 <a href="./people/alumni/ada_shi.html" class="title listing-title">Ada Shi</a>
 </td>
@@ -560,7 +569,12 @@ Software Developer
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-research-assistants">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -612,13 +626,14 @@ Software Developer
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
