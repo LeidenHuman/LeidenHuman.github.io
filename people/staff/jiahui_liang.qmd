@@ -19,7 +19,7 @@ about:
     - icon: link
       text: website
       href: https://www.universiteitleiden.nl/en/staffmembers/jiahui-liang#tab-1
-
+---
 
 :::{#person-profile}
 :::
