@@ -19,7 +19,7 @@ about:
     - icon: link
       text: website
       href: https://rubenros.nl/
-
+---
 
 :::{#person-profile}
 :::
