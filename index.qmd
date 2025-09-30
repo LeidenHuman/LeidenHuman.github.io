@@ -19,33 +19,25 @@ listing:
       started: "Started"
     feed:
         items: 10
-
 ---
 
-
-::: {.lead}
+::: lead
 Leiden Humanities AI and NLP group, Leiden HumAN, is a research group at Leiden University Faculty of Humanities working at the intersection of AI and the Humanities. We focus on development and application of NLP and deep learning methods in diverse areas of the Humanities, including Linguistics, History, East-Asian studies and Anthropology. Our goal is to bring together traditional and state-of-the-art computational methods and foster innovative research in the Humanities. At the same time our research objective is to increase the role of the Humanities in the development of Human AI.
+
+We strongly advocate for a mixed-methods approach that combines the strengths of both quantitative computational techniques and qualitative humanistic research. By combining statistical modeling, machine learning, and close reading or interpretive analysis, we aim to address complex research questions with greater depth and context-aware manner. This integrative methodology not only enhances the analytical depth of Humanities research but also ensures that AI systems are developed with cultural sensitivity, historical awareness, and human-centered values.
 :::
 
+::: {.start-icons layout-ncol="4"}
+[{{< iconify material-symbols:graph-3 width=80px >}} **Dialectometry**](your-quarto-page-url)
 
+[{{< iconify tabler:camera-ai width=80px >}} **Computer Vision**](./areas/cv.qmd)
 
+[{{< iconify hugeicons:ai-brain-02 width=80px >}} **Natural Language Processing**](your-quarto-page-url)
 
-::: {layout-ncol=4 .start-icons}
-
-[{{< iconify material-symbols:graph-3 width=100px >}} **Dialectometry**](your-quarto-page-url)
-
-[{{< iconify tabler:camera-ai width=100px >}} **Computer Vision**](./areas/cv.qmd)
-
-[{{< iconify hugeicons:ai-brain-02 width=100px >}} **Natural Language Processing**](your-quarto-page-url)
-
-[{{< iconify mdi:repost width=100px >}} **Computational Social Sciences**](your-quarto-page-url)
-
+[{{< iconify mdi:repost width=80px >}} **Computational Social Sciences**](your-quarto-page-url)
 :::
 
 ### Latest
----
+
 ::: {latest-pub}
 :::
-
-
-
